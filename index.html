@@ -1,0 +1,30 @@
+---
+layout: default
+keywords: home, about
+---
+<section class="pb_section homepage">
+    <div class="container">
+        <div class="row justify-content-md-center text-center">
+            <div class="col-lg-7">
+                <h1 class="title font-weight-normal mb-3">SSF Blog</h1>
+                <p class="mb-5">The SSF blog is the place to go for all sorts of SEBS Scholarship Foundation news! Here you can find scholarship updates, volunteering news, announcements, and other fun information we'd like to share!</p>
+            </div>
+        </div>
+        <div class="row justify-content-md-center text-left">
+            <div class="col-lg-7">
+                <h2 class="font-weight-normal mb-5">Blog Posts</h2>
+                <div class="blog-feed">
+                    {% for post in site.posts %}
+                    <a href="{{ post.url }}">
+                        <div class="feed-item">
+                            <h3>{{ post.title }}</h3>
+                            <p class="mb-3">{{ post.content | strip_html | truncatewords:75 }}</p>
+                            <p class="date">{{ post.date }}</p>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
