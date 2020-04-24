@@ -13,4 +13,6 @@ theme: null
 exclude:
   - .idea/
   - .gitignore
-  - build.sh
+  - tests/
+  - Gemfile
+  - Gemfile.lock
