@@ -1,12 +1,3 @@
----
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      is_post: true
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +12,7 @@ defaults:
         <meta property="og:title" content="{{ site.title }}" />
     {% endif %}
     {% if page.is_post %}
-        <meta name="description" content="{{ post.content | strip_html | truncatewords:75 }}">
+        <meta name="description" content="{{ page.content | strip_html | truncatewords:75 }}">
     {% else %}
         <meta name="description" content="{{ site.description }}">
     {% endif %}

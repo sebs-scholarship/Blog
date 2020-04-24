@@ -8,9 +8,20 @@ url: "https://blog.sebsscholarship.org" # the base hostname & protocol for your 
 
 baseurl: "" # the subpath of your site, e.g. /blog
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      is_post: true
+
 theme: null
 
 exclude:
   - .idea/
   - .gitignore
-  - build.sh
+  - tests/
+  - Gemfile
+  - Gemfile.lock
