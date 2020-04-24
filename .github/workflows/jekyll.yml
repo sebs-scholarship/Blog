@@ -38,5 +38,5 @@ jobs:
 
     - name: Deploy to Test Site (SSH)
       run: |
-        scp -r * ${{ secrets.USERNAME }}@test.blog.sebsscholarship.org:~/staging/
+        scp -r Built\ Site/* ${{ secrets.USERNAME }}@test.blog.sebsscholarship.org:~/staging/
         ssh ${{ secrets.USERNAME }}@test.blog.sebsscholarship.org 'rm -rf ~/test.blog.sebsscholarship.org/* && mv ~/staging/* ~/test.blog.sebsscholarship.org/'
