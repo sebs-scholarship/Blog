@@ -18,7 +18,7 @@ keywords: home, about
                     <a href="{{ post.url }}">
                         <div class="feed-item">
                             <h3>{{ post.title }}</h3>
-                            <p class="mb-3">{{ post.content | strip_html | truncatewords:75 }}</p>
+                            <p class="mb-3">{{ post.content | strip_html | truncatewords:50 }}</p>
                             <p class="date">{{ post.date }}</p>
                         </div>
                     </a>

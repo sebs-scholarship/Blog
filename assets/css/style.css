@@ -2625,7 +2625,7 @@ p.parent {
 	padding: 20px 0;
 }
 
-.feed-item h3 {color: #800000}
+.feed-item h3 {color: #800000;margin-bottom: 15px;}
 .feed-item p {color: #5D6369;margin-bottom: 0;}
 .feed-item .date {color: #800000}
 .feed-item:hover {
