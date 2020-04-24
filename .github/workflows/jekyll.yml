@@ -13,11 +13,8 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
-
-    - name: Update robots.txt
-      run: |
-        echo "User-agent: * Disallow: /" > ${{ github.workspace }}/_site/robots.txt
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future && \
+        echo "User-agent: * Disallow: /" > ${{ github.workspace }}/_site/robots.txt"
 
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
