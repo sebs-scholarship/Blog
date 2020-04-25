@@ -2615,6 +2615,7 @@ p.parent {
 .post h6{font-size:.75rem;margin-bottom:1rem!important;}
 .post img{width:100%;margin:auto;height:auto;text-align:center!important;}
 .post blockquote{color:rgba(0,0,0,0.7);font-size:18px;font-style:italic;}
+.post .copy{padding: 0 8px;}
 
 .homepage .title {color: #800000;}
 

@@ -11,13 +11,28 @@ layout: default
                 <br>
                 <div class="text-left post">
                     {{ content }}
-                    {% include facebook_share.html %}
-                    {% include linkedin_share.html %}
-                    <br>
-                    <br>
+                    <div class="mb-1">
+                        {% include facebook_share.html %}
+                        {% include linkedin_share.html %}
+                    </div>
+                    <div onclick="setClipboard('{{ site.url | append: page.url }}')" role="button" class="btn btn-light smoothscroll pb_outline-dark btn-sm pb_font-13 rounded-0 pb_letter-spacing-2 d-inline-block mb-3">
+                        <i class="fa fa-link copy"></i><span style="padding-right: 5px;" id="copied-text">Copy Link</span>
+                    </div>
                     <p><i>Date Posted: {{ page.date }}</i></p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<script>
+    function setClipboard(value) {
+        var tempInput = document.createElement("input");
+        tempInput.style = "position: absolute; left: -1000px; top: -1000px";
+        tempInput.value = value;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempInput);
+        document.getElementById("copied-text").innerHTML = "Copied Link!"
+    }
+</script>
