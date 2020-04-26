@@ -2630,6 +2630,19 @@ p.parent {
 .feed-item h3 {color: #800000;margin-bottom: 15px;}
 .feed-item p {color: #5D6369;margin-bottom: 0;}
 .feed-item .date {color: #800000}
-.feed-item:hover {
-	background-color: #f8f9fa;
+.feed-item:hover {background-color: #f8f9fa;}
+
+.blog-feed-container {
+	position: relative;
+	width: 100%;
+}
+
+.blog-feed-container > .blog-feed-mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(0deg, white, rgba(255, 255, 255, 0) 30%);
+	pointer-events: none;
 }
