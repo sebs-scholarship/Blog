@@ -1,6 +1,3 @@
 User-Agent: *
-Disallow: /README.md
-Disallow: /Gemfile
-Disallow: /Gemfile.lock
 Disallow: /examples/
 Sitemap: https://blog.sebsscholarship.org/sitemap.xml
