@@ -20,7 +20,7 @@ keywords: home, about
                             <div class="feed-item">
                                 <h3>{{ post.title }}</h3>
                                 <p class="mb-3">{{ post.content | strip_html | truncatewords:50 }}</p>
-                                <p class="date">{{ post.date }}</p>
+                                <p class="date">Published on {{ post.date | date: "%b %d, %Y" }}</p>
                             </div>
                         </a>
                         {% endfor %}

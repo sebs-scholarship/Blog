@@ -15,25 +15,11 @@ layout: default
                         {% include facebook_share.html %}
                         {% include linkedin_share.html %}
                     </div>
-                    <div onclick="setClipboard('{{ site.url | append: page.url }}')" role="button" class="btn btn-light smoothscroll pb_outline-dark btn-sm pb_font-13 rounded-0 pb_letter-spacing-2 d-inline-block mb-3">
-                        <i class="fa fa-link copy"></i><span style="padding-right: 5px;" id="copied-text">Copy Link</span>
-                    </div>
+                    <hr>
                     <p><i>Keep in touch! Subscribe to the <a href="https://sebsscholarship.org/email/subscribe.html">SSF Newsletter</a> today for quarterly updates!</i></p>
-                    <p><i>Date Posted: {{ page.date }}</i></p>
+                    <p><i>Published on {{ page.date | date: "%b %d, %Y"}}</i></p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<script>
-    function setClipboard(value) {
-        var tempInput = document.createElement("input");
-        tempInput.style = "position: absolute; left: -1000px; top: -1000px";
-        tempInput.value = value;
-        document.body.appendChild(tempInput);
-        tempInput.select();
-        document.execCommand("copy");
-        document.body.removeChild(tempInput);
-        document.getElementById("copied-text").innerHTML = "Copied Link!"
-    }
-</script>
