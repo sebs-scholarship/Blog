@@ -2646,3 +2646,5 @@ p.parent {
 	background-image: linear-gradient(0deg, white, rgba(255, 255, 255, 0) 30%);
 	pointer-events: none;
 }
+
+.blog-cover-img {width:100%;margin:auto;height:auto;display:block;}

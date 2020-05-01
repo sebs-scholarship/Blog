@@ -2,6 +2,7 @@
 title: Meet the Volunteers, Pt. 1
 author: Holly Lakin
 keywords: volunteers, staff, members
+cover_img: /assets/images/cover.jpg
 ---
 
 In the coming posts, we’ll be introducing you to our wonderful volunteers! Get to know them and what they’ve been up to during social distancing.
