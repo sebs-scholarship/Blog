@@ -1,6 +1,8 @@
 ---
 title: "Inside SSF: Keeping Costs Low"
 keywords: nonprofit, open source, budgeting, expenses
+author: Levi Muniz
+cover_img: /assets/images/savings-cover.jpg
 ---
 
 ## Keeping Costs Low
