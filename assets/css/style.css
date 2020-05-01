@@ -2647,4 +2647,4 @@ p.parent {
 	pointer-events: none;
 }
 
-.blog-cover-img {max-width:100%;margin:auto;height:auto;display:block;}
+.blog-cover-img {max-width:100%;width:auto;margin:auto;height:auto;display:block;}
