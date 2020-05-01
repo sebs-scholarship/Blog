@@ -66,7 +66,7 @@ site may costs thousands of dollars, and site maintenance will likely end up cos
 
 To make your website available to your audience, you'll need to use a hosting provider. At SSF, we use
 [DreamHost's **free** shared hosting plan for non-profits](https://help.dreamhost.com/hc/en-us/articles/215769478-Non-profit-discount)
-which allows us to our website [sebsscholarship.org](https://sebsscholarship.org) as well as our test sites for free!
+which allows us to host our website [sebsscholarship.org](https://sebsscholarship.org) as well as our test sites for free!
 
 Additionally, [GitHub](https://github.com) allows you to host a website through
 [GitHub Pages](https://pages.github.com/) for **free** as well. We use this service to host our 
@@ -87,7 +87,7 @@ it's worth seeing if anyone is interested.
 
 *Can't find a developer?* There are website generators and templates available, however these usually come with a cost.
 This may be the easiest thing for your organization, but you will be limited to what the generator or template is
-capable of and you may not have much control over the look or structure of your site.
+capable of, and you may not have much control over the look or structure of your site.
 
 ### Don't Reinvent the Wheel When Making Your Site
 
@@ -120,6 +120,6 @@ someone's house that isn't for-sale. You might get lucky though and grab a deal!
 ## Summary
 
 By using free and open source tools, we're able to keep our operating costs to a minimum despite the amount of resources
-we host online. By implementing all of the steps above, we've managed to get our total costs for our technology down to
+we host online. By implementing all the steps above, we've managed to get our total costs for our technology down to
  **only $12 per year total**! Looking for non-profit discounts and searching for open source tools can be a huge payoff 
  for any non-profit needing to save some money!
