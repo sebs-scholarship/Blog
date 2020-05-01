@@ -6,6 +6,9 @@ layout: default
     <div class="container">
         <div class="row justify-content-md-center text-center">
             <div class="col-lg-9">
+                {% if page.cover_img %}
+                <img src="{{ page.cover_img }}" alt="Cover Image" class="blog-cover-img mb-5">
+                {% endif %}
                 <h1 class="title font-weight-normal mb-3">{{ page.title }}</h1>
                 <hr>
                 <br>
@@ -17,7 +20,7 @@ layout: default
                     </div>
                     <hr>
                     <p><i>Keep in touch! Subscribe to the <a href="https://sebsscholarship.org/email/subscribe.html">SSF Newsletter</a> today for quarterly updates!</i></p>
-                    <p><i>Published on {{ page.date | date: "%b %d, %Y"}}</i></p>
+                    <p><i>Written by {{ page.author }} on {{ page.date | date: "%b %d, %Y"}}</i></p>
                 </div>
             </div>
         </div>

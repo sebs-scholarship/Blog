@@ -2614,7 +2614,7 @@ p.parent {
 .post h4{font-size:1.25rem;margin-bottom:1rem!important;}
 .post h5{font-size:1rem;margin-bottom:1rem!important;}
 .post h6{font-size:.75rem;margin-bottom:1rem!important;}
-.post img{width:100%;margin:auto;height:auto;text-align:center!important;}
+.post img{width:50%;margin:auto;height:auto;display:block;}
 .post blockquote{color:rgba(0,0,0,0.7);font-size:18px;font-style:italic;}
 .post .copy{padding: 0 8px;}
 
@@ -2646,3 +2646,5 @@ p.parent {
 	background-image: linear-gradient(0deg, white, rgba(255, 255, 255, 0) 30%);
 	pointer-events: none;
 }
+
+.blog-cover-img {width:100%;margin:auto;height:auto;display:block;}
