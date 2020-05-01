@@ -12,6 +12,7 @@ jobs:
     - run: |
         chmod 777 ${{ github.workspace }}
         echo 'User-agent: * Disallow: /' > ${{ github.workspace }}/robots.txt
+        sed -i 's_https://blog.sebsscholarship.org_https://test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
 
     - name: Build the site
       run: |
