@@ -19,7 +19,11 @@
     <meta name="keywords" content="sebs scholarship blog, blog, sebs school, school of engineering and biomedical science, sebs scholarship foundation blog, pueblo, charity, {{ page.keywords }}">
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.url | append: page.url }}" />
+    {% if page.cover_img %}
+    <meta property="og:image" content="{{ site.url | append: page.cover_img }}" />
+    {% else %}
     <meta property="og:image" content="{{ site.url | append: "/assets/images/logo-large-min.png" }}" />
+    {% endif %}
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link rel="stylesheet" href="/assets/css/bootstrap/bootstrap.min.css">

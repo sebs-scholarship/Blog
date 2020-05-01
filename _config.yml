@@ -1,12 +1,12 @@
 title: SSF Blog
 
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   The SSF blog is the place to go for all sorts of SEBS Scholarship Foundation news! Here you can find scholarship
   updates, volunteering news, announcements, and other fun information we'd like to share!
 
-url: "https://blog.sebsscholarship.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.sebsscholarship.org"
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 
 defaults:
   -
