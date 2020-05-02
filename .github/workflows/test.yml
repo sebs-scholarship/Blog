@@ -16,14 +16,9 @@ jobs:
 
     - name: Build the site
       run: |
-        sudo apt-get install ruby-full build-essential zlib1g-dev
-        echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-        echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-        source ~/.bashrc
-        gem install jekyll bundler
-        pushd ${{ github.workspace }}
-        jekyll build --future --drafts
-        popd
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --drafts"
 
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
