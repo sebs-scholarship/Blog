@@ -5,16 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% if page.title %}
-        <title>{{ page.title }} - {{ site.title }}</title>
-        <meta property="og:title" content="{{ page.title }}" />
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta property="og:title" content="{{ page.title }}" />
     {% else %}
-        <title>{{ site.title }}</title>
-        <meta property="og:title" content="{{ site.title }}" />
+    <title>{{ site.title }}</title>
+    <meta property="og:title" content="{{ site.title }}" />
     {% endif %}
     {% if page.is_post %}
-        <meta name="description" content="{{ page.content | strip_html | truncatewords:50 }}">
+    <meta name="description" content="{{ page.content | strip_html | truncatewords:50 }}">
+    <meta property="og:description" content="{{ page.content | strip_html | truncatewords:50 }}">
     {% else %}
-        <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}">
     {% endif %}
     <meta name="keywords" content="sebs scholarship blog, blog, sebs school, school of engineering and biomedical science, sebs scholarship foundation blog, pueblo, charity, {{ page.keywords }}">
     <meta property="og:type" content="website" />
