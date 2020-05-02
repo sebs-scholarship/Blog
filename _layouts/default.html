@@ -13,19 +13,22 @@
     {% endif %}
     {% if page.is_post %}
     <meta name="description" content="{{ page.content | strip_html | truncatewords:50 }}">
+    <meta property="og:type" content="article" />
     <meta property="og:description" content="{{ page.content | strip_html | truncatewords:50 }}">
+    <meta property="og:article:author" content="{{ page.author }}">
+    <meta property="og:article:published_time" content="{{ page.date }}">
     {% else %}
     <meta name="description" content="{{ site.description }}">
+    <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ site.description }}">
     {% endif %}
-    <meta name="keywords" content="sebs scholarship blog, blog, sebs school, school of engineering and biomedical science, sebs scholarship foundation blog, pueblo, charity, {{ page.keywords }}">
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ site.url | append: page.url }}" />
     {% if page.cover_img %}
     <meta property="og:image" content="{{ site.url | append: page.cover_img }}" />
     {% else %}
     <meta property="og:image" content="{{ site.url | append: "/assets/images/logo-large-min.png" }}" />
     {% endif %}
+    <meta name="keywords" content="sebs scholarship blog, blog, sebs school, school of engineering and biomedical science, sebs scholarship foundation blog, pueblo, charity, {{ page.keywords }}">
+    <meta property="og:url" content="{{ site.url | append: page.url }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link rel="stylesheet" href="/assets/css/bootstrap/bootstrap.min.css">
