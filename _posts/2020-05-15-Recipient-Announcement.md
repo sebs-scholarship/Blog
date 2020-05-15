@@ -43,5 +43,22 @@ We decided to increase this year’s award to **first *and* second place** prize
 <p style="font-size: 2rem;color: black;" class="mb-5"><i>Congratulations!</i></p>
 </div>
 
+### ... And A Prize for All!
+
+As we're still a small organization in our first year of operation, we were only able to give away two monetary awards this year.
+However, based on the applications we received, we felt that every one of you deserved it!
+So, we want to offer something to the **entire** class of 2020.
+
+Not only are volunteers at SSF fellow SEBS alum that are always happy to chat and are there for one another, but we are also fellow college students who are here for you!
+Regardless of if you choose to volunteer, **we are here to help**!
+We've all had *very* different experiences after high school, and we want to provide that to you as a resource, so please [Contact Us](https://sebsscholarship.org/#section-contact) with any questions you have about SSF, college, or life in general!
+
+Volunteers also get to do hands-on work in a safe and professional environment.
+Being a registered non-profit business, we have **real** business needs, so there are numerous positions available that will give you lots of **real** experience without a long-term commitment.
+It took a whole team to make the 2020 SEBS Scholarship happen.
+
+Please fill out our [Volunteer Interest Form](https://forms.gle/PGQbzymeGPz1E7U27) if you're interested!   
+
 Again, a huge congratulations to all the applicants and graduates! We can’t wait to see what you do in the future!
 
+... and don't forget to send us your [Feedback](https://forms.gle/B2WwbkPSfrZcQjvTA)!
