@@ -26,15 +26,19 @@ We decided to increase this year’s award to **first *and* second place** prize
 <br>
 <div class="mb-5">
 <h3 style="font-size: 2rem;">First Place</h3>
-<hr> 
+<hr>
+<img src="/assets/images/Marianna.jpg" title="Marianna" alt="Marianna">
 <p style="font-size: 2rem;color: black;">Marianna Benitez</p>
 <p style="font-size: 1.5rem;">Engineering</p>
+<p style="font-size: 1.25rem;"><i>"Next year I will be attending the University of Colorado Boulder and I am looking forward to studying architectural engineering and making new friendships!"</i></p>
 </div>
 <div class="mb-5">
 <h3 style="font-size: 2rem;">Second Place</h3>
 <hr>
+<img src="/assets/images/Marianna.jpg" title="Cassandra" alt="Cassandra">
 <p style="font-size: 2rem;color: black;">Cassandra Cooper</p>
 <p style="font-size: 1.5rem;">Creative Technology</p>
+<p style="font-size: 1.25rem;"><i>"Next year I will be attending the University of Colorado Boulder and I am looking forward to studying architectural engineering and making new friendships!"</i></p>
 </div>
 <p style="font-size: 2rem;color: black;" class="mb-5"><i>Congratulations!</i></p>
 </div>
