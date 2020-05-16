@@ -35,15 +35,15 @@ We decided to increase this year’s award to **first *and* second place** prize
 <div class="mb-5">
 <h3 style="font-size: 2rem;">Second Place</h3>
 <hr>
-<img src="/assets/images/Marianna.jpg" title="Cassandra" alt="Cassandra">
+<img src="/assets/images/Cassandra.jpg" title="Cassandra" alt="Cassandra">
 <p style="font-size: 2rem;color: black;">Cassandra Cooper</p>
 <p style="font-size: 1.5rem;">Creative Technology</p>
-<p style="font-size: 1.25rem;"><i>"Next year I will be attending the University of Colorado Boulder and I am looking forward to studying architectural engineering and making new friendships!"</i></p>
+<p style="font-size: 1.25rem;"><i>"I plan to attend The Rochester Institute of Technology (RIT). While at RIT, I plan to major in film production and am looking forward to my junior and senior year there where I will have the opportunity to work with Netflix and Disney!"</i></p>
 </div>
 <p style="font-size: 2rem;color: black;" class="mb-5"><i>Congratulations!</i></p>
 </div>
 
-### ... And A Prize for All!
+### Here For Everyone
 
 As we're still a small organization in our first year of operation, we were only able to give away two monetary awards this year.
 However, based on the applications we received, we felt that every one of you deserved it!
