@@ -35,7 +35,7 @@ The more classes you take, the more you have to divide your time and focus, so m
 
 ### #4 Join a Group
 
-Whether it be a college-sponsored club, an interest group, or just some peers working together, joining a some sort of academic group can help you out a ton.
+Whether it be a college-sponsored club, an interest group, or just some peers working together, joining some sort of academic group can help you out a ton.
 By working with peers, you not only have support for homework and studying, but you also gain people to help hold you accountable.
 Plus, being away from family and dealing with the stresses of exams can and likely will take a mental toll on you, so it's important to have someone to talk to.
 Additionally, just doing a fun activity (academic or not) regularly can make your time much more enjoyable.
