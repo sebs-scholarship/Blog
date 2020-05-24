@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
 <section class="pb_section">
     <div class="container">
         <div class="row justify-content-md-center text-center">
@@ -15,9 +17,12 @@ layout: default
                 <div class="text-left post">
                     {{ content }}
                     <div class="mb-1">
-                        {% include facebook_share.html %}
-                        {% include linkedin_share.html %}
+                        <div class="fb-like" data-href="{{ site.url | append: page.url }}" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>
+                        <div class="fb-share-button" data-href="{{ site.url | append: page.url }}" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                        <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+                        <script type="IN/Share" data-url="{{ site.url | append: page.url }}"></script>
                     </div>
+                    <div class="fb-comments" data-href="{{ site.url | append: page.url }}" data-numposts="5" data-width="100%"></div>
                     <hr>
                     <p><i>Keep in touch! Subscribe to the <a href="https://sebsscholarship.org/email/subscribe.html">SSF Newsletter</a> today for quarterly updates!</i></p>
                     <p><i>Have any questions you'd like to ask, requests for articles, or feedback? Email us at <a href="mailto:blog@sebsscholarship.org">blog@sebsscholarship.org</a>.</i></p>
