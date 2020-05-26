@@ -5,7 +5,6 @@ layout: default
 {% assign media = "/assets/images/logo-large-min.png" %}
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
-<script type="text/javascript" async defer src="https://assets.pinterest.com/js/pinit.js" data-pin-error="debuggywug" data-pin-zero="true"></script>
 <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
 <section class="pb_section">
     <div class="container">
@@ -16,7 +15,7 @@ layout: default
                 <br>
                 {% if page.cover_img %}
                 {% assign media = page.cover_img %}
-                <img src="{{ page.cover_img }}" alt="Cover Image" class="blog-cover-img mb-5" data-pin-id="{{ site.url | append: page.url }}">
+                <img src="{{ page.cover_img }}" alt="Cover Image" class="blog-cover-img mb-5">
                 {% endif %}
                 <div class="text-left post">
                     {{ content }}
@@ -24,7 +23,7 @@ layout: default
                         <div class="social"><div class="fb-like" data-href="{{ site.url | append: page.url }}" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div></div>
                         <div class="social"><div class="fb-share-button" data-href="{{ site.url | append: page.url }}" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></div>
                         <div class="social"><script type="IN/Share" data-url="{{ site.url | append: page.url }}"></script></div>
-                        <div class="social" style="margin-top: 3px"><a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url={{ site.url | append: page.url }}&media={{ site.url | append: media }}&description={{ page.title }}" data-pin-config="beside"></a></div>
+                        <div class="social" style="margin-top: 3px"><a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url={{ site.url | append: page.url }}&media={{ site.url | append: media }}&description={{ page.title | url_encode }}" data-pin-config="beside"></a></div>
                     </div>
                     <div style="clear: both;"></div>
                     <hr>
@@ -37,8 +36,4 @@ layout: default
         </div>
     </div>
 </section>
-<script>
-    function debuggywug(msg) {
-        console.log(msg);
-    }
-</script>
+<script type="text/javascript" async defer src="https://assets.pinterest.com/js/pinit.js" data-pin-zero="true"></script>
