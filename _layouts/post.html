@@ -5,7 +5,7 @@ layout: default
 {% assign media = "/assets/images/logo-large-min.png" %}
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
-<script type="text/javascript" async defer src="https://assets.pinterest.com/js/pinit.js" data-pin-debug="true" data-pin-zero="true"></script>
+<script type="text/javascript" async defer src="https://assets.pinterest.com/js/pinit.js" data-pin-error="debuggywug" data-pin-zero="true"></script>
 <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
 <section class="pb_section">
     <div class="container">
@@ -37,3 +37,8 @@ layout: default
         </div>
     </div>
 </section>
+<script>
+    function debuggywug(msg) {
+        console.log(msg);
+    }
+</script>
