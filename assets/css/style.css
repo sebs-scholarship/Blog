@@ -2648,3 +2648,8 @@ p.parent {
 }
 
 .blog-cover-img {max-width:100%;width:auto;margin:auto;height:auto;display:block;}
+
+.social {
+	float: left;
+	margin-right: 5px;
+}
