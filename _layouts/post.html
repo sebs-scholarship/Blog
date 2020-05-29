@@ -20,8 +20,7 @@ layout: default
                 <div class="text-left post">
                     {{ content }}
                     <div class="align-middle">
-                        <div class="social"><div class="fb-like" data-href="{{ site.url | append: page.url }}" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div></div>
-                        <div class="social"><div class="fb-share-button" data-href="{{ site.url | append: page.url }}" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></div>
+                        <div class="social"><div class="fb-like" data-href="{{ site.url | append: page.url }}" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div></div>
                         <div class="social"><script type="IN/Share" data-url="{{ site.url | append: page.url }}"></script></div>
                         <div class="social" style="margin-top: 3px"><a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url={{ site.url | append: page.url }}&media={{ site.url | append: media }}&description={{ page.content | strip_html | truncatewords:50 }}" data-pin-config="beside"></a></div>
                     </div>
