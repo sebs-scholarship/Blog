@@ -30,6 +30,3 @@ defaults:
       sitemap: false
 
 theme: null
-
-exclude:
-  - vendor/
