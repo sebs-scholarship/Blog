@@ -30,11 +30,3 @@ defaults:
       sitemap: false
 
 theme: null
-
-exclude:
-  - .idea/
-  - .gitignore
-  - .github/
-  - tests/
-  - Gemfile
-  - Gemfile.lock
