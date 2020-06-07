@@ -14,5 +14,3 @@ fields:
 - type: file
   name: cover_img
   label: cover_img
-pages:
-- _posts/test.md
