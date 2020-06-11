@@ -14,3 +14,5 @@ fields:
 - type: file
   name: cover_img
   label: cover_img
+pages:
+- _posts/10-things-i-learned-my-freshman-year-of-college.md
