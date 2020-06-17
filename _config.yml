@@ -28,5 +28,15 @@ defaults:
       path: "examples"
     values:
       sitemap: false
+  -
+    scope:
+      path: "admin"
+    values:
+      sitemap: false
 
 theme: null
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
