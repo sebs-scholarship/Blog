@@ -36,3 +36,5 @@ _*Disclaimer: these recommendations are from individual volunteers and do not re
 **Deep Medicine** by Eric Topol- fascinating look into AI and healthcare
 
 **the Fuel & the Flame** by Steve Shadrach & Paul Worcester- super helpful and practical if you want to go into college with a Biblical perspective
+
+What are some of your favorites?
