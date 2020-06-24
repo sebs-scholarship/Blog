@@ -10,7 +10,7 @@ We asked our team their current go-to podcasts, books, and other ways they're sp
 \*Disclaimer: these recommendations are from individual volunteers and do not represent the views of the SEBS Scholarship Foundation.
 
 ## Podcasts
-
+---
 **Congratulations with Chris D'Elia**- funny but not for the faint of heart
 
 **Office Ladies**- A1
@@ -26,13 +26,13 @@ We asked our team their current go-to podcasts, books, and other ways they're sp
 **A Conversation With...**
 
 ## Shows
-
+---
 **Buzzfeed Unsolved** (YouTube)- good true crime supernatural exploration
 
 **Avatar The Last Airbender** (Netflix)- the best cartoon of all time
 
 ## Books
-
+---
 **Deep Medicine** by Eric Topol- fascinating look into AI and healthcare
 
 **the Fuel & the Flame** by Steve Shadrach & Paul Worcester- super helpful and practical if you want to go into college with a Biblical perspective
