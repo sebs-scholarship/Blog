@@ -7,7 +7,9 @@ cover_img: "/assets/images/2020-summer-recs.jpg"
 ---
 We asked our team their current go-to podcasts, books, and other ways they're spending their summer in addition to studying, working on the scholarship, and working their day jobs. Here are the recommendations along with comments from their recommenders!
 
-_*Disclaimer: these recommendations are from individual volunteers and do not represent the views of the SEBS Scholarship Foundation._  
+_*Disclaimer: these recommendations are from individual volunteers and do not represent the views of the SEBS Scholarship Foundation.  
+
+<p>&nbsp;</p>  
 
 ## Podcasts
 
@@ -24,17 +26,20 @@ _*Disclaimer: these recommendations are from individual volunteers and do not re
 **Monday Morning Podcast**- funny if you like his kind of humor, but also not for the faint of heart
 
 **A Conversation With...**  
+&nbsp  
 
 ## Shows
 
 **Buzzfeed Unsolved** (YouTube)- good true crime supernatural exploration
 
 **Avatar The Last Airbender** (Netflix)- the best cartoon of all time  
+&nbsp  
 
 ## Books
 
 **Deep Medicine** by Eric Topol- fascinating look into AI and healthcare
 
 **the Fuel & the Flame** by Steve Shadrach & Paul Worcester- super helpful and practical if you want to go into college with a Biblical perspective  
+&nbsp  
 
 What are some of your favorites?
