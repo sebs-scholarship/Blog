@@ -39,10 +39,8 @@ With all the changes being made to the campus experience this year, making frien
 
 _Maybe some socially distant activities you could do with your new pals would be picnics, sand volleyball, and Jackbox games!_
 
-##### 
-
 ***
 
-##### **What are you looking forward to and what are you worried about for the fall? Let us know in the comments!** 
+##### **What are you looking forward to and what are you worried about for the fall? Let us know in the comments!**
 
 Wishing you a fun and safe holiday weekend!
