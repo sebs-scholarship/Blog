@@ -29,10 +29,15 @@ layout: default
                     <p><i>Keep in touch! Subscribe to the <a href="https://sebsscholarship.org/email/subscribe.html">SSF Newsletter</a> today for quarterly updates!</i></p>
                     <p><i>Have any questions you'd like to ask, requests for articles, or feedback? Email us at <a href="mailto:blog@sebsscholarship.org">blog@sebsscholarship.org</a>.</i></p>
                     <p><i>Written by {{ page.author }} on {{ page.date | date: "%b %d, %Y"}}</i></p>
-                    <div class="fb-comments" data-href="{{ site.url | append: page.url }}" data-numposts="5" data-width="100%"></div>
+                    <div id="fb-comments" class="fb-comments" data-href="{{ site.url | append: page.url }}" data-numposts="5" data-width="100%"></div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <script type="text/javascript" async defer src="https://assets.pinterest.com/js/pinit.js" data-pin-zero="true" data-pin-count="beside"></script>
+<script>
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.getElementById("fb-comments").setAttribute("data-colorscheme", "dark");
+}
+</script>
