@@ -8,7 +8,7 @@ cover_img: /assets/images/savings-cover.jpg
 ## Keeping Costs Low
 
 As a non-profit organization funded solely by charitable donations, one of the first factors we consider when making any
-decision is cost. We strive to keep our overhead expenses as low as possible so that recipients of our scholarship get 
+decision is cost. We strive to keep our overhead expenses as low as possible so that recipients of our scholarship get
 every penny possible. Throughout this post, I will discuss how we at SSF keep our operating costs to a minimum, and
 what tools we use to get the most out of our donations!
 
