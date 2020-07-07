@@ -16,7 +16,7 @@ We are incredibly proud of all the graduates and want to extend the biggest *CON
 The scholarship applications we received met and exceeded our expectations for SEBS graduates! You blew us away with your commitment to your studies and extracurricular activities, drive to better yourselves and the world around you, and resilience to challenges you’ve faced along the way.
 
 We decided to increase this year’s award to **first *and* second place** prizes!
- 
+
 **First place:** $900 scholarship to selected college + $100 gift card to the student for college-related expenses
 
 **Second place:** $100 gift card to the student for college-related expenses
@@ -57,7 +57,7 @@ Volunteers also get to do hands-on work in a safe and professional environment.
 Being a registered non-profit business, we have **real** business needs, so there are numerous positions available that will give you lots of **real** experience without a long-term commitment.
 It took a whole team to make the 2020 SEBS Scholarship happen.
 
-Please fill out our [Volunteer Interest Form](https://forms.gle/PGQbzymeGPz1E7U27) if you're interested!   
+Please fill out our [Volunteer Interest Form](https://forms.gle/PGQbzymeGPz1E7U27) if you're interested!
 
 Again, a huge congratulations to all the applicants and graduates! We can’t wait to see what you do in the future!
 

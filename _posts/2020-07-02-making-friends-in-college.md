@@ -41,6 +41,6 @@ _Maybe some socially distant activities you could do with your new pals would be
 
 ***
 
-##### **What are you looking forward to and what are you worried about for the fall? Let us know in the comments!**
+**What are you looking forward to and what are you worried about for the fall? Let us know in the comments!**
 
 Wishing you a fun and safe holiday weekend!

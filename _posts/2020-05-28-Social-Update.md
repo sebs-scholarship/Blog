@@ -5,7 +5,7 @@ keywords: facebook, pinterest, update
 cover_img: /assets/images/social-update.jpg
 ---
 
-One of the easiest, but most impactful ways that you can support us is by sharing our content and announcements on 
+One of the easiest, but most impactful ways that you can support us is by sharing our content and announcements on
 social media. Since social media is such a crucial part of our fundraising advertising, we've been working around the
 clock to improve the social experience on our blog. We'd like to present the latest changes we've made to the SSF Blog!
 
@@ -19,8 +19,8 @@ on our articles where we can respond and interact with you to help answer your q
 
 ## Pinterest Pinning
 
-Pin the header image of a post or our logo to your Pinterest boards without leaving the page. Great for quickly and 
-easily saving interesting articles! 
+Pin the header image of a post or our logo to your Pinterest boards without leaving the page. Great for quickly and
+easily saving interesting articles!
 
 ## LinkedIn Sharing
 
