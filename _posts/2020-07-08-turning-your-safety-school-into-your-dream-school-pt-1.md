@@ -25,7 +25,7 @@ Odds are we will never know the exact answer to this question. But I can guarant
 
 Now is a great time to practice your decision-making skills. Remember that there are always options. Don’t neglect online classes, a gap year, community college, or trade school because that is not the status quo. Take some time with yourself and decide what you truly want, no inhibitions about how your decision affects others. Once you know that, you can take others into your consideration while still being respectful of your wants and needs. If your parents or others are assisting with payment, take your decision to them and come to an agreement about a reasonable plan moving forward.
 
-### 3. Take pride in your plans.
+### 3. Take pride in your plans
 
 One significant mistake I made was feeling like I was better than my safety school, simply because I was accepted at “better” collages. My safety school taught me so much, and it was a great resource for me. They had an amazing mental health resource for students, an awesome gym, and free food. Their arts programs were impressive, and I enjoyed many performances and installations. They had a vibrant religious community and places to worship on campus. The library had cushy chairs, great views, and coffee! What more could you want? I have great respect for that university, and I wish I could take back the negative things I thought and said before I knew better.
 
