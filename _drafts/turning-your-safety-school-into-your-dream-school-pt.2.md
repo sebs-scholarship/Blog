@@ -33,6 +33,12 @@ When attending my safety school, I felt much more relaxed and able to learn at m
 
 Even if you are not accepted into any of the programs you apply to the first time around, that does not mean you cannot have the college experience you always dreamed of. A huge part of what makes college great is that you are in charge! You decide who to be friends with, what jobs and internships to apply for, and where to live. You may be surprised at the services and programs offered at your college. You will learn all the little things that makes it a unique learning environment. And you will likely meet great people, study hard, decorate your dorm, struggle with learning how to adult, and much more, just like at your dream school.
 
-![Photo of me the day I took my first call as a volunteer EMT at my safety university.](/assets/images/img_8066.JPG "At my safety university, I was a volunteer EMT! This is me the day I passed my training and took my first call.")![Photo of me and my best friend, who I met at my safety university.](/assets/images/img_8080.JPG "I met my best friend at my safety school. This is us at a twenty one pilots concert!")
+![Photo of me the day I took my first call as a volunteer EMT at my safety university.](/assets/images/img_8066.JPG "At my safety university, I was a volunteer EMT! This is me the day I passed my training and took my first call.")
+
+_(above) At my safety university, I was a volunteer EMT! This is me the day I passed my training and took my first call._
+
+_(below) I met my best friend at my safety school. This is us at a twenty one pilots concert!_
+
+![Photo of me and my best friend, who I met at my safety university.](/assets/images/img_8080.JPG "I met my best friend at my safety school. This is us at a twenty one pilots concert!")
 
 Remember that you are not alone, and you are capable of difficult things. Take advantage of support from your school, teachers, friends and family. We are rooting for you!
