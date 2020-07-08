@@ -1,5 +1,5 @@
 ---
-title: Turning Your Safety School into Your Dream School Pt 1
+title: Turning Your Safety School into Your Dream School Pt. 1
 author: Lucie Sullivan
 keywords: college, safety
 cover_img: "/assets/images/screen-shot-2020-07-08-at-1-54-02-pm.png"
@@ -15,16 +15,18 @@ This proved to be a great decision! Moving away from my parents allowed for some
 
 ![selfie moments after taking my first round of finals at my new university](/assets/images/img_9188.jpg "Moments after taking my first round of finals at my new university")
 
-### 1. Why didn’t they let me in? 
+_Moments after taking my first round of finals at my new university._
+
+### 1. Why didn’t they let me in?
 
 Odds are we will never know the exact answer to this question. But I can guarantee, it is not a sign that you are too dumb for college, or a failure, or that this is a reason to give up. This, like most challenges in life is an opportunity for personal, academic, and even financial growth!
 
-### 2. What now? 
+### 2. What now?
 
 Now is a great time to practice your decision-making skills. Remember that there are always options. Don’t neglect online classes, a gap year, community college, or trade school because that is not the status quo. Take some time with yourself and decide what you truly want, no inhibitions about how your decision affects others. Once you know that, you can take others into your consideration while still being respectful of your wants and needs. If your parents or others are assisting with payment, take your decision to them and come to an agreement about a reasonable plan moving forward.
 
-### 3. Take pride in your plans. 
+### 3. Take pride in your plans.
 
 One significant mistake I made was feeling like I was better than my safety school, simply because I was accepted at “better” collages. My safety school taught me so much, and it was a great resource for me. They had an amazing mental health resource for students, an awesome gym, and free food. Their arts programs were impressive, and I enjoyed many performances and installations. They had a vibrant religious community and places to worship on campus. The library had cushy chairs, great views, and coffee! What more could you want? I have great respect for that university, and I wish I could take back the negative things I thought and said before I knew better.
 
-I hope these sentiments are useful. Next week, I'll be sharing some of the benefits of safety schools! Leave a comment if this post helped you, you have any questions, or if you have requests for future posts!
+**I hope these sentiments are useful. Next week, I'll be sharing some of the benefits of safety schools! Leave a comment if this post helped you, you have any questions, or if you have requests for future posts!**
