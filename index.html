@@ -3,58 +3,93 @@ layout: default
 keywords: home, about
 ---
 <section class="pb_section homepage">
-    <div class="container">
-        <div class="row justify-content-md-center text-center">
-            <div class="col-lg-7">
-                <h1 class="title font-weight-normal mb-3">SSF Blog</h1>
-                <p class="mb-5">The SSF blog is the place to go for all sorts of SEBS Scholarship Foundation news! Here you can find scholarship updates, volunteering news, announcements, and other fun information we'd like to share!</p>
-            </div>
-        </div>
-        <div class="row justify-content-md-center text-left">
-            <div class="col-lg-7">
-                <h2 class="font-weight-normal mb-5">Blog Posts</h2>
-                <div class="blog-feed-container">
-                    <div class="blog-feed">
-                        {% for post in site.posts %}
-                        <a href="{{ post.url }}">
-                            <div class="feed-item">
-                                <h3>{{ post.title }}</h3>
-                                <p class="mb-3">{{ post.content | strip_html | truncatewords:50 }}</p>
-                                <p class="date">Published on {{ post.date | date: "%b %d, %Y" }} by {{ post.author }}</p>
-                            </div>
-                        </a>
-                        {% endfor %}
-                    </div>
-                    <div id="blog-feed-mask"></div>
-                </div>
-                <p onclick="showAll()" id="show-more" style="color: #800000;cursor: pointer;" class="text-center"></p>
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="row justify-content-md-center text-center">
+			<div class="col-lg-7">
+				<h1 class="title font-weight-normal mb-3">SSF Blog</h1>
+				<p class="mb-5">The SSF blog is the place to go for all sorts of SEBS Scholarship Foundation news! Here
+					you can find scholarship updates, volunteering news, announcements, and other fun information we'd
+					like to share!</p>
+			</div>
+		</div>
+		<div class="row justify-content-md-center text-left">
+			<div class="col-lg-7">
+				<h2 class="font-weight-normal mb-5">Blog Posts</h2>
+				<div class="blog-feed-container">
+					<div class="blog-feed">
+						{% for post in paginator.posts %}
+						<a href="{{ post.url }}">
+							<div class="feed-item">
+								<h3>{{ post.title }}</h3>
+								<p class="mb-3">{{ post.content | strip_html | truncatewords:50 }}</p>
+								<p class="date">Published on {{ post.date | date: "%b %d, %Y" }} by {{ post.author }}
+								</p>
+							</div>
+						</a>
+						{% endfor %}
+					</div>
+					<div id="blog-feed-mask"></div>
+				</div>
+				{% if paginator.total_pages > 1 %}
+				<div>
+					<ul class="pagination">
+						<li>
+							{% if paginator.previous_page %}
+							<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;
+								Prev</a>
+							{% else %}
+							<span>&laquo; Prev</span>
+							{% endif %}
+						</li>
+						{% for page in (1..paginator.total_pages) %}
+						<li>
+							{% if page == paginator.page %}
+							<span><strong>{{ page }}</strong></span>
+							{% elsif page == 1 %}
+							<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+							{% else %}
+							<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+							{% endif %}
+						</li>
+						{% endfor %}
+						<li>
+							{% if paginator.next_page %}
+							<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next
+								&raquo;</a>
+							{% else %}
+							<span>Next &raquo;</span>
+							{% endif %}
+						<li>
+					</ul>
+				</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
 </section>
 <script>
-    function feed() {
-        let feedItems = document.getElementsByClassName("feed-item");
+	function feed() {
+		let feedItems = document.getElementsByClassName("feed-item");
 
-        if (feedItems.length > 10) {
-            for (let i = 9; i < feedItems.length; i++) {
-                feedItems[i].classList.add("d-none");
-            }
-            document.getElementById("blog-feed-mask").classList.add("blog-feed-mask");
-            document.getElementById("show-more").innerHTML = "Show More <i class=\"fa fa-chevron-down\"></i>";
-        }
-    }
-    feed();
+		if (feedItems.length > 10) {
+			for (let i = 9; i < feedItems.length; i++) {
+				feedItems[i].classList.add("d-none");
+			}
+			document.getElementById("blog-feed-mask").classList.add("blog-feed-mask");
+			document.getElementById("show-more").innerHTML = "Show More <i class=\"fa fa-chevron-down\"></i>";
+		}
+	}
+	feed();
 
-    function showAll() {
-        let feedItems = document.getElementsByClassName("feed-item");
+	function showAll() {
+		let feedItems = document.getElementsByClassName("feed-item");
 
-        if (feedItems.length > 10) {
-            for (let i = 9; i < feedItems.length; i++) {
-                feedItems[i].classList.remove("d-none");
-            }
-        }
-        document.getElementById("blog-feed-mask").classList.remove("blog-feed-mask");
-        document.getElementById("show-more").innerHTML = "";
-    }
+		if (feedItems.length > 10) {
+			for (let i = 9; i < feedItems.length; i++) {
+				feedItems[i].classList.remove("d-none");
+			}
+		}
+		document.getElementById("blog-feed-mask").classList.remove("blog-feed-mask");
+		document.getElementById("show-more").innerHTML = "";
+	}
 </script>
