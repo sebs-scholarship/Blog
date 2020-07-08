@@ -27,7 +27,7 @@ Research the programs you are interested in at your safety school. As long as th
 
 When attending my safety school, I felt much more relaxed and able to learn at my own pace and challenge myself when needed. At my current university, there are many times that I have felt like a small fish in the ocean. College is always going to be difficult; the important part is that you get through and come out the other side with a degree. Competition does not necessarily make for a better education.
 
-### Turning your safety school into your dream school
+### Turning Your Safety School into Your Dream School
 
 ***
 
