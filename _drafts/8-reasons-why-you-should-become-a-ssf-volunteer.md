@@ -5,7 +5,7 @@ keywords: charity, volunteer, scholarship, alumni, college, nonprofit
 cover_img: "/assets/images/screen-shot-2020-07-14-at-2-18-28-pm.png"
 
 ---
-##### Are you an alumni of The School of Engineering and Biomedical Science or Pueblo County High school? Do you have some spare time you’d like to be productive with? Do you enjoy helping others, and maybe want to give back to your community of Pueblo, Colorado!?!?!?
+#### Are you an alumni of The School of Engineering and Biomedical Science or Pueblo County High school? Do you have some spare time you’d like to be productive with? Do you enjoy helping others, and maybe want to give back to your community of Pueblo, Colorado!?!?!?
 
 Well, do I have a (volunteer) job for you!!! Here are 8 reasons why I think you should join us as a volunteer here at the SEBS Scholarship Foundation.
 
@@ -33,7 +33,7 @@ So many students these days can’t afford to go to college. Your work in this o
 
 I don’t know about you, but I truly appreciate what I learned at SEBS- and not just the academic stuff! I had the most amazing mentors, and will never forget how much I learned and grew as a young adult because of SEBS. SEBS was my home away from home in high school and will always have a special place in my heart. To have an opportunity to give back to SEBS through current students is quite an honor.
 
-## 7.You will learn a lot about teamwork!
+## 7. You will learn a lot about teamwork!
 
 Joining a volunteer organization will teach you some important concepts for “the real world,” especially teamwork. Almost everything we do here at the SEBS Scholarship Foundation involves working as a team. Each member in our organization has a mind full of ideas, and we have all learned to put our ideas together to make one great big concept and take our work to the next level! We can’t perform well without one another!
 
@@ -45,6 +45,6 @@ We are a small organization and need more amazing volunteers to join our team. T
 
 _This is me (on the right) and my lifelong best friend Haley (on the left) on our graduation day from SEBS in 2016. We are both just starting our whole lives and careers now! I am pleased to be able to write on this blog and spread advice on things that I figured out the hard way. I enjoy doing anything I can to help students, especially from SEBS, and am always open for a conversation!_
 
-![](https://lh6.googleusercontent.com/vy6W8SPUmAyJg2858CvsLme1OGd8VdqhGhExDs_i9iwhOz7zTK0B7G8nlqZT0H8CZ2NA73ZOcsrNABa3keS7Zylv4Bru9pifOctzgRG8rtX2KZ60ViFgg5eo2aSbH3yX2rkkKVqLaJCSbDFdPw =283x413)
+![two girls at high school graduation](/assets/images/screen-shot-2020-07-14-at-3-35-08-pm.png "Dakota and Haley")
 
-Want to learn more about volunteering? Fill out our [volunteering interest survey](https://forms.gle/S5Jj9pZgAd44eBHR9 "volunteering interest survey") (non-committal) and someone will be in contact with you!
+Want to learn more about volunteering? Fill out our [volunteering interest survey](<https://forms.gle/S5Jj9pZgAd44eBHR9> "volunteering interest survey") (non-committal) and someone will be in contact with you!
