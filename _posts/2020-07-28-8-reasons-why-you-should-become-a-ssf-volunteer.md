@@ -23,7 +23,7 @@ Showing your commitment to a volunteer organization can boost your resume to the
 
 ## 4. You can work from just about anywhere in the world!
 
-While some of us are still here, many of our volunteers have moved on from the town of Pueblo, CO to pursue their career and college dreams. The work done for our organization is all virtual, meaning you can work from Timbuktu or Australia if you so desire!
+While some of us are still here, many of our volunteers have moved on from Pueblo, CO to pursue their career and college dreams. The work done for our organization is all virtual, meaning you can work from Timbuktu or Australia if you so desire!
 
 ## 5. Support fellow SEBS students!
 
@@ -47,4 +47,4 @@ _This is me (on the right) and my lifelong best friend Haley (on the left) on ou
 
 ![two girls at high school graduation](/assets/images/screen-shot-2020-07-14-at-3-35-08-pm.png "Dakota and Haley")
 
-Want to learn more about volunteering? Fill out our [volunteering interest survey](<https://forms.gle/S5Jj9pZgAd44eBHR9> "volunteering interest survey") (non-committal) and someone will be in contact with you!
+Want to learn more about volunteering? Fill out our [volunteering interest survey](https://forms.gle/S5Jj9pZgAd44eBHR9 "volunteering interest survey") (non-committal) and someone will be in contact with you!
