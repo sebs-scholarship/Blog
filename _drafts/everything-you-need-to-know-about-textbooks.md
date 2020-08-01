@@ -7,7 +7,7 @@ cover_img: "/assets/images/screen-shot-2020-07-31-at-6-40-43-pm.png"
 ---
 Textbooks... one of my least favorite things about college just because of how variable the requirements are. So we're going to lay down allll the details today! Do you need them? When should you get them? Where should you get them?
 
-Read on, bold traveler!
+Fear not! Read on, bold student!
 
 ### Do I really need my textbooks?
 
@@ -15,7 +15,7 @@ Read on, bold traveler!
 
 Maybe! Some classes require you to read before class, other classes only recommend you to read before class. Some classes have you do problems straight from the book, others don't. Even if there's a "required textbook" listed online for the class, your professor might not actually use it. Some of my professors have told me that they are required to list a required textbook.
 
-The best way to find out if you truly need a textbook is to ask an upperclassman who has taken the class before or wait until the first week of classes to buy it. Often, on the first day of classes, your professor will provide clarification on how much they expect you to use the textbook and if you need a specific edition or can use older ones. 
+The best way to find out if you truly need a textbook is to ask an upperclassman who has taken the class before or wait until the first week of classes to buy it. Often, on the first day of classes, your professor will provide clarification on how much they expect you to use the textbook and if you need a specific edition or can use older ones.
 
 Don't freak out about waiting until the first week. In 3 years, I've never actually needed a textbook the very first week of classes.
 
