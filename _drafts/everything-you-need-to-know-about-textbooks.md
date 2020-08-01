@@ -23,7 +23,7 @@ Don't freak out about waiting until the first week. In 3 years, I've never actua
 
 ***
 
-It's well-known fact that textbooks are crazy expensive. By following the tips above, you'll be able to first of all avoid paying for textbooks you won't use. Here are some additional tips and strategies to save some cash.
+It's a well-known fact that textbooks are crazy expensive. By following the tips above, you'll be able to first of all avoid paying for textbooks you won't use. Here are some additional tips and strategies to save some cash.
 
 1. **Buy "local."** Besides your college bookstore and Amazon, check with that upperclassman and see if they have the textbook they'd be willing to sell for cheap(er) or ask if they know anyone who'd be interested. You might also see if there's a Facebook group for buying and selling textbooks at your school.
 2. **Buy used or rent.** Be a little picky and savvy while textbook shopping. More often than not, you won't look back at your textbooks after you finish the semester. The exception is if you have a multi-semester class that uses the same textbook (ex. anything with I, II, III... versions of the same subject). Amazon Rentals usually have pretty competitive prices, and you can find great deals on used books from [thriftbooks](https://www.thriftbooks.com "thriftbooks") and [AbeBooks](https://www.abebooks.com "AbeBooks"). Again, be a little savvy because sometimes it's even cheaper to buy used than rent used.
