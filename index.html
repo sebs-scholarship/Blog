@@ -35,9 +35,8 @@ keywords: home, about
 					<ul class="pagination">
 						<li>
 							{% if paginator.previous_page %}
-							<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;
+							<a href="{{ paginator.previous_page_path }}">&laquo;
 								Prev</a>
-							{% else %}
 							{% endif %}
 						</li>
 						{% for page in (1..paginator.total_pages) %}
@@ -45,9 +44,9 @@ keywords: home, about
 							{% if page == paginator.page %}
 							<span class="currentPage">{{ page }}</span>
 							{% elsif page == 1 %}
-							<a class="notSelected" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+							<a class="notSelected" href="{{ site.url }}">{{ page }}</a>
 							{% else %}
-							<a class="notSelected" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+							<a class="notSelected" href="{{ site.url | append: "/page" | append: page }}">{{ page }}</a>
 							{% endif %}
 						</li>
 						{% endfor %}
@@ -55,7 +54,6 @@ keywords: home, about
 							{% if paginator.next_page %}
 							<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next
 								&raquo;</a>
-							{% else %}
 							{% endif %}
 						<li>
 					</ul>
