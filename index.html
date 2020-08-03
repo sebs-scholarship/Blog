@@ -17,6 +17,7 @@ keywords: home, about
 				<h2 class="font-weight-normal mb-5">Blog Posts</h2>
 				<div class="blog-feed-container">
 					<div class="blog-feed">
+						<!-- Add posts to feed -->
 						{% for post in paginator.posts %}
 						<a href="{{ post.url }}">
 							<div class="feed-item">
@@ -30,32 +31,43 @@ keywords: home, about
 					</div>
 					<div id="blog-feed-mask"></div>
 				</div>
+				<!-- Setup navigator -->
 				{% if paginator.total_pages > 1 %}
 				<div class="pagination">
 					<ul class="pagination">
 						<li>
 							{% if paginator.previous_page %}
-							<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;
+							<a href="{{ paginator.previous_page_path }}">&laquo;
 								Prev</a>
-							{% else %}
 							{% endif %}
 						</li>
 						{% for page in (1..paginator.total_pages) %}
-						<li>
-							{% if page == paginator.page %}
-							<span class="currentPage">{{ page }}</span>
-							{% elsif page == 1 %}
-							<a class="notSelected" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-							{% else %}
-							<a class="notSelected" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-							{% endif %}
-						</li>
+
+						<!-- Check if we need to compact yet -->
+						{% if page > 3 and paginator.total_pages > 5 %}
+						{% if page == paginator.page %}
+						<li class="notSelected">...</li>
+						<li><span class="currentPage">{{ page }}</span></li>
+						{% elsif page == paginator.total_pages %}
+						<li class="notSelected">...</li>
+						<li><a class="notSelected" href="{{ site.url | append: "/page" | append: paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
+						{% endif %}
+
+						<!-- If we don't need to compact -->
+						{% else %}
+						{% if page == paginator.page %}
+						<li><span class="currentPage">{{ page }}</span></li>
+						{% elsif page == 1 %}
+						<li><a class="notSelected" href="{{ site.url }}">{{ page }}</a></li>
+						{% else %}
+						<li><a class="notSelected" href="{{ site.url | append: "/page" | append: page }}">{{ page }}</a></li>
+						{% endif %}
+						{% endif %}
 						{% endfor %}
 						<li>
 							{% if paginator.next_page %}
 							<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next
 								&raquo;</a>
-							{% else %}
 							{% endif %}
 						<li>
 					</ul>
