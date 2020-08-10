@@ -1,8 +1,8 @@
 ---
-title: An Open Letter to Students Entering College in a Pandemic
+title: Dear 2020 College Freshmen, We're Sorry
 author: Holly Lakin
 keywords: college, freshman
-cover_img: "/assets/images/screen-shot-2020-08-09-at-8-16-24-pm.png"
+cover_img: "/assets/images/screen-shot-2020-08-10-at-2-52-40-pm.png"
 
 ---
 I don't think anyone in recent memory has navigated going to college in a pandemic of this scope in this modern society. For all the 2020 high school graduates, I am sorry you had to miss or have a highly modified graduation ceremony. This does not diminish your achievement, and I hope you never feel like it has.
