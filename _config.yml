@@ -36,7 +36,7 @@ defaults:
     values:
       sitemap: false
 
-remote_theme: sebs-scholarship/SSF-Theme
+remote_theme: sebs-scholarship/SSF-Theme@main
 
 exclude:
   - CNAME
