@@ -18,7 +18,7 @@ Wondering how in the world you're going to stay on top of assignments? Needing a
 
 [SmartGirl Studies](https://www.smartgirlstudy.com/free-downloads "SmartGirl Studies")- like EmmaStudies with lots of free studying and planning printables made for student life.
 
-OneNote- if you don't have Microsoft Office on your devices already, you can probably get them for free through your university. OneNote syncs between devices and you can create different "notebooks" and "pages" for taking notes in different classes and lectures.
+[OneNote](https://apps.apple.com/us/app/microsoft-onenote/id784801555?mt=12 "Microsoft OneNote")- if you don't have Microsoft Office on your devices already, you can probably get them for free through your university. OneNote syncs between devices and you can create different "notebooks" and "pages" for taking notes in different classes and lectures.
 
 ## Content
 
@@ -34,17 +34,17 @@ Campus Library- talk about underutilized! (including by me) Your campus library 
 
 ***
 
-Quizlet- everyone already knows about Quizlet, but it deserves to be on this list
+[Quizlet](https://quizlet.com "Quizlet")- everyone already knows about Quizlet, but it deserves to be on this list
 
-Pocket Points- lock your phone & put it in phone jail during your online classes or study sessions to start collecting points. Points can be redeemed for coupons to a variety of stores. (I don't think I've used a coupon yet, but this still works on me lol)
+[Pocket Points](https://apps.apple.com/us/app/pocket-points-student-rewards/id908136685 "Pocket Points app")- lock your phone & put it in phone jail during your online classes or study sessions to start collecting points. Points can be redeemed for coupons to a variety of stores. (I don't think I've used a coupon yet, but this still works on me lol)
 
-Office Lens- a scanner app for your phone so you can immediately turn paper assignments, homework, or notes into PDFs without clogging up your Photos app.
+[Microsoft Office Lens](https://apps.apple.com/us/app/microsoft-office-lens-pdf-scan/id975925059 "Office Lens app")- a scanner app for your phone so you can immediately turn paper assignments, homework, or notes into PDFs without clogging up your Photos app.
 
 [Anki](https://apps.ankiweb.net "Anki")- a downloadable app for your computer, Anki is a smarter flashcard system that tests you on your cards at variable times depending on how confident you are with them, meaning that you see the cards you _know_ less often and the cards you struggle with more often!  
 \*pre-med and med students swear by this app, and you can find pre-made decks on Reddit
 
 ***
 
-Also, take advantage of all of the support that's offered to you through your college. More than likely, there's a career center available to you (again, for **free**) for career advising, internship seeking, resume checks, and mock interviews. There's also likely an office for student success/support which may offer seminars on everything from testing strategies to budgeting. Plus, be on the lookout for major-specific clubs or honor societies that invite speakers from your career field who can share their wisdom and advice. And again, professors are one of the best resources out there. Your tuition is paying for them, so don't be afraid to bother them (within reason of course)!
+Also, take advantage of all of the support that's offered to you through your college. More than likely, there's a **career center** available to you (again, for _free_) for career advising, internship seeking, resume checks, and mock interviews. There's also likely an **office for student success/support** which may offer seminars on everything from testing strategies to budgeting. Plus, be on the lookout for **major-specific clubs or honor societies** that invite speakers from your career field who can share their wisdom and advice. And again, **professors** are one of the best resources out there. Your tuition is paying for them, so don't be afraid to bother them (within reason of course)!
 
 _As always, I hope these recommendations help make your life a little easier and help you know where to go for help. It's out there! (and if it isn't, be there for someone else!) Feel free to drop your own free resource suggestions in the comments below!_
