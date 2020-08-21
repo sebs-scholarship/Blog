@@ -11,5 +11,5 @@ In his place, the Board elected Dakota Purkey to serve as Vice President until o
 
 We are super excited to have Dakota in this position, as she brings leadership experience and a passion for helping students! She has already done a lot of great work in the Foundation as a volunteer and Board Member, and we are confident she will help to steer the SEBS Scholarship Foundation to new heights!
 
-![](/assets/images/Dakota.jpg)  
-_Dakota with her goat!_
+![Dakota, our new VP, with her goat](/assets/images/Dakota.jpg "Dakota")  
+_Dakota with her goat Zeke!_
