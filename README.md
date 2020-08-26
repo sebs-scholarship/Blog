@@ -1,4 +1,4 @@
 # SSF-Blog
 
 ## Test Site
-![Push](https://github.com/sebs-scholarship/SSF-Blog/workflows/Push/badge.svg?branch=staging)
+![Build](https://github.com/sebs-scholarship/sebs-scholarship/workflows/Build/badge.svg)
