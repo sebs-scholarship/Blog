@@ -7,7 +7,7 @@ cover_img: "/assets/images/screen-shot-2020-08-21-at-4-04-05-pm.png"
 ---
 Wondering how in the world you're going to stay on top of assignments? Needing a little help with your english or chemistry homework? We've got you covered, and these resources won't take a bite out of your wallet.
 
-## Organization
+## Organization & Planning
 
 ***
 
@@ -20,6 +20,10 @@ Wondering how in the world you're going to stay on top of assignments? Needing a
 
 [OneNote](https://apps.apple.com/us/app/microsoft-onenote/id784801555?mt=12 "Microsoft OneNote")- if you don't have Microsoft Office on your devices already, you can probably get them for free through your university. OneNote syncs between devices and you can create different "notebooks" and "pages" for taking notes in different classes and lectures.
 
+[Grade Calculator](https://www.rapidtables.com/calc/grade/grade-calculator.html "Grade Calculator")- this is super helpful right around finals weeks! 😬 There are options for calculating what you need on a final, on remaining assignments, and calculating your cumulative GPA.
+
+[RateMyProfessor](https://www.ratemyprofessors.com "RateMyProfessor")- aaahhhh this is SO helpful for planning your schedules! You can look up ratings for different classes and professors, which can help you decide which class section to sign up for or which general elective classes to take!
+
 ## Content
 
 ***
@@ -27,6 +31,8 @@ Wondering how in the world you're going to stay on top of assignments? Needing a
 [Slader](https://www.slader.com "Slader")- has many step-by-step problems from most textbooks. Super helpful if you just get really stuck on a problem and it's too late to go to office hours. (but go to office hours. please. I'm begging you.)
 
 [WolframAlpha](https://www.wolframalpha.com "WolframAlpha")- like the coolest calculator ever. It also goes beyond math; you can look up a whole bunch of facts about pretty much any subject, including chemical reactions!
+
+[Symbolab](https://www.symbolab.com "Symbolab")- this is ALSO a super cool calculator. It even shows you the steps to solve whatever problem you search! (but see above about going to office hours!)
 
 Campus Library- talk about underutilized! (including by me) Your campus library _should_ be one of your first stops if you're looking for scientific articles and research help. You probably don't even have to step inside. My campus library's website has links to discipline-specific journal search engines that can only be accessed through the library.
 
@@ -41,7 +47,7 @@ Campus Library- talk about underutilized! (including by me) Your campus library 
 [Microsoft Office Lens](https://apps.apple.com/us/app/microsoft-office-lens-pdf-scan/id975925059 "Office Lens app")- a scanner app for your phone so you can immediately turn paper assignments, homework, or notes into PDFs without clogging up your Photos app.
 
 [Anki](https://apps.ankiweb.net "Anki")- a downloadable app for your computer, Anki is a smarter flashcard system that tests you on your cards at variable times depending on how confident you are with them, meaning that you see the cards you _know_ less often and the cards you struggle with more often!  
-\*pre-med and med students swear by this app, and you can find pre-made decks on Reddit
+\*pre-med and med students swear by this app, and you can find pre-made MCAT study decks on Reddit
 
 ***
 
