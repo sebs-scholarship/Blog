@@ -2,7 +2,7 @@
 title: Planning Your Course Schedule
 author: Holly Lakin
 keywords: college, schedule, organization
-cover_img: ''
+cover_img: "/assets/images/screen-shot-2020-10-10-at-6-41-19-pm.jpg"
 
 ---
 Happy October! I hope your midterms are going well! It's about that time in the semester to plan next semester's classes. But particularly if it's your first time planning your schedule yourself, you might be a bit overwhelmed by what to do and wondering if you have any flexibility in your schedule at all. Here are the questions I ask myself when I plan my schedule.
