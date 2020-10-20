@@ -5,11 +5,11 @@ keywords: college, schedule, organization
 cover_img: "/assets/images/screen-shot-2020-10-10-at-6-41-19-pm.jpg"
 
 ---
-Happy October! I hope your midterms are going well! It's about that time in the semester to plan next semester's classes. But particularly if it's your first time planning your schedule yourself, you might be a bit overwhelmed by what to do and wondering if you have any flexibility in your schedule at all. Here are the questions I ask myself when I plan my schedule.
+Happy October! I hope your midterms are going well! It's about that time in the semester to plan next semester's classes. If it's your first time planning your schedule yourself, you might be a bit overwhelmed by what to do and wondering if you have any flexibility in your schedule at all. Here are the questions I ask myself when I plan my schedule.
 
 ## What are my primary goals?
 
-Because my main goal in college is graduating with a degree, I initially make a base schedule by looking at my major's balance sheet/course schedule. This shows all the classes I have to take in order to graduate, formatted across 4 years. If you don't have one already, you should be able to get a balance sheet from your college advising office. Do you want to graduate in 3 years? Do you want to graduate in 5 years? Changes to the "typical" 4-year span will change how your courses are spread. (I say "typical" because [less than half of college students complete their degree within 4 years](https://nces.ed.gov/programs/raceindicators/indicator_red.asp "College Graduation Rates").) **Make your own multi-year course plan based off the basic plan, adjusting for your personal goals**, including those below. 
+Because my main goal in college is graduating with a degree, I initially make a base schedule by looking at my major's balance sheet/course schedule. This shows all the classes I have to take in order to graduate, formatted across 4 years. If you don't have one already, you should be able to get a balance sheet from your college advising office. Do you want to graduate in 3 years? Do you want to graduate in 5 years? Changes to the "typical" 4-year span will change how your courses are spread. (I say "typical" because [less than half of college students complete their degree within 4 years](https://nces.ed.gov/programs/raceindicators/indicator_red.asp "College Graduation Rates").) **Make your own multi-year course plan based off the basic plan, adjusting for your personal goals**, including those below.
 
 ## What are my secondary goals?
 
