@@ -10,3 +10,5 @@ cover_img: "/assets/images/holiday_card.jpg"
 ### We are so grateful for all of your support for us and SEBS students. **Through our Giving Tuesday campaign, you raised $78 for future scholarships!**
 
 ### We hope you have a wonderful and restful break!
+
+ 
