@@ -2,7 +2,7 @@
 title: Happy Holidays from the SSF Team!
 author: SSF Team
 keywords: holidays, Giving Tuesday
-cover_img: "/assets/images/holiday_card.jpg"
+cover_img: "/assets/images/127242376_152331336589837_7029298521391985404_n.jpg"
 
 ---
 ### From all of us here at SSF headquarters (the internet, lol), **happy holidays** to you and yours!
