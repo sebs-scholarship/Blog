@@ -1,11 +1,11 @@
 ---
 title: Recovering from a Bad Semester
 author: Holly Lakin
-keywords: college, studying, growth
-cover_img: ''
+keywords: college, studying, growth, recovery, help
+cover_img: "/assets/images/screen-shot-2021-01-04-at-12-54-38-pm.jpg"
 
 ---
-Too busy, too stressed, too many assignments, classes too hard... disappointing semesters are practically unavoidable in college. Sometimes, it's enough to be comforted by the old adage "C's get degrees." But sometimes, that's not enough, whether you're on a GPA-dependent scholarship or wanting to go to graduate or professional school. The good news is that not all semesters have to be this way! Here are four ways to get back on your feet.
+Too busy, too stressed, too many assignments, classes too hard... disappointing semesters are practically unavoidable in college. Sometimes, it's enough to be comforted by the old adage "C's get degrees." But other times, that's not enough, whether you're on a GPA-dependent scholarship or shooting for graduate or professional school. The good news is that not all semesters have to be this way! Here are four ways to get back on your feet, which I hope will help as we start a new year, too!
 
 ### Be mindful of your time
 
@@ -21,6 +21,6 @@ Do not let office hours or free tutoring go to waste. You're already paying for 
 
 ### Learn how you study best
 
-Try different ways of studying. Flashcards may work best for one class, while videos might be best for another. 
+Try different ways of studying. Flashcards may work best for one class, while videos might be best for another.
 
 You can absolutely recover from a disappointing semester, and you are not alone! Resources to help are out there- don't be afraid to seek them out.
