@@ -15,7 +15,7 @@ Look over the scholarship eligibility requirements here:
 
 And apply here!
 
-[https://docs.google.com/forms/d/e/1FAIpQLSd5IMThoAw_yCZbXUjzn_-VOo7a9EaI5ypew1CEJ5917jsMcA/closedform](https://sebsscholarship.org/#section-details "Application Link")
+[https://sebsscholarship.org/apply](https://sebsscholarship.org/apply "Application")
 
 On our website you can also view our vision and core values, application requirements, and info about our anonymous selection process.
 
