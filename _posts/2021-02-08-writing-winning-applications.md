@@ -13,11 +13,11 @@ Here are 4 tips to help make your essays/applications the best they can be!
 
 ## 1. Be unique, but answer the question
 
-Keep in mind two things: whoever is reading your application is also reading many others, but they also asked their question for a reason. Tell _your_ story _your_ way, just make sure your overall response addresses the prompt clearly and comprehensively. 
+Keep in mind two things: whoever is reading your application is also reading many others, but they also asked their question for a reason. Tell _your_ story _your_ way, just make sure your overall response addresses the prompt clearly and comprehensively.
 
 ## 2. Walk the line of telling them what they want to hear
 
-Let's be real here. We often know what the judges are looking for based on their questions. Of course you should be honest and true to yourself in your responses, but _you can always frame responses in a way that targets exactly what they're looking for_. Focus on those concepts in your response. Look at mission statements, values, and other verbiage on websites to find key themes.
+Let's be real here. We often know what the judges/interviewers are looking for based on their questions. Of course you should be honest and true to yourself in your responses, but _you can always frame responses in a way that targets exactly what they're looking for_. Focus on those concepts in your response. Look at mission statements, values, and other verbiage on websites to find key themes, and respond in a way that highlights those.
 
 ## 3. Use specific examples
 
@@ -27,7 +27,7 @@ This may be the most overlooked point, in my opinion. Using specific examples fr
 **Action-** describe the steps you took to accomplish the task  
 **Result-** describe the outcome of the situation and actions you took
 
-Using specific examples and, if needed, what you learned from them adds depth and life into responses, and automatically adds that valuable element of personality and uniqueness.
+Using specific examples and, if needed, what you learned from them adds depth and life into responses and automatically adds that valuable element of personality and uniqueness.
 
 ## 4. Ask for editors
 
@@ -35,6 +35,6 @@ Please, guys, have at least one person read through your response, if not multip
 
 ***
 
-I always keep these things in mind as I write scholarship/admission applications or respond in interviews. They help me to give focused responses that are true, personal, and, frankly, sound good! 
+I always keep these things in mind as I write scholarship/admission applications or respond in interviews. They help me to give focused responses that are true, personal, and, frankly, sound good!
 
 Are there any specific strategies you use to craft great application responses?
