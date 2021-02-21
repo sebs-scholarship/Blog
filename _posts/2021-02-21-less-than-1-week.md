@@ -1,8 +1,8 @@
 ---
-title: Less Than 1 Week...
+title: Less Than 1 Week Left...
 author: Holly Lakin
 keywords: SEBS scholarship
-cover_img: ''
+cover_img: "/assets/images/screen-shot-2021-02-21-at-2-16-53-pm.jpg"
 
 ---
 ## We are 6 days away from the close of the 2021 SEBS Scholarship application!
