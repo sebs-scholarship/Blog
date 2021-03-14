@@ -61,6 +61,6 @@ jobs:
 
       - name: Deploy
         run: |
-          scp -r ${{ github.workspace }}/_site/ ${{ secrets.USERNAME }}@sebsscholarship.org:~/staging/
+          scp -r ${{ github.workspace }}/_site/* ${{ secrets.USERNAME }}@sebsscholarship.org:~/staging/
           ssh ${{ secrets.USERNAME }}@sebsscholarship.org 'rm -rf ~/test.blog.sebsscholarship.org/* \
           && mv ~/staging/* ~/test.blog.sebsscholarship.org/'
