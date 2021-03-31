@@ -7,7 +7,7 @@ cover_img: "/assets/images/managing-mental-illness.jpg"
 ---
 Hi! My name is Lucie, I’m 21, a junior biology major, and I have anxiety and depression. Managing my mental health has been one of the biggest hurdles in my transition into adulthood. Here’s what I’ve learned so far.
 
-![](/assets/images/lucie-1.jpg)
+![Lucie](/assets/images/lucie-1.jpg)
 
 ### Is therapy for me?
 
