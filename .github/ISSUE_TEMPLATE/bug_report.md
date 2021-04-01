@@ -24,8 +24,8 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Device info (please complete the following information):**
- - Device: [e.g. iPhone8, Desktop]
- - Browser [e.g. stock browser, safari]
+- Device: [e.g. iPhone8, Desktop]
+- Browser [e.g. stock browser, safari]
 
 **Additional context**
 Add any other context about the problem here.

@@ -11,6 +11,6 @@ Passive aggression is probably the most common problem with roommates. You have 
 
 The “DEARMAN” technique can help you to approach difficult conversations with confidence and clarity. If you are on the receiving end of criticism, try to listen intently to what the other person is saying, and ask clarifying questions before responding.
 
-![](https://lh4.googleusercontent.com/XVBkwoMsyKWvUtSP5p9W6If9_UDY6VWgLextaF-Wb6S-4QaxtAxCYMrqSkfzxB97SdI6_RboF4ad5susggLdlFMA22mtRgx41Q85pcBI185p6X2dRa4ED2x7CBHDnnLt9uscr6Ge =376x376)
+![DEAR MAN Technique](https://lh4.googleusercontent.com/XVBkwoMsyKWvUtSP5p9W6If9_UDY6VWgLextaF-Wb6S-4QaxtAxCYMrqSkfzxB97SdI6_RboF4ad5susggLdlFMA22mtRgx41Q85pcBI185p6X2dRa4ED2x7CBHDnnLt9uscr6Ge)
 
 Your RAs can be a great resource for conflict resolution if your roomie isn’t willing to have a conversation. Remember that you have a right to privacy and that the common areas belong to everyone! And if things don’t work out, at least you’ll have a great story to tell!

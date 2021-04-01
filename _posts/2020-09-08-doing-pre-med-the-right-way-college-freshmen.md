@@ -35,7 +35,7 @@ Again, this is so key. Meet your professors and invest just a little of your tim
 
 I hope this one comes naturally to you. It doesn't really matter what you get involved in, so long as you get involved and are passionate about it. If you're passionate about it, you'll automatically be _meaningfully_ involved: helping out at events, learning new skills, taking leadership positions, and building deep relationships with students and sponsors alike.
 
-### 6. Get involved in community service.
+### 6. Get involved in community service
 
 Like campus involvement, it doesn't really matter what is it as much as your desire to be there and the commitment you show. There are plentiful opportunities to do service on and off campus.
 

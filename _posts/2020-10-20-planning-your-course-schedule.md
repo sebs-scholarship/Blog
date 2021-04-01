@@ -9,7 +9,8 @@ Happy October! I hope your midterms are going well! It's about that time in the 
 
 ## What are my primary goals?
 
-Because my main goal in college is graduating with a degree, I initially make a base schedule by looking at my major's balance sheet/course schedule. This shows all the classes I have to take in order to graduate, formatted across 4 years. If you don't have one already, you should be able to get a balance sheet from your college advising office. Do you want to graduate in 3 years? Do you want to graduate in 5 years? Changes to the "typical" 4-year span will change how your courses are spread. (I say "typical" because [less than half of college students complete their degree within 4 years](https://nces.ed.gov/programs/raceindicators/indicator_red.asp "College Graduation Rates").) **Make your own multi-year course plan based off the basic plan, adjusting for your personal goals**, including those below.
+Because my main goal in college is graduating with a degree, I initially make a base schedule by looking at my major's balance sheet/course schedule. This shows all the classes I have to take in order to graduate, formatted across 4 years. If you don't have one already, you should be able to get a balance sheet from your college advising office. Do you want to graduate in 3 years? Do you want to graduate in 5 years? Changes to the "typical" 4-year span will change how your courses are spread. (I say "typical" because
+[less than half of college students complete their degree within 4 years](https://nces.ed.gov/programs/raceindicators/indicator_red.asp "College Graduation Rates").) **Make your own multi-year course plan based off the basic plan, adjusting for your personal goals**, including those below.
 
 ## What are my secondary goals?
 
@@ -19,7 +20,8 @@ These could be things like wanting to study abroad or add a minor. You may need 
 
 ## Do I have any personal or professional needs?
 
-[Lucie](https://blog.sebsscholarship.org/2020/09/22/a-practical-guide-to-managing-mental-illness-in-college.html "Lucie's post") and [Chris](https://blog.sebsscholarship.org/2020/09/29/the-strength-of-fragility.html "Chris' post") have written great blog posts both highlighting the need for acknowledgement of personal limits and going at your own pace. Don't neglect your health! Also think about your work or volunteering schedule- what kind of daily class schedule will give you the time for these activities? As another example, I knew I needed regular medical-related experience one semester, and the clinic I wanted to volunteer at required me to go for a half-day every week. Knowing this, I scheduled my two labs on Tuesdays so that I could have Thursday afternoons free for the clinic, instead of doing the labs on different days.
+[Lucie](https://blog.sebsscholarship.org/2020/09/22/a-practical-guide-to-managing-mental-illness-in-college.html "Lucie's post") and [Chris](https://blog.sebsscholarship.org/2020/09/29/the-strength-of-fragility.html "Chris' post") have written great blog posts both highlighting the need for acknowledgement of personal limits and going at your own pace. Don't neglect your health! Also think about your work or volunteering schedule- what kind of daily class schedule will give you the time for these activities? As another example, I knew I needed regular medical-related experience one semester,
+and the clinic I wanted to volunteer at required me to go for a half-day every week. Knowing this, I scheduled my two labs on Tuesdays so that I could have Thursday afternoons free for the clinic, instead of doing the labs on different days.
 
 ## What are my personal preferences?
 

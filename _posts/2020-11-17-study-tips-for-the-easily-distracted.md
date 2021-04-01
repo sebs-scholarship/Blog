@@ -11,7 +11,8 @@ So, one “bad student” to another, here are the practices I use to stop the s
 
 **1. Listen to your body, or it will make you listen!**
 
-If you have ever tried to do math with a full bladder or an empty stomach, you already know part of this principle. Your body has needs, and It will force you to fulfill those needs if you don’t listen to it’s cues. If you are having a hard time focusing, take a moment to check in with your body. Does your head, shoulders, or stomach hurt? Are you tired? Are you hungry? Sometimes you can get a snack or a tylenol and keep going. Sometimes you need to stop and go to bed, or stop to have a full meal and an hour of yoga before you can start up again. I have learned that I need to stop doing homework at midnight, after that point I am too tired for anything I learn to actually stick. When you tune in with your body, you will start to learn how often you need to eat, when it’s time to stretch, and how much caffeine you need for a productive study session.
+If you have ever tried to do math with a full bladder or an empty stomach, you already know part of this principle. Your body has needs, and It will force you to fulfill those needs if you don’t listen to it’s cues. If you are having a hard time focusing, take a moment to check in with your body.
+Does your head, shoulders, or stomach hurt? Are you tired? Are you hungry? Sometimes you can get a snack or a tylenol and keep going. Sometimes you need to stop and go to bed, or stop to have a full meal and an hour of yoga before you can start up again. I have learned that I need to stop doing homework at midnight, after that point I am too tired for anything I learn to actually stick. When you tune in with your body, you will start to learn how often you need to eat, when it’s time to stretch, and how much caffeine you need for a productive study session.
 
 **2. Listen to your mind and emotions**
 
