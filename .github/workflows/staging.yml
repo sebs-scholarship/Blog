@@ -73,4 +73,6 @@ jobs:
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
           color: "#800000"
           username: "SSF Blog Status Bot"
-          message: "An error occurred while generating the site!"
+          message: >
+            An error occurred while generating the site! Click link for details.
+            https://github.com/sebs-scholarship/Blog/actions/workflows/staging.yml
