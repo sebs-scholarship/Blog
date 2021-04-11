@@ -27,6 +27,18 @@ jobs:
           VALIDATE_JAVASCRIPT_STANDARD: true
           VALIDATE_CSS: true
 
+      - name: Notify on failure
+        if: ${{ failure() }}
+        uses: appleboy/discord-action@0.0.3
+        with:
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+          color: "#800000"
+          username: "SSF Blog Status Bot"
+          message: >
+            Aborting deployment due to formatting error. Click link for details.
+            https://github.com/sebs-scholarship/Blog/actions/workflows/staging.yml
+
       - name: Staging site configuration
         run: |
           echo 'User-agent: * Disallow: /' > ${{ github.workspace }}/robots.txt
@@ -64,15 +76,3 @@ jobs:
           scp -r ${{ github.workspace }}/_site/* ${{ secrets.USERNAME }}@sebsscholarship.org:~/staging/
           ssh ${{ secrets.USERNAME }}@sebsscholarship.org 'rm -rf ~/test.blog.sebsscholarship.org/* \
           && mv ~/staging/* ~/test.blog.sebsscholarship.org/'
-
-      - name: Notify on failure
-        if: ${{ failure() }}
-        uses: appleboy/discord-action@0.0.3
-        with:
-          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
-          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          color: "#800000"
-          username: "SSF Blog Status Bot"
-          message: >
-            An error occurred while generating the site! Click link for details.
-            https://github.com/sebs-scholarship/Blog/actions/workflows/staging.yml
