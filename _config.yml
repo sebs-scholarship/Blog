@@ -42,3 +42,7 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+
+algolia:
+  application_id: 0XMIKXGUS3
+  index_name: blog.sebsscholarship.org

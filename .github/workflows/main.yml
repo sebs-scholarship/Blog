@@ -1,13 +1,9 @@
-name: Lint and Build
+name: Lint and Build Production
 
 on:
   push:
-    branches-ignore:
-      - 'staging'
-      - 'main'
-  pull_request:
     branches:
-      - 'staging'
+      - 'main'
 
 jobs:
   lint-build:
@@ -31,8 +27,9 @@ jobs:
           VALIDATE_JAVASCRIPT_STANDARD: true
           VALIDATE_CSS: true
 
-      - name: Build site
+      - name: Build production site
         run: |
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/builder:4.1.0 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --drafts"
+          jekyll/builder:4.1.0 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --drafts \
+          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia"
