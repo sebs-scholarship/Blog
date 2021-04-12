@@ -42,7 +42,7 @@ jobs:
       - name: Staging site configuration
         run: |
           echo 'User-agent: * Disallow: /' > ${{ github.workspace }}/robots.txt
-          sed -i 's_https://blog.sebsscholarship.org_https://test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
+          sed -i 's_blog.sebsscholarship.org_test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
 
       - name: Build staging site
         run: |
