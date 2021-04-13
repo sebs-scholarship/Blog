@@ -14,66 +14,70 @@ keywords: home, about
 		</div>
 		<div class="row justify-content-md-center text-left">
 			<div class="col-lg-7">
-				<h2 class="font-weight-normal mb-5">Blog Posts</h2>
+				<h2 class="font-weight-normal mb-3">Blog Posts</h2>
 				<div class="blog-feed-container">
-					<div class="blog-feed">
-						<!-- Add posts to feed -->
-						{% for post in paginator.posts %}
-						<a href="{{ post.url }}">
-							<div class="feed-item">
-								<h3>{{ post.title }}</h3>
-								<p class="mb-3">{{ post.content | strip_html | truncatewords:50 }}</p>
-								<p class="date">Published on {{ post.date | date: "%b %d, %Y" }} by {{ post.author }}
-								</p>
-							</div>
-						</a>
-						{% endfor %}
-					</div>
-					<div id="blog-feed-mask"></div>
+					<div id="search-searchbar"></div>
+					<div class="blog-feed" id="search-hits"></div>
 				</div>
-				<!-- Setup navigator -->
-				{% if paginator.total_pages > 1 %}
-				<div class="pagination">
-					<ul class="pagination">
-						<li>
-							{% if paginator.previous_page %}
-							<a href="{{ paginator.previous_page_path }}">&laquo;
-								Prev</a>
-							{% endif %}
-						</li>
-						{% for page in (1..paginator.total_pages) %}
-
-						<!-- Check if we need to compact yet -->
-						{% if page > 3 and paginator.total_pages > 5 %}
-						{% if page == paginator.page %}
-						<li class="notSelected">...</li>
-						<li><span class="currentPage">{{ page }}</span></li>
-						{% elsif page == paginator.total_pages %}
-						<li class="notSelected">...</li>
-						<li><a class="notSelected" href="{{ site.url | append: "/page" | append: paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
-						{% endif %}
-
-						<!-- If we don't need to compact -->
-						{% else %}
-						{% if page == paginator.page %}
-						<li><span class="currentPage">{{ page }}</span></li>
-						{% elsif page == 1 %}
-						<li><a class="notSelected" href="{{ site.url }}">{{ page }}</a></li>
-						{% else %}
-						<li><a class="notSelected" href="{{ site.url | append: "/page" | append: page }}">{{ page }}</a></li>
-						{% endif %}
-						{% endif %}
-						{% endfor %}
-						<li>
-							{% if paginator.next_page %}
-							<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next
-								&raquo;</a>
-							{% endif %}
-						<li>
-					</ul>
-				</div>
-				{% endif %}
 			</div>
 		</div>
 	</div>
 </section>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<script>
+	const search = instantsearch({
+		appId: '{{ site.algolia.application_id }}',
+		indexName: '{{ site.algolia.index_name }}',
+		apiKey: '{{ site.algolia.search_only_api_key }}'
+	});
+
+	const hitTemplate = function(hit) {
+		if (!hit.url) return ``;
+		let title = "";
+		if (hit._highlightResult.title) title = hit._highlightResult.title.value;
+
+		let content = "";
+		if (hit._highlightResult.content) content = hit._highlightResult.content.value;
+
+		let date = "date unknown";
+		if (hit.date) date = moment.unix(hit.date).format('MMM DD, YYYY');
+
+		let author = "author unknown";
+		if (hit.author) author = hit.author;
+
+
+		return `
+	<a href="{{ site.baseurl }}${hit.url}">
+		<div class="feed-item">
+			<h3>${title}</h3>
+			<p class="mb-3">${content}</p>
+			<p class="date">Published on ${date} by ${author}</p>
+		</div>
+	</a>
+  		`;
+	}
+
+	// Adding searchbar and results widgets
+	search.addWidget(
+			instantsearch.widgets.searchBox({
+				container: '#search-searchbar',
+				placeholder: 'Search posts...',
+				poweredBy: true, // This is required
+			})
+	);
+
+	search.addWidget(
+			instantsearch.widgets.infiniteHits({
+				container: '#search-hits',
+				showMoreLabel: "Show More...",
+				templates: {
+					item: hitTemplate,
+					empty: "No results..."
+				},
+			})
+	);
+
+	// Starting the search
+	search.start();
+</script>
