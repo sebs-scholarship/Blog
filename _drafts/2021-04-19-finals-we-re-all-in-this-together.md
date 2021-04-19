@@ -2,7 +2,7 @@
 title: 'Finals: We''re all in this together'
 author: Lucie Sullivan
 keywords: Final, exam, college, study, suicide prevention, student
-cover_img: ''
+cover_img: "/assets/images/cover-image-template-3.jpg"
 
 ---
 Well, folks, there’s just one thing standing between us and summer. The dreaded, the feared, the breakdown-inducing: Finals. So close to freedom, yet so far. That one week seems to drag on for years. This week is about one thing, getting through to the other side. It’s daunting but I know you can do it! Here are some tips and reminders to get you (and me) through.
