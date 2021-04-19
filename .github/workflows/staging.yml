@@ -37,7 +37,7 @@ jobs:
           username: "SSF Blog Status Bot"
           message: >
             Aborting deployment due to formatting error. Click link for details:
-            https://github.com/sebs-scholarship/Blog/runs/{{ github.run_id }}
+            https://github.com/sebs-scholarship/Blog/runs/${{ github.run_id }}
 
             Formatting rules:
             https://www.github.com/DavidAnson/markdownlint/tree/main/doc%2FRules.md
