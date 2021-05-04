@@ -45,3 +45,6 @@ algolia:
   application_id: 0XMIKXGUS3
   index_name: blog.sebsscholarship.org
   search_only_api_key: d300e661126b8f0edd61bfee928c7730
+  settings:
+    attributesToSnippet:
+      - content:50
