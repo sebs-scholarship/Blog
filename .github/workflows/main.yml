@@ -32,4 +32,4 @@ jobs:
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/builder:4.1.0 /bin/bash -c "chmod 777 /srv/jekyll \
-          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future"
+          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia"

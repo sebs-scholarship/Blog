@@ -52,7 +52,7 @@ jobs:
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/builder:4.1.0 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --drafts \
-          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future --drafts"
+          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2.2.3
