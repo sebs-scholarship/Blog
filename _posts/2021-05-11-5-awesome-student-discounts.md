@@ -5,7 +5,7 @@ keywords: College, discount, student, music, streaming
 cover_img: "/assets/images/screen-shot-2021-05-11-at-7-30-33-am.png"
 
 ---
-## Student discounts to take advantage of:
+## Student discounts to take advantage of
 
 (This is not an ad or a paid post, I just love getting stuff for cheap!)
 
@@ -21,17 +21,17 @@ cover_img: "/assets/images/screen-shot-2021-05-11-at-7-30-33-am.png"
 
 [https://www.spotify.com/us/student/?utm_source=us-en_brand_contextual_text&utm_medium=paidsearch&utm_campaign=alwayson_ucanz_us_performancemarketing_student_brand+contextual+text+exact+us-en+google&gclsrc=aw.ds&gclid=CjwKCAjw1uiEBhBzEiwAO9B_Hf9_f4iDtC1KcJ-WSKETzjZQBopf8sBelpUl8wsWSjZu4VOFUBwQexoCcOYQAvD_BwE](https://www.spotify.com/us/student/?utm_source=us-en_brand_contextual_text&utm_medium=paidsearch&utm_campaign=alwayson_ucanz_us_performancemarketing_student_brand+contextual+text+exact+us-en+google&gclsrc=aw.ds&gclid=CjwKCAjw1uiEBhBzEiwAO9B_Hf9_f4iDtC1KcJ-WSKETzjZQBopf8sBelpUl8wsWSjZu4VOFUBwQexoCcOYQAvD_BwE "https://www.spotify.com/us/student/")
 
-### Publications:
+### Publications
 
 The New York Times, Washington Post, The Economist, and The Wall Street Journal all offer varying student discounts on their subscriptions.
 
-### YouTube:
+### YouTube
 
 Free month trial, then $7/month. Music and videos ad-free!
 
 [https://www.youtube.com/premium/student](https://www.youtube.com/premium/student "https://www.youtube.com/premium/student")
 
-### Pandora:
+### Pandora
 
 60-day free trial, then 50% off a pandora prime membership, ad-free music!
 
