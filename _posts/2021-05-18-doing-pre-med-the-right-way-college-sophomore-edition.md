@@ -5,7 +5,7 @@ keywords: college, pre-med, sophomore, second year
 cover_img: "/assets/images/premed-soph.jpg"
 
 ---
-This post is part 2 of "Doing Pre-Med the Right Way." You can find part 1 [here](https://blog.sebsscholarship.org/2020/09/08/doing-pre-med-the-right-way-college-freshmen.html)! 
+This post is part 2 of "Doing Pre-Med the Right Way." You can find part 1 [here](https://blog.sebsscholarship.org/2020/09/08/doing-pre-med-the-right-way-college-freshmen.html)!
 
 I will preface this by reiterating that everyone has a unique journey to medical school, and these are mainly suggestions to keep you "on track." Your path might take you more years or through different experiences, and that is okay!
 
