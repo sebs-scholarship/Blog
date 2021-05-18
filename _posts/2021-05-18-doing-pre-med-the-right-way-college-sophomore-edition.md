@@ -12,9 +12,7 @@ I will preface this by reiterating that everyone has a unique journey to medical
 I will also update my background by saying I was accepted to 2 medical schools, one being in my top 3, this cycle.
 
 # So what do you need to do as a college sophomore to stay "on-track" as a pre-med?
-
 ***
-
 ## 1. Update your academic plan
 
 Make sure you're still good to go with prerequisites. If you have an idea of what medical schools you're interested in, make sure you note which classes they require and recommend you to take during undergrad.
@@ -38,9 +36,7 @@ Your story is unique. And we need unique doctors! Don't be afraid to try new thi
 ## 6. WRITE. IT. DOWN
 
 I can't believe I missed it on the last post, but KEEP AN UPDATED RECORD OF EVERYTHING YOU DO. Record your positions, the contact info of all your superiors, the work you did, the hours you spent, and a brief description of what you learned and how the experience made you feel (or anything else you'd put in a diary). Imagine the child of a resume and annotated bibliography. Do that. It'll make med school apps 10 times easier.
-
 ***
-
 Spoiler alert: there is a space to put hobbies in your AMCAS application (for MD schools)! So don't feel bad about investing in your hobbies! I did have one interviewer ask me about mine :)
 
 _Keep on the course! You can do it! As always, feel free to reach out and ask any questions you have to holly@sebsscholarship.org_
