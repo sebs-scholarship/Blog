@@ -16,14 +16,14 @@ We are so proud of everything you've accomplished, particularly with everything 
 <div class="text-center mt-5">
 <h2 style="font-size: 2rem;">Scholarship Recipients</h2>
 <br>
-<div class="mb-5"> 
+<div class="mb-5">
 <h3 style="font-size: 2rem;">First Place</h3>
 <hr>
 <img src="/assets/images/otravierso.jpg" title="Olivia Travierso" alt="Olivia Travierso">
 <p style="font-size: 2rem;color: black;">Olivia Travierso</p>
 <p style="font-size: 1.5rem;">Biomedical Science</p>
 <p style="font-size: 1.25rem;"><i>"I will be attending Colorado State University - Fort Collins in the fall, majoring in Biology. I'm looking forward to the many educational opportunities college will bring, as well as exploring a new town with many different kinds of people!"</i></p>
-  </div>
+</div>
 <div class="mb-5">
 <h3 style="font-size: 2rem;">Second Place</h3>
 <hr>
