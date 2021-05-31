@@ -119,7 +119,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-algolia (1.7.0)
+    jekyll-algolia (1.7.1)
       algolia_html_extractor (~> 2.6)
       algoliasearch (~> 1.26)
       filesize (~> 0.1)
@@ -288,7 +288,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (>= 207)
-  jekyll-algolia (>= 1.7)
+  jekyll-algolia (>= 1.7.1)
   jekyll-feed
   jekyll-sitemap
   tzinfo (~> 1.2)
