@@ -25,18 +25,15 @@ Nikki Smith just graduated from Brigham Young University with a Bachelor of Arts
 
 ![](https://lh6.googleusercontent.com/vI32HSHiN49B_eduhui8KXFA6U4C7LucLqM04-R9JmrbOvmHBwf7A84nDwQAVqq0QH2wxIDkWA5lOzVXQW2CGFbmh2pgPA7v0TyYUeIUUQ15YQvS_fHF9krBvdFUjXszEWE1WXt3 =463x348)
 
-### Common mistakes: 
+### Common mistakes
 
-1\. Most people don’t know what a thesis statement is. Everyone needs help on their thesis- it's something you perfect as you go through college. Your TAs will help you. 
+1\. Most people don’t know what a thesis statement is. Everyone needs help on their thesis- it's something you perfect as you go through college. Your TAs will help you.
 
-2\. Be clear and concise. Most writers coming out of high school repeat the same point ten times. Often essays were no longer than 2 pages and students did not have enough evidence to fill in space. We see right through you and I will mark you down for it. It helps to do a second draft where you only focus on the organization of your paper. 
+2\. Be clear and concise. Most writers coming out of high school repeat the same point ten times. Often essays were no longer than 2 pages and students did not have enough evidence to fill in space. We see right through you and I will mark you down for it. It helps to do a second draft where you only focus on the organization of your paper.
 
 3\. Use more than the materials provided. TAs can help you find sources for your essays. The difference between a 90% paper and a 100% paper is always sources.
-
 ![](https://lh5.googleusercontent.com/iM5CA-uGJpyQjqcQg0a3GKFUY8nT8xinFXk8ZIaCeD3WtU7fK8pyRCMkVtuFUt9OYwjo22ZlLw2RFFXIK25RSKkzG9G00TX2OLx0ED5MCeA_8fDOH6BYEg8Nu21mwfR13TPFdoGP =528x504)
-
-### Best way to interact with a TA:
-
+### Best way to interact with a TA
 First off, emails are wonderful. It's a great option especially if you’re scared to go into office hours for the first time. Please be polite to the TAs, we do report it back to the professor and they may call you out if you say something rude. If you really think there's an issue, approach the TA first about grading. I always gave students tips on how to do better next time. Ask why you got that grade before asking for a new one. We can't answer any questions about accommodations, the professor handles all of that information. We don’t have much to do with exams; in some classes I wasn’t even allowed to see the exam beforehand. We can, however, help you know how to prepare, we work closely with the professor, and we know what the professor thinks are the most important parts of the class.
 
 Come to office hours with predetermined questions. It's more productive for you to come with a goal in mind and an idea of what you want to write about.
