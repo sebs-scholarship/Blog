@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
 
       - name: Lint Code Base
-        uses: docker://ghcr.io/github/super-linter:v3
+        uses: docker://ghcr.io/github/super-linter:slim-v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_YAML: true
@@ -61,7 +61,7 @@ jobs:
           path: ${{ github.workspace }}/_site/
 
       - name: Install SSH key
-        uses: webfactory/ssh-agent@v0.5.2
+        uses: webfactory/ssh-agent@v0.5.3
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 

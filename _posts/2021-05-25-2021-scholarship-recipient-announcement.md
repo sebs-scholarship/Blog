@@ -32,7 +32,7 @@ We are so proud of everything you've accomplished, particularly with everything 
 <p style="font-size: 1.5rem;">Biomedical Science</p>
 <p style="font-size: 1.25rem;"><i>"I will be attending Fort Hays State University in Hays, Kansas for a nursing degree. Something that I am looking forward to in college is just having independence and meeting new people in a completely different environment."</i></p>
 </div>
-<p style="font-size: 2rem;![](/assets/images/2021recipients)![](/assets/images/2021recipients.jpg)![](/assets/images/2021recipients.jpg)" class="mb-5"><i>Congratulations!</i></p>
+<p style="font-size: 2rem;" class="mb-5"><i>Congratulations!</i></p>
 </div>
 
 We look forward to all you guys will continue to do, and we will be here to support all the graduates as you go on in your future!
