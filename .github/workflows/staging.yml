@@ -55,7 +55,7 @@ jobs:
           && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future --drafts"
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2.2.3
+        uses: actions/upload-artifact@v2.2.4
         with:
           name: Built Site
           path: ${{ github.workspace }}/_site/
