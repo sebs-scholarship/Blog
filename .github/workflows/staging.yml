@@ -16,6 +16,7 @@ jobs:
           fetch-depth: 0
 
       - name: Lint Code Base
+        id: lint
         uses: docker://ghcr.io/github/super-linter:slim-v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -95,7 +96,7 @@ jobs:
 
 
       - name: Notify on failure
-        if: ${{ failure() }}
+        if: ${{ failure() && steps.lint.outcome != 'failure' }}
         uses: appleboy/discord-action@0.0.3
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
