@@ -75,8 +75,8 @@ jobs:
           color: "#800000"
           username: "SSF Blog Status Bot"
           message: >
-            Updates were successfully pushed to test site:
-            https://github.com/sebs-scholarship/Blog/actions/runs/${{ github.run_id }}
+            Updates were successfully pushed to test blog:
+            https://test.blog.sebsscholarship.org
 
 
       - name: Notify on failure
