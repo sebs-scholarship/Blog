@@ -22,44 +22,34 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_YAML: true
           VALIDATE_XML: true
-          VALIDATE_MARKDOWN: true
           VALIDATE_BASH: true
           VALIDATE_PHP: true
           VALIDATE_JAVASCRIPT_STANDARD: true
           VALIDATE_CSS: true
-
-      - name: Notify on failure
-        if: ${{ failure() }}
-        uses: appleboy/discord-action@0.0.3
-        with:
-          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
-          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          color: "#800000"
-          username: "SSF Blog Status Bot"
-          message: >
-            Aborting deployment due to formatting error. Click link for details:
-            https://github.com/sebs-scholarship/Blog/actions/runs/${{ github.run_id }}
-
-            Formatting rules:
-            https://www.github.com/DavidAnson/markdownlint/tree/main/doc%2FRules.md
 
       - name: Staging site configuration
         run: |
           echo 'User-agent: * Disallow: /' > ${{ github.workspace }}/robots.txt
           sed -i 's_blog.sebsscholarship.org_test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
 
-      - name: Build and index staging site
+      - name: Build site
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll \
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.1.0 \
-          /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --drafts \
-          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future --drafts"
+          /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --drafts"
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2.2.4
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: Built Site
           path: ${{ github.workspace }}/_site/
+
+      - name: Turnstyle
+        uses: sebs-scholarship/turnstyle@v1
+        with:
+          abort-on-newer-run: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install SSH key
         uses: webfactory/ssh-agent@v0.5.4
@@ -69,18 +59,17 @@ jobs:
       - name: Trust SSH key
         run: ssh-keyscan sebsscholarship.org > ~/.ssh/known_hosts
 
-      - name: Turnstyle
-        uses: sebs-scholarship/turnstyle@v1
-        with:
-          abort-on-newer-run: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Deploy
         run: |
           scp -r ${{ github.workspace }}/_site/* ${{ secrets.USERNAME }}@sebsscholarship.org:~/staging/
           ssh ${{ secrets.USERNAME }}@sebsscholarship.org 'rm -rf ~/test.blog.sebsscholarship.org/* \
           && mv ~/staging/* ~/test.blog.sebsscholarship.org/'
+
+      - name: Index site
+        run: |
+          docker run -v ${{ github.workspace }}:/srv/jekyll \
+          -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.1.0 /bin/bash -c \
+          "ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future --drafts"
 
       - name: Notify on success
         if: ${{ success() }}
@@ -91,8 +80,8 @@ jobs:
           color: "#800000"
           username: "SSF Blog Status Bot"
           message: >
-            Updates were successfully pushed to test site:
-            https://github.com/sebs-scholarship/Blog/actions/runs/${{ github.run_id }}
+            Updates were successfully pushed to test blog:
+            https://test.blog.sebsscholarship.org
 
 
       - name: Notify on failure

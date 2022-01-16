@@ -21,7 +21,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_YAML: true
           VALIDATE_XML: true
-          VALIDATE_MARKDOWN: true
           VALIDATE_BASH: true
           VALIDATE_PHP: true
           VALIDATE_JAVASCRIPT_STANDARD: true
@@ -33,3 +32,28 @@ jobs:
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.1.0 \
           /bin/bash -c "chmod 777 /srv/jekyll \
           && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future"
+
+      - name: Notify on success
+        if: ${{ success() }}
+        uses: appleboy/discord-action@0.0.3
+        with:
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+          color: "#800000"
+          username: "SSF Blog Status Bot"
+          message: >
+            Updates were successfully pushed to blog:
+            https://blog.sebsscholarship.org
+
+
+      - name: Notify on failure
+        if: ${{ failure() && steps.lint.outcome != 'failure' }}
+        uses: appleboy/discord-action@0.0.3
+        with:
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+          color: "#800000"
+          username: "SSF Blog Status Bot"
+          message: >
+            Aborting deployment due to unexpected error:
+            https://github.com/sebs-scholarship/Blog/actions/runs/${{ github.run_id }}
