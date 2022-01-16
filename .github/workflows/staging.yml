@@ -32,12 +32,11 @@ jobs:
           echo 'User-agent: * Disallow: /' > ${{ github.workspace }}/robots.txt
           sed -i 's_blog.sebsscholarship.org_test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
 
-      - name: Build and index staging site
+      - name: Build site
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll \
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.1.0 \
-          /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --drafts \
-          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future --drafts"
+          /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --drafts"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2.3.1
@@ -65,6 +64,12 @@ jobs:
           scp -r ${{ github.workspace }}/_site/* ${{ secrets.USERNAME }}@sebsscholarship.org:~/staging/
           ssh ${{ secrets.USERNAME }}@sebsscholarship.org 'rm -rf ~/test.blog.sebsscholarship.org/* \
           && mv ~/staging/* ~/test.blog.sebsscholarship.org/'
+
+      - name: Index site
+        run: |
+          docker run -v ${{ github.workspace }}:/srv/jekyll \
+          -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.1.0 /bin/bash -c \
+          "ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future --drafts"
 
       - name: Notify on success
         if: ${{ success() }}
