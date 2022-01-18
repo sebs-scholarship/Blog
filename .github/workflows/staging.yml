@@ -16,7 +16,6 @@ jobs:
           fetch-depth: 0
 
       - name: Lint Code Base
-        id: lint
         uses: docker://ghcr.io/github/super-linter:slim-v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -45,6 +44,7 @@ jobs:
           path: ${{ github.workspace }}/_site/
 
       - name: Turnstyle
+        id: turnstyle
         uses: sebs-scholarship/turnstyle@v1
         with:
           abort-on-newer-run: true
@@ -85,7 +85,7 @@ jobs:
 
 
       - name: Notify on failure
-        if: ${{ failure() && steps.lint.outcome != 'failure' }}
+        if: ${{ failure() && steps.turnstyle.outcome != 'failure' }}
         uses: appleboy/discord-action@0.0.3
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
