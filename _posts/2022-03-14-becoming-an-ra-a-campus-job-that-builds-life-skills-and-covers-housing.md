@@ -12,7 +12,14 @@ RA is short for residential advisor or residential assistant, depending on the u
 
 RA responsibilities vary widely across schools. There are commonalities though. Generally, an RA is responsible for a floor of new students, or residents. RAs become mentors and try their best to foster community in their floor and help give advice to students that are in the place they were not so long ago. The less glamorous part of the job is enforcement of university housing policy. This means doing night rounds with other RAs to ensure the safety and comfort of the community (this often means writing up parties). While that may sound like a lot of work and energy, it was not every night. Even though my staff was one of the smallest on my campus, I only had 1 night every other week and 2 weekends every semester. As with many campus jobs, being an RA is incredibly flexible and is able to work around class, study, and exam schedules.
 
+![](/assets/images/img_4215_original.jpg)  
+(Above: A rock painting event I helped organize with other RAs for residents to get to know each other.)
+
 Even though I applied to be an RA because of the housing benefits, I found a lot more meaning in the job. All my coworkers were driven and cared about others. These people ended up being some of my closest friends. The job certainly was not always easy, but we were never alone in it. I built friendships with some of my residents that are still strong years later. I also got to feel like I was making an impact in the life of others. Being an RA meant that we were trained to know resources for students and how to support people in times of crisis. College can be hard. Being able to be there for someone and showing them options when they are struggling is incredibly gratifying. Also, knowing those resources for yourself can help you get through the tougher parts of college.
+
+![](/assets/images/img_0291_original.jpg)
+
+(Above: My fellow RAs and dear friends) 
 
 Being an RA also teaches a ton of life skills. Public speaking, leadership, crisis management, cross-cultural communication, professional writing, and organization are just a few that jump to mind. The RA role stands out on a resume. Many of my friends have had amazing discussions with future employers because their interviewer was also an RA.
 
