@@ -1,7 +1,7 @@
 ---
 title: 6 Tips for Funding College
-author: ''
-keywords: ''
+author: Natalie Anderson
+keywords: college, scholarships, university, student loans
 cover_img: ''
 
 ---
