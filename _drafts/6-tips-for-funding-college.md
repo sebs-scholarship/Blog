@@ -2,7 +2,7 @@
 title: 6 Tips for Funding College
 author: Natalie Anderson
 keywords: college, scholarships, university, student loans
-cover_img: ''
+cover_img: "/assets/images/cover-image-template-1.png"
 
 ---
 I remember looking at my first semester bill and wondering how I was going to make it through college. Federal student loans only covered a fraction of the cost and the interest rate on private loans would have me paying them for the rest of my working life. It was a terrifying moment, wondering if the education I was working so hard to get would actually be sustainable. After that first year though, I was able to get through college largely debt free.
