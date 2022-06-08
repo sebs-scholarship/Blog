@@ -1,7 +1,7 @@
 ---
 title: '2022 Recipient Announcement '
 author: ''
-keywords: ''
+keywords: scholarship, SEBS, announcement, 2022, winner
 cover_img: "/assets/images/cover-image-template-2.png"
 
 ---
