@@ -13,7 +13,7 @@ The recipient of this year's SEBS Scholarship is Lauren Leyh! Lauren is planning
 
 Our runner up is Alina Rose Bartosz. Alina plans on attending CSU Pueblo for biology with a pre-veterinary emphasis. She is passionate about her animals, saying "I have always loved animals, and it was thanks to SEBS that I could kindle my love for health science and lab projects. I am excited to start my higher education at CSU-P as a new chapter of my life, and I’m also thankful that this chapter is still taking place in the comfort of Pueblo close to my family and friends—and of course, my pets." Alina also stated the SEBS Scholarship will be a big help as she begins her journey this fall.
 
-![](/assets/images/_mg_8969-alina-bartosz.jpg)
+![](/assets/images/mg_8969-alina-bartosz.jpg)
 
 We want to congratulate all of this year's graduates from the SEBS program and wish them well on their next steps. Graduation is a true achievement that they've all worked hard for.
 
