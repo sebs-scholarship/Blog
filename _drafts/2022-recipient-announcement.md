@@ -21,3 +21,5 @@ If you'd like to consider donating for next year's scholarship, you can do so [h
 
 A huge thank you to this year's donors:  
 Mark Hedrick, Chris Sefcovic, John and Candy Musso, Front Range Fencing and Deck, and Colorado Bank & Trust Company.
+
+![](/assets/images/frfd.png) ![](/assets/images/colo-bank.png)
