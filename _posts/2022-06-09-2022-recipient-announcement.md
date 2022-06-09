@@ -1,6 +1,6 @@
 ---
-title: '2022 Recipient Announcement'
-author: 'Natalie Anderson'
+title: '2022 Recipient Announcement '
+author: ''
 keywords: scholarship, SEBS, announcement, 2022, winner
 cover_img: "/assets/images/cover-image-template-2.png"
 
@@ -22,11 +22,4 @@ If you'd like to consider donating for next year's scholarship, you can do so [h
 A huge thank you to this year's donors:  
 Mark Hedrick, Chris Sefcovic, John and Candy Musso, Front Range Fencing and Deck, and Colorado Bank & Trust Company.
 
-<div class="row justify-content-md-center text-center mb-5">
-    <div class="col-sm justify-content-center mb-5">
-        <img src="/assets/images/frfd.png" alt="Front Range Fencing and Deck">
-    </div>
-    <div class="col-sm justify-content-center mb-5">
-        <img src="/assets/images/colo-bank.png" alt="Colorado Bank & Trust Company">
-    </div>
-</div>
+![](/assets/images/frfd.png) ![](/assets/images/colo-bank.png)
