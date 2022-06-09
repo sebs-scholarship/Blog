@@ -1,6 +1,6 @@
 ---
-title: '2022 Recipient Announcement '
-author: ''
+title: '2022 Recipient Announcement'
+author: 'Natalie Anderson'
 keywords: scholarship, SEBS, announcement, 2022, winner
 cover_img: "/assets/images/cover-image-template-2.png"
 
