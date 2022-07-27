@@ -46,6 +46,11 @@ jobs:
           echo 'User-agent: * Disallow: /' > ${{ github.workspace }}/robots.txt
           sed -i 's_blog.sebsscholarship.org_test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
 
+      - name: Configure drafts
+        if: github.ref_name != 'main'
+        run: |
+          echo "XARGS=--drafts" >> $GITHUB_ENV
+
       - name: Build site
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll \
@@ -94,8 +99,8 @@ jobs:
     # Only index if deploy completes successfully or if it was cancelled due to main branch
     if: always() && (needs.deploy.result == 'success' || (needs.deploy.result == 'skipped' && github.ref_name == 'main'))
     steps:
-      - name: Staging site configuration
-        if: github.ref_name == 'staging'
+      - name: Configure drafts
+        if: github.ref_name != 'main'
         run: |
           echo "XARGS=--drafts" >> $GITHUB_ENV
 
