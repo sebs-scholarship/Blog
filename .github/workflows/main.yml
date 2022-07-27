@@ -62,8 +62,8 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - build
-    # Only deploy if on the staging branch and build succeeded
-    if: github.ref_name == 'staging' && needs.build.result == 'success'
+    # Only deploy if on the staging branch
+    if: github.ref_name == 'staging'
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v3
