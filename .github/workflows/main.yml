@@ -68,7 +68,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: Built Site
-          path: /_site/
+          path: _site/
 
       - name: Install SSH key
         uses: webfactory/ssh-agent@v0.5.4
