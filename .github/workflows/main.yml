@@ -1,13 +1,14 @@
-name: Lint and Build Production
+name: Lint, Build, Deploy, and Index site
 
 on:
   push:
+  pull_request:
     branches:
-      - 'main'
+      - 'staging'
 
 jobs:
-  lint-build:
-    name: Lint and Build
+  lint:
+    name: Lint the source
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -26,6 +27,76 @@ jobs:
           VALIDATE_JAVASCRIPT_STANDARD: true
           VALIDATE_CSS: true
 
+  build:
+    name: Build the site
+    runs-on: ubuntu-latest
+    needs:
+      - lint
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Staging site configuration
+        if: github.ref_name == 'staging'
+        run: |
+          echo 'User-agent: * Disallow: /' > ${{ github.workspace }}/robots.txt
+          sed -i 's_blog.sebsscholarship.org_test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
+
+      - name: Build site
+        run: |
+          docker run -v ${{ github.workspace }}:/srv/jekyll \
+          -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.1.0 \
+          /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --drafts"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: Built Site
+          path: ${{ github.workspace }}/_site/
+
+  deploy:
+    name: Deploy the test site
+    runs-on: ubuntu-latest
+    needs:
+      - build
+    # Only deploy if on the staging branch and build succeeded
+    if: github.ref_name == 'staging' && needs.build.result == 'success'
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: Built Site
+          path: /_site/
+
+      - name: Install SSH key
+        uses: webfactory/ssh-agent@v0.5.4
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Trust SSH key
+        run: ssh-keyscan sebsscholarship.org > ~/.ssh/known_hosts
+
+      - name: Deploy
+        run: |
+          scp -r ${{ github.workspace }}/_site/* ${{ secrets.USERNAME }}@sebsscholarship.org:~/staging/
+          ssh ${{ secrets.USERNAME }}@sebsscholarship.org 'rm -rf ~/test.blog.sebsscholarship.org/* \
+          && mv ~/staging/* ~/test.blog.sebsscholarship.org/'
+
+  index:
+    name: Index the site
+    runs-on: ubuntu-latest
+    needs:
+      - deploy
+    # Only index if deploy completes successfully or if it was cancelled due to main branch
+    if: needs.deploy.result == 'success' || (needs.deploy.result == 'cancelled' && github.ref_name == 'main')
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
       - name: Index production site
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll \
@@ -33,8 +104,32 @@ jobs:
           /bin/bash -c "chmod 777 /srv/jekyll \
           && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future"
 
+  notify:
+    name: Send job complete notification
+    runs-on: ubuntu-latest
+    needs:
+      - lint
+      - build
+      - deploy
+      - index
+    # Run if on staging or main
+    if: github.ref_name == 'staging' || github.ref_name == 'main'
+    steps:
+      - name: Set test environment
+        if: github.ref_name == 'staging'
+        run: |
+          echo "SITE_NAME=test" >> $GITHUB_ENV
+          echo "SITE_ADDR=https://test.blog.sebsscholarship.org" >> $GITHUB_ENV
+
+      - name: Set main environment
+        if: github.ref_name == 'main'
+        run: |
+          echo "SITE_NAME=main" >> $GITHUB_ENV
+          echo "SITE_ADDR=https://blog.sebsscholarship.org" >> $GITHUB_ENV
+
       - name: Notify on success
-        if: ${{ success() }}
+        # If the site was successfully built and indexed
+        if: needs.build.result == 'success' && needs.index.result != 'failure'
         uses: appleboy/discord-action@0.0.3
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
@@ -42,12 +137,12 @@ jobs:
           color: "#800000"
           username: "SSF Blog Status Bot"
           message: >
-            Updates were successfully pushed to blog:
-            https://blog.sebsscholarship.org
-
+            Updates were successfully pushed to ${{ env.SITE_NAME }} blog:
+            ${{ env.SITE_ADDR }}
 
       - name: Notify on failure
-        if: ${{ failure() && steps.lint.outcome != 'failure' }}
+        # If the site failed at any point
+        if: needs.lint.result == 'failure' || needs.build.result == 'failure' || needs.deploy.result == 'failure' || needs.index.result == 'failure'
         uses: appleboy/discord-action@0.0.3
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
@@ -55,5 +150,5 @@ jobs:
           color: "#800000"
           username: "SSF Blog Status Bot"
           message: >
-            Aborting deployment due to unexpected error:
+            Aborting ${{ env.SITE_NAME }} blog deployment due to unexpected error:
             https://github.com/sebs-scholarship/Blog/actions/runs/${{ github.run_id }}
