@@ -58,7 +58,7 @@ jobs:
           path: ${{ github.workspace }}/_site/
 
   deploy:
-    name: Deploy the test site
+    name: Deploy the site
     runs-on: ubuntu-latest
     needs:
       - build
