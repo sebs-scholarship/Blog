@@ -42,6 +42,7 @@ jobs:
       - name: Staging site configuration
         if: github.ref_name == 'staging'
         run: |
+          echo "XARGS=--drafts" >> $GITHUB_ENV
           echo 'User-agent: * Disallow: /' > ${{ github.workspace }}/robots.txt
           sed -i 's_blog.sebsscholarship.org_test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
 
@@ -49,7 +50,7 @@ jobs:
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll \
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.1.0 \
-          /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --drafts"
+          /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future ${{ env.XARGS }}"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
@@ -93,6 +94,11 @@ jobs:
     # Only index if deploy completes successfully or if it was cancelled due to main branch
     if: always() && (needs.deploy.result == 'success' || (needs.deploy.result == 'skipped' && github.ref_name == 'main'))
     steps:
+      - name: Staging site configuration
+        if: github.ref_name == 'staging'
+        run: |
+          echo "XARGS=--drafts" >> $GITHUB_ENV
+
       - name: Checkout Code
         uses: actions/checkout@v3
         with:
@@ -103,7 +109,7 @@ jobs:
           docker run -v ${{ github.workspace }}:/srv/jekyll \
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.1.0 \
           /bin/bash -c "chmod 777 /srv/jekyll \
-          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future"
+          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future ${{ env.XARGS }}"
 
   notify:
     name: Send job complete notification
