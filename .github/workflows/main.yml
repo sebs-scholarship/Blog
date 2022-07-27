@@ -97,7 +97,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Index production site
+      - name: Index site
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll \
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.1.0 \
