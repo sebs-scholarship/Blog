@@ -129,7 +129,7 @@ jobs:
 
       - name: Notify on success
         # If the site was successfully built and indexed
-        if: needs.build.result == 'success' && needs.index.result != 'failure'
+        if: needs.lint.result != 'failure' && needs.build.result != 'failure' && needs.deploy.result != 'failure' && needs.index.result != 'failure'
         uses: appleboy/discord-action@0.0.3
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
