@@ -24,7 +24,7 @@ keywords: home, about
 	</div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 <script>
 	const search = instantsearch({
 		appId: '{{ site.algolia.application_id }}',
@@ -41,7 +41,7 @@ keywords: home, about
 		if (hit._highlightResult.content) content = hit._highlightResult.content.value;
 
 		let date = "date unknown";
-		if (hit.date) date = moment.unix(hit.date).format('MMM DD, YYYY');
+		if (hit.date) date = moment.unix(hit.date).utc().format('MMM DD, YYYY');
 
 		let author = "author unknown";
 		if (hit.author) author = hit.author;
