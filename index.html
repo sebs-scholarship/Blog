@@ -41,7 +41,7 @@ keywords: home, about
 		if (hit._highlightResult.content) content = hit._highlightResult.content.value;
 
 		let date = "date unknown";
-		if (hit.date) date = moment.unix(hit.date).format('MMM DD, YYYY');
+		if (hit.date) date = moment.unix(hit.date).utc().format('MMM DD, YYYY');
 
 		let author = "author unknown";
 		if (hit.author) author = hit.author;
