@@ -144,8 +144,8 @@ jobs:
           echo "SITE_ADDR=https://blog.sebsscholarship.org" >> $GITHUB_ENV
 
       - name: Notify on success
-        # If the site was successfully built and indexed
-        if: needs.lint.result == 'success' && needs.build.result == 'success' && needs.deploy.result == 'success' && needs.index.result == 'success'
+        # If the site was successfully built and indexed and deployed if staging
+        if: needs.lint.result == 'success' && needs.build.result == 'success' && (github.ref_name == 'main' || needs.deploy.result == 'success') && needs.index.result == 'success'
         uses: appleboy/discord-action@0.0.3
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
