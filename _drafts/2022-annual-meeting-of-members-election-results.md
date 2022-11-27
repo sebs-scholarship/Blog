@@ -2,7 +2,7 @@
 title: 2022 Annual Meeting of Members Election Results
 author: Levi Muniz
 keywords: board members, officers, election, 2022
-cover_img: ''
+cover_img: "/assets/images/2022-annual-meeting-of-members-election-results.jpg"
 
 ---
 ## Meet Our New Board of Directors and Officer Team!
