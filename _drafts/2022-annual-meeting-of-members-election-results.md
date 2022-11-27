@@ -7,18 +7,32 @@ cover_img: ''
 ---
 ## Meet Our New Board of Directors and Officer Team!
 
-Levi Muniz
+### Levi Muniz
 
-President
+![Levi Muniz](/assets/images/image000000-2.jpg "Levi Muniz")
 
-Natalie Anderson
+**President**
 
-Vice President
+SEBS Class of 2017
 
-Aaron Duran
+### Natalie Anderson
 
-Treasurer
+**Vice President**
 
-Lucie Sullivan
+SEBS Class of 2017
 
-Board Member
+### Aaron Duran
+
+![Aaron Duran](/assets/images/am_0147.jpg "Aaron Duran")
+
+**Treasurer**
+
+SEBS Class of 2017
+
+### Lucie Sullivan
+
+![Lucie Sullivan](/assets/images/img_3184.JPG "Lucie Sullivan")
+
+**Board Member**
+
+SEBS Class of 2017
