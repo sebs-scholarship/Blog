@@ -15,6 +15,8 @@ cover_img: "/assets/images/2022-annual-meeting-of-members-election-results.jpg"
 
 SEBS Class of 2017
 
+![Natalie Anderson](/assets/images/anderson_headshot-1.jpg "Natalie Anderson")
+
 ### Natalie Anderson
 
 **Vice President**
