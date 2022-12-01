@@ -54,7 +54,7 @@ jobs:
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll \
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.1.0 \
-          /bin/bash -c "chmod 777 /srv/jekyll && bundle exec jekyll build --future ${{ env.XARGS }}"
+          /bin/bash -c "bundle install && chmod 777 /srv/jekyll && bundle exec jekyll build --future ${{ env.XARGS }}"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
@@ -114,7 +114,7 @@ jobs:
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll \
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.1.0 \
-          /bin/bash -c "chmod 777 /srv/jekyll \
+          /bin/bash -c "bundle install && chmod 777 /srv/jekyll \
           && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' bundle exec jekyll algolia --future ${{ env.XARGS }}"
 
   notify:
