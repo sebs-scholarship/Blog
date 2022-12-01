@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem "jekyll", ">= 3.9.2"
 gem "kramdown-parser-gfm", ">= 1.1.0"
+gem "webrick", ">= 1.7.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

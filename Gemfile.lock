@@ -93,6 +93,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     verbal_expressions (0.1.5)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -109,6 +110,7 @@ DEPENDENCIES
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
+  webrick (>= 1.7.0)
 
 BUNDLED WITH
    2.1.4
