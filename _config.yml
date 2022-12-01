@@ -40,6 +40,8 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - scripts
 
 algolia:
   application_id: 0XMIKXGUS3
