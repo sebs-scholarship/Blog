@@ -41,6 +41,7 @@ defaults:
 remote_theme: sebs-scholarship/Theme@2022-01-28-1
 
 exclude:
+  - .github
   - CNAME
   - Gemfile
   - Gemfile.lock
