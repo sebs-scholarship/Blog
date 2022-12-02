@@ -52,9 +52,8 @@ jobs:
 
       - name: Build site
         run: |
-          docker run -v ${{ github.workspace }}:/srv/jekyll \
-          -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.2.2 \
-          /bin/bash -c "bundle install && chmod 777 /srv/jekyll && bundle exec jekyll build --future ${{ env.XARGS }}"
+          docker run -v ${{ github.workspace }}:/srv/jekyll jekyll/builder:4.2.2 /bin/bash -c \
+          "bundle install && chmod 777 /srv/jekyll && bundle exec jekyll build --future ${{ env.XARGS }}"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
@@ -112,10 +111,8 @@ jobs:
 
       - name: Index site
         run: |
-          docker run -v ${{ github.workspace }}:/srv/jekyll \
-          -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:4.2.2 \
-          /bin/bash -c "bundle install && chmod 777 /srv/jekyll \
-          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' bundle exec jekyll algolia --future ${{ env.XARGS }}"
+          docker run -v ${{ github.workspace }}:/srv/jekyll jekyll/builder:4.2.2 /bin/bash -c \
+          "bundle install && chmod 777 /srv/jekyll && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' bundle exec jekyll algolia --future ${{ env.XARGS }}"
 
   notify:
     name: Send job complete notification
