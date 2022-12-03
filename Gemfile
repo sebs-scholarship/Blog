@@ -1,11 +1,17 @@
 source 'https://rubygems.org'
 
+gem "jekyll", ">= 4.3.1"
+gem "kramdown-parser-gfm", ">= 1.1.0"
+gem "webrick", ">= 1.7.0"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-algolia", ">= 1.7.1"
-  gem "jekyll-feed"
-  gem "github-pages", ">= 207"
-  gem "jekyll-sitemap"
+  gem "jekyll-feed", ">= 0.15.1"
+  gem "jekyll-include-cache", ">= 0.2.1"
+  gem "jekyll-relative-links", ">= 0.6.1"
+  gem "jekyll-remote-theme", ">= 0.4.3"
+  gem "jekyll-sitemap", ">= 1.4.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
