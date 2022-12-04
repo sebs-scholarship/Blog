@@ -61,6 +61,9 @@ jobs:
           name: Built Site
           path: ${{ github.workspace }}/_site/
 
+      - name: GitHub Pages Artifact
+        uses: actions/upload-pages-artifact@v1
+
   deploy-staging:
     name: Deploy the staging site
     runs-on: ubuntu-latest
@@ -107,8 +110,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-        with:
-          artifact_name: Built Site
 
   index:
     name: Index the site
