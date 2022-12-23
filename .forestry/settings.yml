@@ -20,7 +20,7 @@ build:
   - JEKYLL_ENV=staging
   preview_output_directory: _site
   install_dependencies_command: apt update -y && apt install imagemagick wget -y &&
-    ln -s /usr/local/bin/convert /usr/local/bin/magick && mkdir ~/.fonts && wget 'https://fonts.google.com/download?family=Montserrat'
+    ln -s /usr/bin/convert /usr/local/bin/magick && mkdir ~/.fonts && wget 'https://fonts.google.com/download?family=Montserrat'
     -O font.zip && unzip font.zip -d ~/.fonts/googlefonts/ && rm font.zip && bundle
     install --path .vendor/bundle
   preview_docker_image: forestryio/ruby:2.7
