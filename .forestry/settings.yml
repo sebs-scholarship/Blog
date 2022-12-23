@@ -21,9 +21,9 @@ build:
   preview_output_directory: _site
   install_dependencies_command: apk add --no-cache imagemagick wget && wget 'https://fonts.google.com/download?family=Montserrat'
     -O font.zip && unzip font.zip -d /usr/share/fonts/googlefonts/ && rm font.zip
-    && chmod 755 /srv/ && cd /srv && bundle install --path .vendor/bundle
-  preview_docker_image: ruby:2.7-alpine
-  mount_path: "/srv"
-  working_dir: "/srv"
+    && chmod 755 /srv/jekyll && bundle install
+  preview_docker_image: jekyll/builder:4.2.2
+  mount_path: "/srv/jekyll"
+  working_dir: "/srv/jekyll"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d _site
