@@ -9,10 +9,11 @@ url: "https://blog.sebsscholarship.org"
 baseurl: ""
 
 plugins:
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-relative-links
+  - jekyll-post-image-generator
   - jekyll-remote-theme
+  - jekyll-relative-links
+  - jekyll-include-cache
+  - jekyll-feed
   - jekyll-sitemap
 
 defaults:
