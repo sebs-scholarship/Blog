@@ -33,7 +33,7 @@ keywords: home, about
 	});
 
 	const hitTemplate = function(hit) {
-		if (!hit.url) return ``;
+		if (!hit.url || !hit._highlightResult) return ``;
 		let title = "";
 		if (hit._highlightResult.title) title = hit._highlightResult.title.value;
 
