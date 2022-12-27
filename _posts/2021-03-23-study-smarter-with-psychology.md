@@ -2,7 +2,6 @@
 title: Study Smarter with Psychology!
 author: Holly Lakin
 keywords: studying, college, freshman
-cover_img: "/assets/images/screen-shot-2021-03-22-at-4-10-18-pm.jpg"
 
 ---
 ### Would you have ever thought that something in class could be practically useful? *faux surprise*

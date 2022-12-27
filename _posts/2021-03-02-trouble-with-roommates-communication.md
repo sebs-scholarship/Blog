@@ -2,7 +2,6 @@
 title: 'Trouble with Roommates: Communication'
 author: Lucie Sullivan
 keywords: College, Tips, Student, Conflict resolution, Roommates
-cover_img: "/assets/images/cover-image-template-3.jpg"
 
 ---
 Roommates. Best friends for life? Or mortal enemies? It is the great roommate roulette that leads to so many broken friendships, hurt feelings, and sinks full of dirty dishes. Even if you and your roommate are close as can be, there are always going to be disagreements.

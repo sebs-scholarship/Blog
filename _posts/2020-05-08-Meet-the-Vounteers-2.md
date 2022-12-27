@@ -2,7 +2,6 @@
 title: Meet the Volunteers, Pt. 2
 author: Holly Lakin
 keywords: volunteers, staff, members
-cover_img: /assets/images/volunteers-cover.jpg
 ---
 
 Meet the rest of our team, and don’t forget: we’d love for you to join us! [Get in contact](https://forms.gle/PGQbzymeGPz1E7U27) with us if you’re interested in volunteering!

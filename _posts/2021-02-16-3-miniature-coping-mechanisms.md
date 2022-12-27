@@ -2,7 +2,6 @@
 title: 3 Miniature Coping Mechanisms
 author: Lucie Sullivan
 keywords: Mental health, Anxiety, Class, College, Homework, Study
-cover_img: "/assets/images/screen-shot-2021-02-16-at-9-13-12-am.jpg"
 
 ---
 2020 was a hard year for everyone, and now our winter blues is in full swing and a new semester has just begun. If you find yourself feeling overwhelmed, anxious, out of it, or just need a brain refresh, here are some tiny coping strategies that can make things a little easier. These are super subtle and quick, so you can even do them in class! (Disclaimer: I’m not a psychologist and I don’t have any mental health training! These are just some strategies that were recommended by a therapist and have helped me)

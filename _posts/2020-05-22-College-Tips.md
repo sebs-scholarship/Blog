@@ -2,7 +2,6 @@
 title: 5 College Tips From SEBS Graduates
 author: Levi Muniz
 keywords: college, tips, advice
-cover_img: /assets/images/5-college-tips.jpg
 ---
 ## Advice From SEBS Graduates
 

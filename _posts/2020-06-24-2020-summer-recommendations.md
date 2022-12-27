@@ -2,7 +2,6 @@
 title: 2020 Summer Recommendations
 author: SSF Team
 keywords: fun
-cover_img: "/assets/images/2020-summer-recs.jpg"
 
 ---
 We asked our team their current go-to podcasts, books, and other ways they're spending their summer in addition to studying, working on the scholarship, and working their day jobs. Here are the recommendations along with comments from their recommenders!

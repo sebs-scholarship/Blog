@@ -2,7 +2,6 @@
 title: The Summer Before College
 author: Holly Lakin
 keywords: college, summer, planning
-cover_img: /assets/images/summer-before.jpg
 ---
 
 Congrats! You’ve graduated high school! Your diploma is in hand, you’ve accepted an offer from a college (or are working

@@ -2,7 +2,6 @@
 title: 2021 SEBS Scholarship is Officially Open!
 author: Lucie Sullivan
 keywords: Scholarship, Announcement, College, Application
-cover_img: "/assets/images/screen-shot-2021-02-01-at-12-17-29-am.jpg"
 
 ---
 ## 2021 SEBS Scholarship is Now Open!

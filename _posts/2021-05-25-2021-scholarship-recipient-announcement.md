@@ -2,7 +2,6 @@
 title: 2021 Scholarship Recipient Announcement
 author: Holly Lakin
 keywords: SEBS Scholarship, SEBS, County, scholarship
-cover_img: "/assets/images/2021recipients.jpg"
 
 ---
 ## Congratulations to the recipients of the 2021 SEBS Scholarship and all the class of 2021!

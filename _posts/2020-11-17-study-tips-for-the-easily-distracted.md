@@ -2,7 +2,6 @@
 title: Study Tips for the Easily Distracted
 author: Lucie Sullivan
 keywords: Study, ADHD, College, Finals, Student, High School, Essay
-cover_img: "/assets/images/screen-shot-2020-11-16-at-8-49-12-pm.png"
 
 ---
 Procrastination is such a common problem, it has become a personality trait for students. Chronic procrastination has been a problem for me for... forever! It’s hard for me to just get started on tasks, and I am very easily distracted once I finally start. It can become a terrible cycle, not feeling smart enough to complete an assignment, delaying, anxiety because the deadline is so close, delaying again, and finally, either rushed work that isn’t my best or giving up all together. After all that is done, I top it off with a big scoop of shame because I’m such a bad student.

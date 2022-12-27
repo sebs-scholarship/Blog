@@ -2,7 +2,6 @@
 title: Meet Our New Vice President
 author: Holly Lakin
 keywords: SEBS Scholarship Foundation, non-profit, foundation
-cover_img: "/assets/images/screen-shot-2020-08-20-at-7-25-53-pm.png"
 
 ---
 A few weeks ago, our Vice President Levi Muniz announced he was stepping down from the Vice Presidency and Board of Directors. He will continue to volunteer for the Foundation and keep up with all the technology aspects. We will miss his leadership, but wish him all the best in his new ventures and going back to classes at the University of Denver!

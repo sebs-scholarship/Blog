@@ -2,7 +2,6 @@
 title: My Coming Out Story
 author: Chris Sefcovic
 keywords: pride, coming out, strength
-cover_img: "/assets/images/screen-shot-2020-10-12-at-10-43-18-pm.jpg"
 
 ---
 In second grade, I remember looking at one of my friends and thinking that he was beautiful. These were feelings that I had never considered for any boys, specifically because the people around me took a “straight until proven otherwise” approach to attraction, like most of our society does. Because I had never heard of boys liking other boys, however, I just buried those feelings and all similar feelings deep down inside myself for years. I assumed that it was bad and unnatural. I thought it was parseltongue.

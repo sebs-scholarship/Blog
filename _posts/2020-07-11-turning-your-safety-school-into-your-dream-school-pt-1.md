@@ -2,7 +2,6 @@
 title: Turning Your Safety School into Your Dream School Pt. 1
 author: Lucie Sullivan
 keywords: college, safety
-cover_img: "/assets/images/screen-shot-2020-07-08-at-1-54-02-pm.png"
 
 ---
 ## Hope When Prospects Are Not Ideal
