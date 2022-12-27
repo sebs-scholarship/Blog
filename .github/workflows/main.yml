@@ -60,7 +60,7 @@ jobs:
           && unzip font.zip -d /usr/share/fonts/googlefonts/ \
           && rm font.zip \
           && bundle install \
-          && chmod 766 /srv/jekyll \
+          && chmod 777 /srv/jekyll \
           && bundle exec jekyll build --future ${{ env.XARGS }}"
 
       - name: Upload artifact
