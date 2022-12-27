@@ -24,5 +24,6 @@ build:
     font.zip -d /usr/share/fonts/googlefonts/ && rm font.zip && chmod 755 /srv/jekyll"
   preview_docker_image: jekyll/builder:4.2.2
   mount_path: "/srv/jekyll"
-  instant_preview_command: /bin/bash -c "bundle install && bundle exec jekyll serve
-    --drafts --unpublished --future --port 8080 --host 0.0.0.0 -d _site"
+  instant_preview_command: /bin/bash -c "export JEKYLL_UID=1001 && export JEKYLL_GID=1001
+    && bundle install && bundle exec jekyll serve --drafts --unpublished --future
+    --port 8080 --host 0.0.0.0 -d _site"
