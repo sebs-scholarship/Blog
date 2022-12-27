@@ -24,5 +24,6 @@ build:
   mount_path: "/srv/jekyll"
   instant_preview_command: /bin/bash -c "apk add --no-cache imagemagick wget && wget
     'https://fonts.google.com/download?family=Montserrat' -O font.zip && unzip font.zip
-    -d /usr/share/fonts/googlefonts/ && rm font.zip && bundle install && bundle exec
-    jekyll serve --drafts --unpublished --future --port 8080 --host 0.0.0.0 -d _site"
+    -d /usr/share/fonts/googlefonts/ && rm font.zip && chmod 777 /srv/jekyll && chmod
+    777 /srv/jekyll/assets/images && bundle install && bundle exec jekyll serve --drafts
+    --unpublished --future --port 8080 --host 0.0.0.0 -d _site"
