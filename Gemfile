@@ -9,7 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-algolia", ">= 1.7.1"
   gem "jekyll-feed", ">= 0.15.1"
   gem "jekyll-include-cache", ">= 0.2.1"
-  gem 'jekyll-post-image-generator', github: 'sebs-scholarship/jekyll-post-image-generator', tag: 'v0.0.4'
+  gem 'jekyll-post-image-generator', github: 'sebs-scholarship/jekyll-post-image-generator', tag: 'v0.0.5'
   gem "jekyll-relative-links", ">= 0.6.1"
   gem "jekyll-remote-theme", ">= 0.4.3"
   gem "jekyll-sitemap", ">= 1.4.0"
