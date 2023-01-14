@@ -3,6 +3,7 @@ layout: default
 ---
 <!-- Load Facebook SDK for JavaScript -->
 {% assign media = "/assets/images/logo-large-min.png" %}
+{% capture gen_image %}{% generated_image_path %}{% endcapture %}
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
 <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
@@ -13,9 +14,12 @@ layout: default
                 <h1 class="title font-weight-normal mb-3">{{ page.title }}</h1>
                 <hr>
                 <br>
-                {% if page.cover_img and page.cover_img != "" %}
+                {% if page.cover_img and page.cover_img != empty and page.cover_img != blank %}
                 {% assign media = page.cover_img %}
                 <img src="{{ page.cover_img }}" alt="Cover Image" class="blog-cover-img mb-5">
+                {% elsif gen_image and gen_image != empty and page.cover_img != blank %}
+                {% assign media = gen_image %}
+                <img src="{{ gen_image }}" alt="Cover Image" class="blog-cover-img mb-5">
                 {% endif %}
                 <div class="text-center post">
                     {{ content }}

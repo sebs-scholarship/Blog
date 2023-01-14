@@ -2,7 +2,6 @@
 title: Last Minute College Decisions
 author: Holly Lakin
 keywords: college, free, decision, tool, resource, choose
-cover_img: "/assets/images/screen-shot-2021-04-27-at-1-20-07-am.jpg"
 
 ---
 With the college decision day fast approaching, it's scary and exciting all at once to think about what comes next. No matter what happens, I wish you all the best! We'll be here with tips and tricks on navigating this season of life, and you can always reach out to us!

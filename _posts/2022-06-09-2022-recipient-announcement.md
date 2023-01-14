@@ -2,7 +2,6 @@
 title: '2022 Recipient Announcement '
 author: ''
 keywords: scholarship, SEBS, announcement, 2022, winner
-cover_img: "/assets/images/cover-image-template-2.png"
 
 ---
 Thank you so much for staying up to date with the happenings of this scholarship and the students it affects! We are happy to announce that this year we received a record number of applications. With 17 total applications, around a third of the senior class applied. We want to thank all the alumni volunteers for their hours spent reviewing each application and making sure every applicant got a fair, full review.

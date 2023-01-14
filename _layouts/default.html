@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% include_cached analytics.html id="UA-153409218-2" %}
+    {% include_cached analytics.html id="G-RST3NWNG95" %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="fb:app_id" content="546340859299297" />
@@ -23,11 +23,14 @@
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ site.description }}">
     {% endif %}
-    {% if page.cover_img %}
-    <meta property="og:image" content="{{ site.url | append: page.cover_img }}" />
-    {% else %}
-    <meta property="og:image" content="{{ site.url | append: "/assets/images/logo-large-min.png" }}" />
+    {% assign media = "/assets/images/logo-large-min.png" %}
+    {% capture gen_image %}{% generated_image_path %}{% endcapture %}
+    {% if page.cover_img and page.cover_img != empty and page.cover_img != blank %}
+    {% assign media = page.cover_img %}
+    {% elsif gen_image and gen_image != empty and page.cover_img != blank %}
+    {% assign media = gen_image %}
     {% endif %}
+    <meta property="og:image" content="{{ media }}" />
     <meta name="keywords" content="sebs scholarship blog, blog, sebs school, school of engineering and biomedical science, sebs scholarship foundation blog, pueblo, charity, {{ page.keywords }}">
     <meta property="og:url" content="{{ site.url | append: page.url }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>

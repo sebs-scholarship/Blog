@@ -2,7 +2,6 @@
 title: SSF Blog Social Update
 author: Levi Muniz
 keywords: facebook, pinterest, update
-cover_img: /assets/images/social-update.jpg
 ---
 
 One of the easiest, but most impactful ways that you can support us is by sharing our content and announcements on

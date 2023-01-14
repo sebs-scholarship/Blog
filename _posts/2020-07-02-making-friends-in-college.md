@@ -2,7 +2,6 @@
 title: Making Friends in College
 author: Holly Lakin
 keywords: college, summer
-cover_img: "/assets/images/screen-shot-2020-07-02-at-12-43-49-am.png"
 
 ---
 Happy Thursday! I hope you are having a wonderful week!

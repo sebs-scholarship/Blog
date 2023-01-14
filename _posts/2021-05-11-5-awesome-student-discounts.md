@@ -2,7 +2,6 @@
 title: 5 Awesome Student Discounts
 author: Lucie Sullivan
 keywords: College, discount, student, music, streaming
-cover_img: "/assets/images/screen-shot-2021-05-11-at-7-30-33-am.png"
 
 ---
 ## Student discounts to take advantage of

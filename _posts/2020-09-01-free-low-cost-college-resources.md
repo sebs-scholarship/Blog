@@ -2,7 +2,6 @@
 title: Free College Resources
 author: Holly Lakin
 keywords: college, organization, resources, freshmen
-cover_img: "/assets/images/screen-shot-2020-08-21-at-4-04-05-pm.png"
 
 ---
 Wondering how in the world you're going to stay on top of assignments? Needing a little help with your english or chemistry homework? We've got you covered, and these resources won't take a bite out of your wallet.

@@ -2,7 +2,6 @@
 title: Turning Your Safety School into Your Dream School Pt. 2
 author: Lucie Sullivan
 keywords: college, safety school
-cover_img: "/assets/images/screen-shot-2020-07-08-at-2-02-22-pm.png"
 
 ---
 Last week I talked about my path since graduating from high school and what I've learned along the way about safety schools and college acceptances. This week I'm sharing more about how you can make a disappointing situation great!
