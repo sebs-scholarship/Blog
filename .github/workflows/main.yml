@@ -43,7 +43,7 @@ jobs:
         run: |
           echo "PAT=${{ secrets.IMAGE_BOT_PAT }}" >> $GITHUB_ENV
 
-      - name: Token configuration (PAT available)
+      - name: Token configuration (PAT unavailable)
         if: github.ref_name != 'main' && github.ref_name != 'staging'
         run: |
           echo "PAT=${{ github.token }}" >> $GITHUB_ENV
