@@ -1,9 +1,10 @@
 ---
 title: 7 Pro-Tips for Your First Week of College
+date: 2020-08-18 00:00:00 Z
 author: Holly Lakin
 keywords: college, college prep, freshmen
-
 ---
+
 Congrats! You're finally here and classes are just around the corner! With so much going on (orientation, move-in, saying goodbye to friends and family, potentially moving hours away from home, etc etc etc) it's normal to get to your first week of classes, assignments, and soon-to-come tests and feel like you still haven't gotten your feet under you.
 
 It's inevitable that at some point you will feel overwhelmed, and that's okay, but here are 7 tips that will help to reduce the terror.

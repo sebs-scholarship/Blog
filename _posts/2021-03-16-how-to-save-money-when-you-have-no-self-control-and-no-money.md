@@ -1,9 +1,10 @@
 ---
 title: How to Save Money When You Have No Self-Control (and no money)
+date: 2021-03-16 00:00:00 Z
 author: Lucie Sullivan
 keywords: Budgeting, Money-saving, College, Student Loans, Credit Card, Starving Student
-
 ---
+
 Search for budgeting and money-saving tips and you’ll find thousands upon thousands of articles. The problem is, these tips are designed for people who actually _have_ money to begin with. As a college student, I jump to pick up pennies, I live off of convenience meals, and my frontal lobe isn’t developed enough to avoid the Starbucks drive-through. It's...a challenge. So here is some legit advice from a real starving student.
 
 DISCLAIMER: I’m not a professional (obviously) please don’t sue me.

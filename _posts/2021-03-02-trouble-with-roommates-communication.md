@@ -1,9 +1,10 @@
 ---
 title: 'Trouble with Roommates: Communication'
+date: 2021-03-02 00:00:00 Z
 author: Lucie Sullivan
 keywords: College, Tips, Student, Conflict resolution, Roommates
-
 ---
+
 Roommates. Best friends for life? Or mortal enemies? It is the great roommate roulette that leads to so many broken friendships, hurt feelings, and sinks full of dirty dishes. Even if you and your roommate are close as can be, there are always going to be disagreements.
 
 Passive aggression is probably the most common problem with roommates. You have busy schedules, and you might not even know each other very well, so we tend to avoid any uncomfortable conversations, even if it’s something small. Try not to use texts and notes as your only form of communication. It may be easier but it can come off as rude or dismissive.

@@ -1,9 +1,10 @@
 ---
 title: '2022 Recipient Announcement '
+date: 2022-06-09 00:00:00 Z
 author: ''
 keywords: scholarship, SEBS, announcement, 2022, winner
-
 ---
+
 Thank you so much for staying up to date with the happenings of this scholarship and the students it affects! We are happy to announce that this year we received a record number of applications. With 17 total applications, around a third of the senior class applied. We want to thank all the alumni volunteers for their hours spent reviewing each application and making sure every applicant got a fair, full review.
 
 The recipient of this year's SEBS Scholarship is Lauren Leyh! Lauren is planning to attend Baylor University to study biochemistry. She is excited to get involved in campus life and start working towards her degree. Upon being asked if she would like to include anything in the newsletter she stated, "I am humbled and grateful to have received the SEBS Scholarship. Thank you to all the donors, volunteers, and foundation members whose hard work made this award possible. I pray that the SEBS Foundation is able to continue making a difference in the lives of SEBS graduates."

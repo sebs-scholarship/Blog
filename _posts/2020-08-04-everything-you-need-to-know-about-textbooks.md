@@ -1,9 +1,10 @@
 ---
 title: Everything You Need to Know About Textbooks
+date: 2020-08-04 00:00:00 Z
 author: Holly Lakin
 keywords: college, resources, money
-
 ---
+
 Textbooks... one of my least favorite things about college just because of how variable the requirements are. So we're going to lay down allll the details today! Do you need them? When should you get them? Where should you get them?
 
 Fear not! Read on, bold student!

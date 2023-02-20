@@ -1,8 +1,10 @@
 ---
 title: 10 Things I Learned My Freshman Year of College
+date: 2020-06-16 00:00:00 Z
 author: Holly Lakin
 keywords: college, freshman
 ---
+
 College. Is. Amazing. Not everything went smoothly my freshman year of college, but it was so much better than I ever imagined! Aside from the actual academic stuff, here are 10 things I learned my freshman year of college:
 
 ## **1. COMMUNITY BATHROOMS AREN’T SO BAD**
