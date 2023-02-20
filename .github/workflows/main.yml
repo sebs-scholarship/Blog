@@ -2,6 +2,9 @@ name: Lint, Build, Deploy, and Index site
 
 on:
   push:
+    branches:
+      - 'staging'
+      - 'main'
   pull_request:
     branches:
       - 'staging'
@@ -38,11 +41,21 @@ jobs:
     needs:
       - lint
     steps:
+      - name: Token configuration (PAT available)
+        if: github.ref_name == 'main' || github.ref_name == 'staging'
+        run: |
+          echo "PAT=${{ secrets.IMAGE_BOT_PAT }}" >> $GITHUB_ENV
+
+      - name: Token configuration (PAT unavailable)
+        if: github.ref_name != 'main' && github.ref_name != 'staging'
+        run: |
+          echo "PAT=${{ github.token }}" >> $GITHUB_ENV
+
       - name: Checkout Code
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.IMAGE_BOT_PAT }}
+          token: ${{ env.PAT }}
 
       - name: Staging site configuration
         if: github.ref_name != 'main'
@@ -73,6 +86,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
 
       - name: Commit images
+        if: github.ref_name == 'main' || github.ref_name == 'staging'
         run: |
           git config core.fileMode false
           git config --global user.name 'SSF Image Bot'
