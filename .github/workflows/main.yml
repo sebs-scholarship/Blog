@@ -37,6 +37,7 @@ jobs:
 
       - name: Lint Code Base
         run: |
+          docker login ghcr.io -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }}
           docker image pull ghcr.io/github/super-linter:slim-v4
           docker run --rm super-linter:slim-v4 \
           -e GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" \
