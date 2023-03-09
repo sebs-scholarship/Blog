@@ -24,6 +24,17 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Load cache
+        uses: actions/cache/restore@v3
+        id: restore-cache
+        with:
+          key: docker-cache-${{ hashFiles('.github/workflows/main.yml') }}
+          path: _depends/docker/
+
+      - name: Load image from cache
+        if: steps.restore-cache.outputs.cache-hit == 'true'
+        run: docker load --i _depends/docker/linter.tar
+
       - name: Lint Code Base
         uses: docker://ghcr.io/github/super-linter:slim-v4
         env:
@@ -34,6 +45,12 @@ jobs:
           VALIDATE_PHP: true
           VALIDATE_JAVASCRIPT_STANDARD: true
           VALIDATE_CSS: true
+
+      - name: Save image to cache
+        if: steps.restore-cache.outputs.cache-hit != 'true'
+        run: |
+          mkdirs _depends/docker/
+          docker save -o _depends/docker/linter.tar super-linter:slim-v4
 
   build:
     name: Build the site
