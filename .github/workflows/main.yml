@@ -36,20 +36,20 @@ jobs:
         run: docker load --i _depends/docker/linter.tar
 
       - name: Lint Code Base
-        uses: docker://ghcr.io/github/super-linter:slim-v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALIDATE_YAML: true
-          VALIDATE_XML: true
-          VALIDATE_BASH: true
-          VALIDATE_PHP: true
-          VALIDATE_JAVASCRIPT_STANDARD: true
-          VALIDATE_CSS: true
+        run: |
+          docker run docker://ghcr.io/github/super-linter:slim-v4 \
+          -e GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" \
+          -e VALIDATE_YAML="true" \
+          -e VALIDATE_XML="true" \
+          -e VALIDATE_BASH="true" \
+          -e VALIDATE_PHP="true" \
+          -e VALIDATE_JAVASCRIPT_STANDARD="true" \
+          -e VALIDATE_CSS="true"
 
       - name: Save image to cache
         if: steps.restore-cache.outputs.cache-hit != 'true'
         run: |
-          mkdirs _depends/docker/
+          mkdir -p _depends/docker/
           docker save -o _depends/docker/linter.tar super-linter:slim-v4
 
   build:
