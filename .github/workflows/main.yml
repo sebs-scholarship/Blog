@@ -37,7 +37,8 @@ jobs:
 
       - name: Lint Code Base
         run: |
-          docker run docker://ghcr.io/github/super-linter:slim-v4 \
+          docker image pull ghcr.io/github/super-linter:slim-v4
+          docker run -rm super-linter:slim-v4 \
           -e GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" \
           -e VALIDATE_YAML="true" \
           -e VALIDATE_XML="true" \
