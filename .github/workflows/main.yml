@@ -37,6 +37,7 @@ jobs:
 
       - name: Lint Code Base
         run: |
+          echo "${GITHUB_WORKSPACE}" && exit 1
           docker image pull github/super-linter:slim-v4
           docker run --rm github/super-linter:slim-v4 \
           -e GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" \
