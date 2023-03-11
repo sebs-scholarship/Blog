@@ -46,11 +46,11 @@ jobs:
           -e VALIDATE_PHP="true" \
           -e VALIDATE_JAVASCRIPT_STANDARD="true" \
           -e VALIDATE_CSS="true" \
-          -e GITHUB_EVENT_PATH="$GITHUB_EVENT_PATH" \
-          -e GITHUB_REPOSITORY="$GITHUB_REPOSITORY" \
-          -e GITHUB_RUN_ID="$GITHUB_RUN_ID" \
-          -e GITHUB_SHA="$GITHUB_SHA" \
-          -e GITHUB_WORKSPACE="$GITHUB_WORKSPACE"
+          -e GITHUB_EVENT_PATH="${{ env.GITHUB_EVENT_PATH }}" \
+          -e GITHUB_REPOSITORY="${{ env.GITHUB_REPOSITORY }}" \
+          -e GITHUB_RUN_ID="${{ env.GITHUB_RUN_ID }}" \
+          -e GITHUB_SHA="${{ env.GITHUB_SHA }}" \
+          -e GITHUB_WORKSPACE="${{ env.GITHUB_WORKSPACE }}"
 
       - name: Save image to cache
         if: steps.restore-cache.outputs.cache-hit != 'true'
