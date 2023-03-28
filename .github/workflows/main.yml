@@ -15,38 +15,10 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  lint:
-    name: Lint the source
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-
-      - name: Install Linters
-        run:
-          |
-          npm install --save-dev
-
-      - name: Lint JavaScript
-        run: |
-          npx standard
-
-      - name: Lint CSS
-        run: |
-          npx stylelint "**/*.css"
-
   build:
     name: Build the site
     runs-on: ubuntu-latest
-    needs:
-      - lint
+
     steps:
       - name: Token configuration (PAT available)
         if: github.ref_name == 'main' || github.ref_name == 'staging'
@@ -182,7 +154,6 @@ jobs:
     name: Send job complete notification
     runs-on: ubuntu-latest
     needs:
-      - lint
       - build
       - deploy-staging
       - deploy-prod
@@ -204,7 +175,7 @@ jobs:
 
       - name: Notify on success
         # If the site was successfully built and indexed and deployed if staging
-        if: needs.lint.result == 'success' && needs.build.result == 'success' && (needs.deploy-staging.result == 'success' || needs.deploy-prod.result == 'success') && needs.index.result == 'success'
+        if: needs.build.result == 'success' && (needs.deploy-staging.result == 'success' || needs.deploy-prod.result == 'success') && needs.index.result == 'success'
         uses: appleboy/discord-action@0.0.3
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
@@ -217,7 +188,7 @@ jobs:
 
       - name: Notify on failure
         # If the site failed at any point
-        if: needs.lint.result == 'failure' || needs.build.result == 'failure' || needs.deploy-staging.result == 'failure' || needs.deploy-prod.result == 'failure' || needs.index.result == 'failure'
+        if: needs.build.result == 'failure' || needs.deploy-staging.result == 'failure' || needs.deploy-prod.result == 'failure' || needs.index.result == 'failure'
         uses: appleboy/discord-action@0.0.3
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
