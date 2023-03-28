@@ -63,6 +63,7 @@ jobs:
 
       - name: GitHub Pages Artifact
         uses: actions/upload-pages-artifact@v1
+        if: github.ref_name == 'main'
 
       - name: Commit images
         if: github.ref_name == 'main' || github.ref_name == 'staging'
