@@ -43,6 +43,13 @@ jobs:
           echo 'User-agent: * Disallow: /' > ${{ github.workspace }}/robots.txt
           sed -i 's_blog.sebsscholarship.org_test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
 
+      - name: Load Gem Cache
+        uses: actions/cache/restore@v3
+        id: gem-cache
+        with:
+          key: gem-cache-${{ hashFiles('Gemfile.lock') }}
+          path: vendor/bundle
+
       - name: Build site
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll -e JEKYLL_UID=1001 -e JEKYLL_GID=1001 \
@@ -51,9 +58,17 @@ jobs:
           && wget 'https://fonts.google.com/download?family=Montserrat' -O font.zip \
           && unzip font.zip -d /usr/share/fonts/googlefonts/ \
           && rm font.zip \
+          && bundle config --local path 'vendor/bundle' \
           && bundle install \
           && chmod 777 /srv/jekyll \
           && bundle exec jekyll build --future ${{ env.XARGS }}"
+
+      - name: Save Gems to Cache
+        uses: actions/cache/save@v3
+        if: steps.gem-cache.outputs.cache-hit != 'true'
+        with:
+          key: ${{ steps.font-cache.outputs.cache-primary-key }}
+          path: vendor/bundle
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
