@@ -24,39 +24,23 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Load cache
-        uses: actions/cache/restore@v3
-        id: restore-cache
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
-          key: docker-cache-${{ hashFiles('.github/workflows/main.yml') }}
-          path: _depends/docker/
+          node-version: 18
 
-      - name: Load image from cache
-        if: steps.restore-cache.outputs.cache-hit == 'true'
-        run: docker load --i _depends/docker/linter.tar
+      - name: Install Linters
+        run:
+          |
+          npm install --save-dev
 
-      - name: Lint Code Base
+      - name: Lint JavaScript
         run: |
-          docker image pull github/super-linter:slim-v4
-          docker run --rm github/super-linter:slim-v4 \
-          -e GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" \
-          -e VALIDATE_YAML="true" \
-          -e VALIDATE_XML="true" \
-          -e VALIDATE_BASH="true" \
-          -e VALIDATE_PHP="true" \
-          -e VALIDATE_JAVASCRIPT_STANDARD="true" \
-          -e VALIDATE_CSS="true" \
-          -e GITHUB_EVENT_PATH="${{ env.GITHUB_EVENT_PATH }}" \
-          -e GITHUB_REPOSITORY="${{ env.GITHUB_REPOSITORY }}" \
-          -e GITHUB_RUN_ID="${{ env.GITHUB_RUN_ID }}" \
-          -e GITHUB_SHA="${{ env.GITHUB_SHA }}" \
-          -e GITHUB_WORKSPACE="${{ env.GITHUB_WORKSPACE }}"
+          npx standard
 
-      - name: Save image to cache
-        if: steps.restore-cache.outputs.cache-hit != 'true'
+      - name: Lint CSS
         run: |
-          mkdir -p _depends/docker/
-          docker save -o _depends/docker/linter.tar super-linter:slim-v4
+          npx stylelint "**/*.css"
 
   build:
     name: Build the site
