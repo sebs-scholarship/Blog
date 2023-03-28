@@ -43,33 +43,14 @@ jobs:
           echo 'User-agent: * Disallow: /' > ${{ github.workspace }}/robots.txt
           sed -i 's_blog.sebsscholarship.org_test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
 
-      - name: Load Font cache
-        uses: actions/cache/restore@v3
-        id: font-cache
-        with:
-          key: font-cache-${{ hashFiles('.github/workflows/main.yml') }}
-          path: _fonts/
-
-      - name: Fetch Font
-        if: steps.font-cache.outputs.cache-hit != 'true'
-        run: |
-          mkdir _fonts/
-          wget 'https://fonts.google.com/download?family=Montserrat' -O _fonts/font.zip
-
-      - name: Save Font to Cache
-        uses: actions/cache/save@v3
-        if: steps.font-cache.outputs.cache-hit != 'true'
-        with:
-          path: _fonts/
-          key: ${{ steps.font-cache.outputs.cache-primary-key }}
-
       - name: Build site
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll -e JEKYLL_UID=1001 -e JEKYLL_GID=1001 \
           jekyll/builder:4.2.2 /bin/bash -c \
           "apk add --no-cache imagemagick wget \
-          && unzip _fonts/font.zip -d /usr/share/fonts/googlefonts/ \
-          && rm -rf _fonts \
+          && wget 'https://fonts.google.com/download?family=Montserrat' -O font.zip \
+          && unzip font.zip -d /usr/share/fonts/googlefonts/ \
+          && rm font.zip \
           && bundle install \
           && chmod 777 /srv/jekyll \
           && bundle exec jekyll build --future ${{ env.XARGS }}"
