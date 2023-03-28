@@ -48,7 +48,7 @@ jobs:
         id: gem-cache
         with:
           key: gem-cache-${{ hashFiles('Gemfile.lock') }}
-          path: vendor/bundle
+          path: _vendor/bundle
 
       - name: Build site
         run: |
@@ -58,7 +58,7 @@ jobs:
           && wget 'https://fonts.google.com/download?family=Montserrat' -O font.zip \
           && unzip font.zip -d /usr/share/fonts/googlefonts/ \
           && rm font.zip \
-          && bundle config --local path 'vendor/bundle' \
+          && bundle config --local path '_vendor/bundle' \
           && bundle install \
           && chmod 777 /srv/jekyll \
           && bundle exec jekyll build --future ${{ env.XARGS }}"
@@ -68,7 +68,7 @@ jobs:
         if: steps.gem-cache.outputs.cache-hit != 'true'
         with:
           key: ${{ steps.font-cache.outputs.cache-primary-key }}
-          path: vendor/bundle
+          path: _vendor/bundle
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
