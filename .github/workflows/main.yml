@@ -67,7 +67,7 @@ jobs:
         uses: actions/cache/save@v3
         if: steps.gem-cache.outputs.cache-hit != 'true'
         with:
-          key: ${{ steps.font-cache.outputs.cache-primary-key }}
+          key: ${{ steps.gem-cache.outputs.cache-primary-key }}
           path: _vendor/bundle
 
       - name: Upload artifact
