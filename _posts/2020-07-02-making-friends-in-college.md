@@ -1,9 +1,10 @@
 ---
 title: Making Friends in College
+date: 2020-07-02 00:00:00 Z
 author: Holly Lakin
 keywords: college, summer
-
 ---
+
 Happy Thursday! I hope you are having a wonderful week!
 
 I've said this before and I'll say it again: my college years have been some of the best years of my life. I strongly believe a lot of my good experiences have been thanks to the amazing friends I've made here.

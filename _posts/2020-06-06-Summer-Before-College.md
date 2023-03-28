@@ -1,5 +1,6 @@
 ---
 title: The Summer Before College
+date: 2020-06-06 00:00:00 Z
 author: Holly Lakin
 keywords: college, summer, planning
 ---

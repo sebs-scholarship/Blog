@@ -1,8 +1,10 @@
 ---
 title: 5 College Tips From SEBS Graduates
+date: 2020-05-22 00:00:00 Z
 author: Levi Muniz
 keywords: college, tips, advice
 ---
+
 ## Advice From SEBS Graduates
 
 As an organization founded and operated by prior SEBS graduates, we've collectively had many very different college experiences.

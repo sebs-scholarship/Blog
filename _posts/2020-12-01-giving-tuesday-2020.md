@@ -1,9 +1,10 @@
 ---
 title: Giving Tuesday 2020
+date: 2020-12-01 00:00:00 Z
 author: Holly Lakin
 keywords: non-profit, giving, charity, fundraising, scholarship
-
 ---
+
 Hey y'all! I hope you've had a fantastic holiday weekend! Today is the last of a series of modern festive days, following Thanksgiving, Black Friday, Small Business Saturday, and Cyber Monday. Today is GIVING TUESDAY!
 
 ### What is Giving Tuesday?

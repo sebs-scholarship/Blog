@@ -1,9 +1,10 @@
 ---
 title: 5 Questions to Help You Think Critically
+date: 2021-06-22 00:00:00 Z
 author: Holly Lakin
 keywords: critical thinking, college, skill
-
 ---
+
 Critical thinking is a common skill that schools try to teach and quantify at all levels. While not stated explicitly outside of education, critical thinking is also a super important skill in the workforce and general life.
 
 Ask these questions when you're trying to think more critically about a situation:

@@ -1,9 +1,10 @@
 ---
 title: Turning Your Safety School into Your Dream School Pt. 1
+date: 2020-07-11 00:00:00 Z
 author: Lucie Sullivan
 keywords: college, safety
-
 ---
+
 ## Hope When Prospects Are Not Ideal
 
 When I graduated from high school in 2017, I was so relieved; the work was over and I had the grades and honors that my mom could brag about.

@@ -1,10 +1,11 @@
 ---
 title: Pre-Med Glossary
+date: 2023-03-28 23:53:43.238000000 Z
 author: Holly Lakin
 keywords: pre-med, amcas, aacomas, medical
 cover_img: ''
-
 ---
+
 **AAMC:** Association of American Medical Colleges. They make the MCAT (see below) and accredit MD schools.
 
 **MCAT:** Medical College Admission Test. Too long (7.5 hours) and has 4 sections covering Chemistry/Physics, Psychology/Sociology, Biology/Biochemistry, and CARS (Critical Analysis & Reasoning)
