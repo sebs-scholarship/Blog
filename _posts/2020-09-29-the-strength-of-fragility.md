@@ -1,11 +1,10 @@
 ---
 title: Finding Strength in Fragility
-date: 2020-09-29 00:00:00 Z
 author: Chris Sefcovic
 keywords: mental health, college, planning
 cover_img: "/assets/images/strength-in-fragility.jpg"
----
 
+---
 When I entered college, I decided to double major in Military Science and Leadership and Vocal Performance and minor in Education. Being very outwardly unaware of my own personal strengths and weaknesses, however, I caused my academic career, my personal life, and myself significant damage. I am writing this post to hopefully help someone realize their own limits and grow successfully through college.
 
 ## Respecting Your Limits

@@ -1,10 +1,9 @@
 ---
 title: The First Thing You Should Do With Your Roommate
-date: 2021-03-09 00:00:00 Z
 author: Holly Lakin
 keywords: college life, freshman, roommates, student life
----
 
+---
 Whether you've been best friends for years or just met 2 minutes ago, you and your roommate should do one thing above all else, even if it isn't fun:
 
 ## Make some rules

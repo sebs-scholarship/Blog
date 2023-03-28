@@ -1,10 +1,9 @@
 ---
 title: 3 Ways to be an Ally to Indigenous People
-date: 2020-11-24 00:00:00 Z
 author: Lucie Sullivan
 keywords: Native American, Indigenous, Thanksgiving
----
 
+---
 In 1621, the Pilgrims celebrated their first successful harvest in America. This celebration was attended by ancestors of the Wampanoag tribe. Although it didn’t occur exactly as your middle-school history book told you, it did represent a moment of peace between indigenous people and colonizers (Salam, New York Times 2017). Now, Thanksgiving represents family, gratitude and charity. Or just football and mashed potatoes, depending on your perspective. Thanksgiving can also be an opportunity to learn more about indigenous people and the challenges they face today. In fact, all of November is Native American Heritage Month! Here’s a few things you can do to learn about and support native people this November.
 
 **Educate yourself**

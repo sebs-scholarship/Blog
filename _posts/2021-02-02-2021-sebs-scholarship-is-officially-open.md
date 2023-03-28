@@ -1,10 +1,9 @@
 ---
 title: 2021 SEBS Scholarship is Officially Open!
-date: 2021-02-02 00:00:00 Z
 author: Lucie Sullivan
 keywords: Scholarship, Announcement, College, Application
----
 
+---
 ## 2021 SEBS Scholarship is Now Open!
 
 We are excited to announce that the 2021 SEBS Scholarship application is now open! We would like to encourage every SEBS Senior to take advantage of this opportunity. Since our selection pool is so small, you have a great chance to be our 2021 scholarship recipient!

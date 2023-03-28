@@ -1,11 +1,10 @@
 ---
 title: A Practical Guide to Managing Mental Illness in College
-date: 2020-09-22 00:00:00 Z
 author: Lucie Sullivan
 keywords: college, mental health
 cover_img: "/assets/images/managing-mental-illness.jpg"
----
 
+---
 Hi! My name is Lucie, I’m 21, a junior biology major, and I have anxiety and depression. Managing my mental health has been one of the biggest hurdles in my transition into adulthood. Here’s what I’ve learned so far.
 
 ![Lucie](/assets/images/lucie-1.jpg)

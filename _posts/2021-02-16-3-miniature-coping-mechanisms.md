@@ -1,10 +1,9 @@
 ---
 title: 3 Miniature Coping Mechanisms
-date: 2021-02-16 00:00:00 Z
 author: Lucie Sullivan
 keywords: Mental health, Anxiety, Class, College, Homework, Study
----
 
+---
 2020 was a hard year for everyone, and now our winter blues is in full swing and a new semester has just begun. If you find yourself feeling overwhelmed, anxious, out of it, or just need a brain refresh, here are some tiny coping strategies that can make things a little easier. These are super subtle and quick, so you can even do them in class! (Disclaimer: I’m not a psychologist and I don’t have any mental health training! These are just some strategies that were recommended by a therapist and have helped me)
 
 1. Box Breathing: When I feel my heart start to jump with anxiety, I like to use box breathing to sloooooow down. Inhale deeply and count slowly to 4. Hold your breath for another 4 counts, then slowly release for 4 counts, and hold your breath again 1...2...3...4… Repeat 4 times. I can actually feel my heart rate decrease when I do this!

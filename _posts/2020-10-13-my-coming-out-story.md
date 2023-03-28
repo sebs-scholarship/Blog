@@ -1,10 +1,9 @@
 ---
 title: My Coming Out Story
-date: 2020-10-13 00:00:00 Z
 author: Chris Sefcovic
 keywords: pride, coming out, strength
----
 
+---
 In second grade, I remember looking at one of my friends and thinking that he was beautiful. These were feelings that I had never considered for any boys, specifically because the people around me took a “straight until proven otherwise” approach to attraction, like most of our society does. Because I had never heard of boys liking other boys, however, I just buried those feelings and all similar feelings deep down inside myself for years. I assumed that it was bad and unnatural. I thought it was parseltongue.
 
 I didn’t have any experiences with LGBTQ+ until middle school. In middle school, “gay” was the worst thing someone could be. There was one boy who said he was gay, specifically just to give the bullies nothing to mess with him about, and he was so heavily bullied and excluded within the school that someone cut off his hair in class and the teacher did nothing. I was terrified. I internalized a lot of self-hatred and anger because I was being bullied and I thought I deserved more. This kid wasn’t even gay, but he was being bullied, and here I was, liking guys, and I wasn’t nearly as bullied. I hated myself because I was this thing that the kids around me hated so badly. I hated everything.

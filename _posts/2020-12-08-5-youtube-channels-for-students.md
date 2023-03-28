@@ -1,10 +1,9 @@
 ---
 title: 5 YouTube Channels for Students
-date: 2020-12-08 00:00:00 Z
 author: Lucie Sullivan
 keywords: College, Tips, Study, ADHD, Motivation, Calculus, Movies, Money tips, Finance
----
 
+---
 ## 5 Youtube Channels for College Students
 
 My FAVORITE way to learn is through YouTube videos- what can I say, I love being ‘spoon fed.’ Here are 5 YouTube channels that have given me legit life advice.

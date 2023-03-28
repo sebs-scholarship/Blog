@@ -1,6 +1,5 @@
 ---
 title: Meet the Volunteers, Pt. 2
-date: 2020-05-08 00:00:00 Z
 author: Holly Lakin
 keywords: volunteers, staff, members
 ---

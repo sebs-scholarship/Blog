@@ -1,10 +1,9 @@
 ---
 title: Dear 2020 College Freshmen, We're Sorry
-date: 2020-08-11 00:00:00 Z
 author: Holly Lakin
 keywords: college, freshman
----
 
+---
 I don't think anyone in recent memory has navigated going to college in a pandemic of this scope in this modern society. For all the 2020 high school graduates, I am sorry you had to miss or have a highly modified graduation ceremony. This does not diminish your achievement, and I hope you never feel like it has.
 
 As a rising college senior, I've been thinking a lot lately about the coming year on campus. It is typically the seniors and juniors who take on a lot of the leadership roles on college campuses, but I can't help but think that this year, we will fail in many ways. **So I want to address the underclassmen, particularly you incoming freshmen:**

@@ -1,10 +1,9 @@
 ---
 title: 2022 Annual Meeting of Members Election Results
-date: 2022-11-29 00:00:00 Z
 author: Levi Muniz
 keywords: board members, officers, election, 2022
----
 
+---
 ## Meet Our New Board of Directors and Officer Team!
 
 ![Levi Muniz](/assets/images/image000000-2.jpg "Levi Muniz")

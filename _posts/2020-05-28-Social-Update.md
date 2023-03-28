@@ -1,6 +1,5 @@
 ---
 title: SSF Blog Social Update
-date: 2020-05-28 00:00:00 Z
 author: Levi Muniz
 keywords: facebook, pinterest, update
 ---

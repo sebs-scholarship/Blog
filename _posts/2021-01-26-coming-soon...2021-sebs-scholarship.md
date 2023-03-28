@@ -1,11 +1,10 @@
 ---
 title: Coming Soon... 2021 SEBS Scholarship
-date: 2021-01-26 00:00:00 Z
 author: Holly Lakin
 keywords: SEBS scholarship, application, scholarships
 cover_img: "/assets/images/screen-shot-2021-01-25-at-12-41-38-pm.jpg"
----
 
+---
 ### We bring you this important message today to announce that the 2021 SEBS Scholarship will open for applications next week!
 
 The second annual SEBS Scholarship will open its application on **Monday, February 1, 2021**. The scholarship is open to SEBS seniors who meet the minimum requirements listed [here on our website](https://sebsscholarship.org/#section-details "eligibility").

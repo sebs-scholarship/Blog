@@ -1,7 +1,6 @@
 ---
-layout: 
+layout: null
 ---
-
 User-Agent: *
 Disallow: /examples/
 Sitemap: {{ "sitemap.xml" | absolute_url }}

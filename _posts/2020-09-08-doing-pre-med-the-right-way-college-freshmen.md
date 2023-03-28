@@ -1,11 +1,10 @@
 ---
 title: 'Doing Pre-Med the Right Way: College Freshman edition'
-date: 2020-09-08 00:00:00 Z
 author: Holly Lakin
 keywords: freshman, pre-med, college
 cover_img: "/assets/images/screen-shot-2020-09-07-at-11-33-18-am.png"
----
 
+---
 Many freshmen enter college with lofty goals, including oodles of biology-savvy 18-year-olds who are dead-set on going to medical school… until they're not. Don't worry -- I was one of those freshmen! I've seen dozens of my classmates over the last few years dropping the pre-med and there were many days and weeks when even I contemplated giving up on that "pre-med" dream. Why? I think there are two main reasons: 1) college is hard, and 2) people have a variety of experiences and personal growth and eventually decide that becoming a physician is not really what they want to do.
 
 All of that is okay, and I think it's good to recognize that your goals and passions can and will change over time. But if you are thinking the med route (yay!), this post is for you. The difficult thing about wanting to become a doctor is that it really is a marathon, not a sprint. If you expect to get to your junior year and magically be ready to take the MCAT (Medical College Admission Test) and apply to medical schools, you will be woefully unprepared and overwhelmed. However, by accepting that the process is more like making a meal in a crock-pot than a microwave, you will be more prepared and can give yourself the freedom of flexibility in your plans. All that being said, I recommend you read the rest of this article knowing that everyone's journey is different.

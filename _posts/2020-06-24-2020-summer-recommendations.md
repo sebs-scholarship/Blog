@@ -1,10 +1,9 @@
 ---
 title: 2020 Summer Recommendations
-date: 2020-06-24 00:00:00 Z
 author: SSF Team
 keywords: fun
----
 
+---
 We asked our team their current go-to podcasts, books, and other ways they're spending their summer in addition to studying, working on the scholarship, and working their day jobs. Here are the recommendations along with comments from their recommenders!
 
 \*Disclaimer: these recommendations are from individual volunteers and do not represent the views of the SEBS Scholarship Foundation.
