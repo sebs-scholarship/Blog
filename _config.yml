@@ -54,5 +54,3 @@ algolia:
   settings:
     attributesToSnippet:
     - content:50
-author: unknown
-keywords: test1, test2
