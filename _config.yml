@@ -1,6 +1,6 @@
 ---
 title: SSF Blog
-timezone: UTC
+timezone: America/Denver
 collections:
   posts:
     title: Posts
