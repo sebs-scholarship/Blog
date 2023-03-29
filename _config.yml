@@ -31,7 +31,7 @@ description: The SSF blog is the place to go for all sorts of SEBS Scholarship F
   news! Here you can find scholarship updates, volunteering news, announcements, and
   other fun information we'd like to share!
 url: https://blog.sebsscholarship.org
-baseurl: ''
+baseurl: 
 plugins:
 - jekyll-post-image-generator
 - jekyll-remote-theme
