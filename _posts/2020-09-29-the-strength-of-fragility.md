@@ -1,6 +1,6 @@
 ---
 title: Finding Strength in Fragility
-date: 2020-09-29 00:00:00 Z
+date: 2020-09-28 18:00:00 -06:00
 author: Chris Sefcovic
 keywords: mental health, college, planning
 cover_image: "/assets/images/strength-in-fragility.jpg"

@@ -1,6 +1,6 @@
 ---
 title: A Practical Guide to Managing Mental Illness in College
-date: 2020-09-22 00:00:00 Z
+date: 2020-09-21 18:00:00 -06:00
 author: Lucie Sullivan
 keywords: college, mental health
 cover_image: "/assets/images/managing-mental-illness.jpg"

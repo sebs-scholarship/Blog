@@ -1,6 +1,6 @@
 ---
 title: 'Becoming an RA:  A Campus Job that Builds Life Skills and Covers Housing'
-date: 2022-03-14 00:00:00 Z
+date: 2022-03-13 18:00:00 -06:00
 author: Natalie Anderson
 keywords: RA, college, scholarship, student jobs, financial aid, campus life, reslife,
   dorms, university

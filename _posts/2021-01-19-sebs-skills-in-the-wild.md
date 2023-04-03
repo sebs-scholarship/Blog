@@ -1,6 +1,6 @@
 ---
 title: SEBS Skills in the Wild
-date: 2021-01-19 00:00:00 Z
+date: 2021-01-18 17:00:00 -07:00
 author: Holly Lakin
 keywords: SEBS, high school, biomedical science, engineering, college, premed
 cover_image: "/assets/images/screen-shot-2021-01-17-at-7-08-53-pm.jpg"

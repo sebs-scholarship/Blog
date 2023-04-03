@@ -1,6 +1,6 @@
 ---
 title: Happy Holidays from the SSF Team!
-date: 2020-12-21 00:00:00 Z
+date: 2020-12-20 17:00:00 -07:00
 author: SSF Team
 keywords: holidays, Giving Tuesday
 cover_image: "/assets/images/127242376_152331336589837_7029298521391985404_n.jpg"

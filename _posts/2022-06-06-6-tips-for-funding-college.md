@@ -1,6 +1,6 @@
 ---
 title: 6 Tips for Funding College
-date: 2022-06-06 00:00:00 Z
+date: 2022-06-05 18:00:00 -06:00
 author: Natalie Anderson
 keywords: college, scholarships, university, student loans
 cover_image: "/assets/images/cover-image-template-1.png"

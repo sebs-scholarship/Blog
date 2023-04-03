@@ -1,6 +1,6 @@
 ---
 title: Less Than 1 Week Left...
-date: 2021-02-23 00:00:00 Z
+date: 2021-02-22 17:00:00 -07:00
 author: Holly Lakin
 keywords: SEBS scholarship
 cover_image: "/assets/images/screen-shot-2021-02-21-at-2-16-53-pm.jpg"

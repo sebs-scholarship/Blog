@@ -1,6 +1,6 @@
 ---
 title: 'Finals: We''re all in this together'
-date: 2021-04-19 00:00:00 Z
+date: 2021-04-18 18:00:00 -06:00
 author: Lucie Sullivan
 keywords: Final, exam, college, study, suicide prevention, student
 cover_image: "/assets/images/finalsweek.jpg"

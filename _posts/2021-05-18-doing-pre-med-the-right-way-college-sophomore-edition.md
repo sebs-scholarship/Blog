@@ -1,6 +1,6 @@
 ---
 title: 'Doing Pre-Med the Right Way: College Sophomore edition'
-date: 2021-05-18 00:00:00 Z
+date: 2021-05-17 18:00:00 -06:00
 author: Holly Lakin
 keywords: college, pre-med, sophomore, second year
 cover_image: "/assets/images/premed-soph.jpg"

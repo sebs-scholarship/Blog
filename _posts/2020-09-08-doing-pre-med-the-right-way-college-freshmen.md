@@ -1,6 +1,6 @@
 ---
 title: 'Doing Pre-Med the Right Way: College Freshman edition'
-date: 2020-09-08 00:00:00 Z
+date: 2020-09-07 18:00:00 -06:00
 author: Holly Lakin
 keywords: freshman, pre-med, college
 cover_image: "/assets/images/screen-shot-2020-09-07-at-11-33-18-am.png"

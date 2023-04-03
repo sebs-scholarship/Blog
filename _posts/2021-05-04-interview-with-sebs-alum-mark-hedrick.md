@@ -1,6 +1,6 @@
 ---
 title: Interview with SEBS Alumnus Mark Hedrick
-date: 2021-05-04 00:00:00 Z
+date: 2021-05-03 18:00:00 -06:00
 author: Holly Lakin
 keywords: alumni, interview, SEBS, job
 cover_image: "/assets/images/cover-image-template-4.jpg"

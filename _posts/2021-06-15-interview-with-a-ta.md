@@ -1,6 +1,6 @@
 ---
 title: Interview with a TA
-date: 2021-06-15 00:00:00 Z
+date: 2021-06-14 18:00:00 -06:00
 author: Lucie Sullivan, Nikki Smith
 keywords: TA, College, college jobs, university, study
 cover_image: "/assets/images/sorry-levi.jpg"

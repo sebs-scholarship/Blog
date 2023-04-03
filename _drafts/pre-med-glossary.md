@@ -1,6 +1,6 @@
 ---
 title: Pre-Med Glossary
-date: 2023-02-20 23:42:35 Z
+date: 2023-02-20 16:42:35 -07:00
 author: Holly Lakin
 keywords: pre-med, amcas, aacomas, medical
 cover_image: ''

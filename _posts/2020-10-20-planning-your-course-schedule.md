@@ -1,6 +1,6 @@
 ---
 title: Planning Your Course Schedule
-date: 2020-10-20 00:00:00 Z
+date: 2020-10-19 18:00:00 -06:00
 author: Holly Lakin
 keywords: college, schedule, organization
 cover_image: "/assets/images/screen-shot-2020-10-10-at-6-41-19-pm.jpg"

@@ -1,6 +1,6 @@
 ---
 title: 'Inside SSF: Keeping Costs Low'
-date: 2020-05-04 00:00:00 Z
+date: 2020-05-03 18:00:00 -06:00
 keywords: nonprofit, open source, budgeting, expenses
 author: Levi Muniz
 cover_image: "/assets/images/savings-cover.jpg"
