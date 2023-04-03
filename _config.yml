@@ -17,6 +17,8 @@ defaults:
     is_post: true
     author: ''
     keywords: ''
+    cover_image: ''
+    cover_image_text: ''
 - scope:
     path: assets
   values:

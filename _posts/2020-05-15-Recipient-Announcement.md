@@ -3,7 +3,7 @@ title: 2020 SEBS Scholarship Recipient Announcement
 date: 2020-05-15 00:00:00 Z
 author: Holly Lakin
 keywords: scholarship, recipient, announcement, 2020
-cover_img: "/assets/images/2020-recipient-announcement.jpg"
+cover_image: "/assets/images/2020-recipient-announcement.jpg"
 ---
 
 ## Announcing the 2020 SEBS Scholarship Recipient…

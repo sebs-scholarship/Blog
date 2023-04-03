@@ -25,9 +25,9 @@
     {% endif %}
     {% assign media = "/assets/images/logo-large-min.png" %}
     {% capture gen_image %}{% generated_image_path %}{% endcapture %}
-    {% if page.cover_img and page.cover_img != empty and page.cover_img != blank %}
-    {% assign media = page.cover_img %}
-    {% elsif gen_image and gen_image != empty and page.cover_img != blank %}
+    {% if page.cover_image and page.cover_image != empty and page.cover_image != blank %}
+    {% assign media = page.cover_image %}
+    {% elsif gen_image and gen_image != empty and gen_image != blank %}
     {% assign media = gen_image %}
     {% endif %}
     <meta property="og:image" content="{{ media }}" />

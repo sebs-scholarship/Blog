@@ -3,7 +3,7 @@ title: Interview with a TA
 date: 2021-06-15 00:00:00 Z
 author: Lucie Sullivan, Nikki Smith
 keywords: TA, College, college jobs, university, study
-cover_img: "/assets/images/sorry-levi.jpg"
+cover_image: "/assets/images/sorry-levi.jpg"
 ---
 
 ## The DL from a TA

@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/sebs-scholarship/jekyll-post-image-generator.git
-  revision: 0b526368bc555bfe89d6c727925594a4a051e95a
-  tag: v0.0.6
+  revision: 5aea9637d313bcb125b5628327b394fd4054c60f
+  tag: v0.0.7
   specs:
     jekyll-post-image-generator (0.0.1)
       jekyll (>= 4.3.1)

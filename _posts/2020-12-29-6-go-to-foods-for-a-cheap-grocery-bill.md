@@ -3,7 +3,7 @@ title: 6 Go-to Foods for a Cheap Grocery Bill
 date: 2020-12-29 00:00:00 Z
 author: Lucie Sullivan
 keywords: Shopping, Budget, Grocery, Cheap, Cheap meals
-cover_img: "/assets/images/screen-shot-2020-12-28-at-8-25-03-pm.jpg"
+cover_image: "/assets/images/screen-shot-2020-12-28-at-8-25-03-pm.jpg"
 ---
 
 If you’re anything like me, you spent way too much on holiday gifts for your friends and family, and looking at your bank account gives you heart palpitations. You still gotta eat! So here’s my go-to foods to keep you full and out of bankruptcy.

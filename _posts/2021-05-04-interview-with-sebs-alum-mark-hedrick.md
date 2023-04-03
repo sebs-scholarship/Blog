@@ -3,7 +3,7 @@ title: Interview with SEBS Alumnus Mark Hedrick
 date: 2021-05-04 00:00:00 Z
 author: Holly Lakin
 keywords: alumni, interview, SEBS, job
-cover_img: "/assets/images/cover-image-template-4.jpg"
+cover_image: "/assets/images/cover-image-template-4.jpg"
 ---
 
 Recently, I got the chance to chat and catch up with my former SEBS classmate Mark Hedrick, who has since graduated from CSU-P with a Bachelor's degree in Computer Information Systems. Mark is an incredibly accomplished alumnus, and he had some great experiences and advice to share, including some surprises!

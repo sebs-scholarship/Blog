@@ -4,7 +4,7 @@ date: 2022-03-14 00:00:00 Z
 author: Natalie Anderson
 keywords: RA, college, scholarship, student jobs, financial aid, campus life, reslife,
   dorms, university
-cover_img: "/assets/images/22_0313-cover-image.jpg"
+cover_image: "/assets/images/22_0313-cover-image.jpg"
 ---
 
 One of the most expensive parts of going to schools away from home can be housing and groceries. If family is not able to support that cost, this can be one of the most daunting parts of paying for college. There are many ways to navigate this cost, like getting part time jobs between classes or living in university housing so part of that is covered in student loans. I am going to tell you about how I covered this expense and found an amazing community of people by becoming an RA.

@@ -3,7 +3,7 @@ title: 'Doing Pre-Med the Right Way: College Sophomore edition'
 date: 2021-05-18 00:00:00 Z
 author: Holly Lakin
 keywords: college, pre-med, sophomore, second year
-cover_img: "/assets/images/premed-soph.jpg"
+cover_image: "/assets/images/premed-soph.jpg"
 ---
 
 This post is part 2 of "Doing Pre-Med the Right Way." You can find part 1 [here](https://blog.sebsscholarship.org/2020/09/08/doing-pre-med-the-right-way-college-freshmen.html)!

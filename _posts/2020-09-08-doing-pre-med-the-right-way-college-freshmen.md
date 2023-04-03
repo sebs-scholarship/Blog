@@ -3,7 +3,7 @@ title: 'Doing Pre-Med the Right Way: College Freshman edition'
 date: 2020-09-08 00:00:00 Z
 author: Holly Lakin
 keywords: freshman, pre-med, college
-cover_img: "/assets/images/screen-shot-2020-09-07-at-11-33-18-am.png"
+cover_image: "/assets/images/screen-shot-2020-09-07-at-11-33-18-am.png"
 ---
 
 Many freshmen enter college with lofty goals, including oodles of biology-savvy 18-year-olds who are dead-set on going to medical school… until they're not. Don't worry -- I was one of those freshmen! I've seen dozens of my classmates over the last few years dropping the pre-med and there were many days and weeks when even I contemplated giving up on that "pre-med" dream. Why? I think there are two main reasons: 1) college is hard, and 2) people have a variety of experiences and personal growth and eventually decide that becoming a physician is not really what they want to do.

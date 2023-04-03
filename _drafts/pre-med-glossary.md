@@ -3,7 +3,7 @@ title: Pre-Med Glossary
 date: 2023-02-20 23:42:35 Z
 author: Holly Lakin
 keywords: pre-med, amcas, aacomas, medical
-cover_img: ''
+cover_image: ''
 ---
 
 **AAMC:** Association of American Medical Colleges. They make the MCAT (see below) and accredit MD schools.
