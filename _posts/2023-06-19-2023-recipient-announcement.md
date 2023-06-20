@@ -1,6 +1,6 @@
 ---
-title: '2023 SEBS Scholarship Recipient Announcement'
-date: 2023-06-19 12:00:00 Z
+title: 2023 SEBS Scholarship Recipient Announcement
+date: 2023-06-19 06:00:00 -06:00
 author: Levi Muniz
 keywords: scholarship, SEBS, announcement, 2023, winner
 ---
