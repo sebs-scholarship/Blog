@@ -1,58 +1,60 @@
+---
 title: SSF Blog
-
-description: >-
-  The SSF blog is the place to go for all sorts of SEBS Scholarship Foundation news! Here you can find scholarship
-  updates, volunteering news, announcements, and other fun information we'd like to share!
-
-url: "https://blog.sebsscholarship.org"
-
-baseurl: ""
-
-plugins:
-  - jekyll-post-image-generator
-  - jekyll-remote-theme
-  - jekyll-relative-links
-  - jekyll-include-cache
-  - jekyll-feed
-  - jekyll-sitemap
-
+timezone: America/Denver
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      is_post: true
-  -
-    scope:
-      path: "assets"
-    values:
-      sitemap: false
-  - scope:
-      path: "examples"
-    values:
-      sitemap: false
-  -
-    scope:
-      path: "admin"
-    values:
-      sitemap: false
-
-remote_theme: sebs-scholarship/Theme@2023-02-19-1
-
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    is_post: true
+    author: ''
+    keywords: ''
+    cover_image: ''
+    cover_image_text: ''
+- scope:
+    path: assets
+  values:
+    sitemap: false
+- scope:
+    path: examples
+  values:
+    sitemap: false
+- scope:
+    path: admin
+  values:
+    sitemap: false
+description: The SSF blog is the place to go for all sorts of SEBS Scholarship Foundation
+  news! Here you can find scholarship updates, volunteering news, announcements, and
+  other fun information we'd like to share!
+url: https://blog.sebsscholarship.org
+baseurl: 
+plugins:
+- jekyll-post-image-generator
+- jekyll-remote-theme
+- jekyll-relative-links
+- jekyll-include-cache
+- jekyll-feed
+- jekyll-sitemap
+remote_theme: sebs-scholarship/Theme@2023-04-05-1
 exclude:
-  - .github
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - scripts
-
+- ".github"
+- CNAME
+- Gemfile
+- Gemfile.lock
+- README.md
+- scripts
 algolia:
   application_id: 0XMIKXGUS3
   index_name: blog.sebsscholarship.org
   search_only_api_key: d300e661126b8f0edd61bfee928c7730
   settings:
     attributesToSnippet:
-      - content:50
+    - content:50

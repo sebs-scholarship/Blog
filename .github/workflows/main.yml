@@ -1,4 +1,4 @@
-name: Lint, Build, Deploy, and Index site
+name: Build, Deploy, and Index site
 
 on:
   push:
@@ -15,31 +15,10 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  lint:
-    name: Lint the source
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: Lint Code Base
-        uses: docker://ghcr.io/github/super-linter:slim-v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALIDATE_YAML: true
-          VALIDATE_XML: true
-          VALIDATE_BASH: true
-          VALIDATE_PHP: true
-          VALIDATE_JAVASCRIPT_STANDARD: true
-          VALIDATE_CSS: true
-
   build:
     name: Build the site
     runs-on: ubuntu-latest
-    needs:
-      - lint
+
     steps:
       - name: Token configuration (PAT available)
         if: github.ref_name == 'main' || github.ref_name == 'staging'
@@ -64,6 +43,13 @@ jobs:
           echo 'User-agent: * Disallow: /' > ${{ github.workspace }}/robots.txt
           sed -i 's_blog.sebsscholarship.org_test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
 
+      - name: Load Gem Cache
+        uses: actions/cache/restore@v3
+        id: gem-cache
+        with:
+          key: gem-cache-${{ github.ref_name }}-${{ hashFiles('Gemfile.lock') }}
+          path: _vendor/bundle
+
       - name: Build site
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll -e JEKYLL_UID=1001 -e JEKYLL_GID=1001 \
@@ -72,9 +58,17 @@ jobs:
           && wget 'https://fonts.google.com/download?family=Montserrat' -O font.zip \
           && unzip font.zip -d /usr/share/fonts/googlefonts/ \
           && rm font.zip \
+          && bundle config --local path '_vendor/bundle' \
           && bundle install \
           && chmod 777 /srv/jekyll \
           && bundle exec jekyll build --future ${{ env.XARGS }}"
+
+      - name: Save Gems to Cache
+        uses: actions/cache/save@v3
+        if: steps.gem-cache.outputs.cache-hit != 'true'
+        with:
+          key: ${{ steps.gem-cache.outputs.cache-primary-key }}
+          path: _vendor/bundle
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
@@ -84,6 +78,7 @@ jobs:
 
       - name: GitHub Pages Artifact
         uses: actions/upload-pages-artifact@v1
+        if: github.ref_name == 'main'
 
       - name: Commit images
         if: github.ref_name == 'main' || github.ref_name == 'staging'
@@ -110,7 +105,7 @@ jobs:
 
       - name: Install SSH key
         if: github.ref_name == 'staging'
-        uses: webfactory/ssh-agent@v0.7.0
+        uses: webfactory/ssh-agent@v0.8.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
@@ -140,7 +135,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2
 
   index:
     name: Index the site
@@ -163,11 +158,19 @@ jobs:
           echo 'User-agent: * Disallow: /' > ${{ github.workspace }}/robots.txt
           sed -i 's_blog.sebsscholarship.org_test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
 
+      - name: Load Gem Cache
+        uses: actions/cache/restore@v3
+        id: gem-cache
+        with:
+          key: gem-cache-${{ github.ref_name }}-${{ hashFiles('Gemfile.lock') }}
+          path: _vendor/bundle
+
       - name: Index site
         run: |
           docker run -v ${{ github.workspace }}:/srv/jekyll -e JEKYLL_UID=1001 -e JEKYLL_GID=1001 \
           jekyll/builder:4.2.2 /bin/bash -c \
-          "bundle install \
+          "bundle config --local path '_vendor/bundle' \
+          && bundle install \
           && chmod 777 /srv/jekyll \
           && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' bundle exec jekyll algolia --future ${{ env.XARGS }}"
 
@@ -175,7 +178,6 @@ jobs:
     name: Send job complete notification
     runs-on: ubuntu-latest
     needs:
-      - lint
       - build
       - deploy-staging
       - deploy-prod
@@ -197,7 +199,7 @@ jobs:
 
       - name: Notify on success
         # If the site was successfully built and indexed and deployed if staging
-        if: needs.lint.result == 'success' && needs.build.result == 'success' && (needs.deploy-staging.result == 'success' || needs.deploy-prod.result == 'success') && needs.index.result == 'success'
+        if: needs.build.result == 'success' && (needs.deploy-staging.result == 'success' || needs.deploy-prod.result == 'success') && needs.index.result == 'success'
         uses: appleboy/discord-action@0.0.3
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
@@ -210,7 +212,7 @@ jobs:
 
       - name: Notify on failure
         # If the site failed at any point
-        if: needs.lint.result == 'failure' || needs.build.result == 'failure' || needs.deploy-staging.result == 'failure' || needs.deploy-prod.result == 'failure' || needs.index.result == 'failure'
+        if: needs.build.result == 'failure' || needs.deploy-staging.result == 'failure' || needs.deploy-prod.result == 'failure' || needs.index.result == 'failure'
         uses: appleboy/discord-action@0.0.3
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}

@@ -1,9 +1,10 @@
 ---
 title: 8 Reasons Why You Should Become a SSF Volunteer
+date: 2020-07-28 00:00:00 Z
 author: Dakota Purkey
 keywords: charity, volunteer, scholarship, alumni, college, nonprofit
-
 ---
+
 #### Are you an alumni of The School of Engineering and Biomedical Science or Pueblo County High school? Do you have some spare time you’d like to be productive with? Do you enjoy helping others, and maybe want to give back to your community of Pueblo, Colorado!?!?!?
 
 Well, do I have a (volunteer) job for you!!! Here are 8 reasons why I think you should join us as a volunteer here at the SEBS Scholarship Foundation.

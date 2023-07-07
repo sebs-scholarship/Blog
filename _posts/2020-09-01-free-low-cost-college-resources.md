@@ -1,9 +1,10 @@
 ---
 title: Free College Resources
+date: 2020-09-01 00:00:00 Z
 author: Holly Lakin
 keywords: college, organization, resources, freshmen
-
 ---
+
 Wondering how in the world you're going to stay on top of assignments? Needing a little help with your english or chemistry homework? We've got you covered, and these resources won't take a bite out of your wallet.
 
 ## Organization & Planning

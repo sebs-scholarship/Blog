@@ -1,9 +1,10 @@
 ---
 title: Writing Winning Applications
+date: 2021-02-09 00:00:00 Z
 author: Holly Lakin
 keywords: scholarships, college, high school, application
-
 ---
+
 In convenient timing, today I'm going to share some tips for writing great scholarship/college applications. These can also be used for interviews or any situation in which you're trying to "sell yourself" effectively.
 
 My experience in this comes from applying for, interviewing for, and receiving a full-ride college scholarship; and more recently applying to and getting accepted into medical school. Last month, I also proofread and edited a scholarship application of my brother's, which he received!

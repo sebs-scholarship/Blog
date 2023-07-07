@@ -1,9 +1,10 @@
 ---
 title: Study Smarter with Psychology!
+date: 2021-03-23 00:00:00 Z
 author: Holly Lakin
 keywords: studying, college, freshman
-
 ---
+
 ### Would you have ever thought that something in class could be practically useful? *faux surprise*
 
 Okay, but really, I'm taking a basic psychology class this semester, and some of the things we've learned are proving to be super helpful and practical for everyday life! So let's get into some super basic learning theory and psychology-based studying strategies!

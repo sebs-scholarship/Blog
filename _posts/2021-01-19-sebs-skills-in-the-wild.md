@@ -1,10 +1,11 @@
 ---
 title: SEBS Skills in the Wild
+date: 2021-01-18 17:00:00 -07:00
 author: Holly Lakin
 keywords: SEBS, high school, biomedical science, engineering, college, premed
-cover_img: "/assets/images/screen-shot-2021-01-17-at-7-08-53-pm.jpg"
-
+cover_image: "/assets/images/screen-shot-2021-01-17-at-7-08-53-pm.jpg"
 ---
+
 We'll publish other posts in the future about all the "soft skills" we learned at SEBS, but today, I want to recount a handful of times I used the _technical_ skills I learned at SEBS after graduation. While in SEBS, I did all four years of Biomedical Sciences, two years of Engineering, and I'm currently a Biochemistry major and pre-med. ☺️
 
 ## In class

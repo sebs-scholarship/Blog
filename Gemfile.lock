@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/sebs-scholarship/jekyll-post-image-generator.git
-  revision: 0b526368bc555bfe89d6c727925594a4a051e95a
-  tag: v0.0.6
+  revision: 5aea9637d313bcb125b5628327b394fd4054c60f
+  tag: v0.0.7
   specs:
     jekyll-post-image-generator (0.0.1)
       jekyll (>= 4.3.1)
@@ -84,11 +84,11 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mini_magick (4.12.0)
-    nokogiri (1.13.10-arm64-darwin)
+    nokogiri (1.14.3-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.10-x86_64-darwin)
+    nokogiri (1.14.3-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.10-x86_64-linux)
+    nokogiri (1.14.3-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
