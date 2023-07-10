@@ -77,7 +77,7 @@ jobs:
           path: ${{ github.workspace }}/_site/
 
       - name: GitHub Pages Artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         if: github.ref_name == 'main'
 
       - name: Commit images
