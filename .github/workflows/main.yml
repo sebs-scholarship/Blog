@@ -163,8 +163,9 @@ jobs:
         uses: actions/cache/restore@v3
         id: gem-cache
         with:
-          key: gem-cache-${{ github.ref_name }}-${{ hashFiles('Gemfile.lock') }}
+          key: gem-cache-${{ hashFiles('Gemfile.lock') }}
           path: _vendor/bundle
+          restore-keys: gem-cache-
 
       - name: Index site
         run: |
