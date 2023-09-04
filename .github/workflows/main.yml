@@ -31,7 +31,7 @@ jobs:
           echo "PAT=${{ github.token }}" >> $GITHUB_ENV
 
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ env.PAT }}
@@ -148,7 +148,7 @@ jobs:
     if: always() && (needs.deploy-staging.result == 'success' || needs.deploy-prod.result == 'success')
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
