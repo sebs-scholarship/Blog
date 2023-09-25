@@ -202,7 +202,7 @@ jobs:
       - name: Notify on success
         # If the site was successfully built and indexed and deployed if staging
         if: needs.build.result == 'success' && (needs.deploy-staging.result == 'success' || needs.deploy-prod.result == 'success') && needs.index.result == 'success'
-        uses: appleboy/discord-action@0.0.3
+        uses: appleboy/discord-action@v1.0.0
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
@@ -215,7 +215,7 @@ jobs:
       - name: Notify on failure
         # If the site failed at any point
         if: needs.build.result == 'failure' || needs.deploy-staging.result == 'failure' || needs.deploy-prod.result == 'failure' || needs.index.result == 'failure'
-        uses: appleboy/discord-action@0.0.3
+        uses: appleboy/discord-action@v1.0.0
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
