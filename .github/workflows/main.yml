@@ -72,7 +72,7 @@ jobs:
           path: _vendor/bundle
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Built Site
           path: ${{ github.workspace }}/_site/
@@ -99,7 +99,7 @@ jobs:
     if:  github.ref_name == 'staging'
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: Built Site
           path: _site/
@@ -136,7 +136,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v3
 
   index:
     name: Index the site
@@ -202,7 +202,7 @@ jobs:
       - name: Notify on success
         # If the site was successfully built and indexed and deployed if staging
         if: needs.build.result == 'success' && (needs.deploy-staging.result == 'success' || needs.deploy-prod.result == 'success') && needs.index.result == 'success'
-        uses: appleboy/discord-action@0.0.3
+        uses: appleboy/discord-action@v1.0.0
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
@@ -215,7 +215,7 @@ jobs:
       - name: Notify on failure
         # If the site failed at any point
         if: needs.build.result == 'failure' || needs.deploy-staging.result == 'failure' || needs.deploy-prod.result == 'failure' || needs.index.result == 'failure'
-        uses: appleboy/discord-action@0.0.3
+        uses: appleboy/discord-action@v1.0.0
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
