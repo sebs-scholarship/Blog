@@ -1,6 +1,12 @@
 ---
 title: SSF Blog
+
+description: The SSF blog is the place to go for all sorts of SEBS Scholarship Foundation
+  news! Here you can find scholarship updates, volunteering news, announcements, and
+  other fun information we'd like to share!
+
 timezone: America/Denver
+
 collections:
   posts:
     title: Posts
@@ -8,6 +14,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+
 defaults:
 - scope:
     path: ''
@@ -31,11 +38,13 @@ defaults:
     path: admin
   values:
     sitemap: false
-description: The SSF blog is the place to go for all sorts of SEBS Scholarship Foundation
-  news! Here you can find scholarship updates, volunteering news, announcements, and
-  other fun information we'd like to share!
+
 url: https://blog.sebsscholarship.org
-baseurl: 
+
+repo: sebs-scholarship/Blog
+
+baseurl: null
+
 plugins:
 - jekyll-post-image-generator
 - jekyll-remote-theme
@@ -43,7 +52,9 @@ plugins:
 - jekyll-include-cache
 - jekyll-feed
 - jekyll-sitemap
-remote_theme: sebs-scholarship/Theme@2023-04-05-1
+
+remote_theme: sebs-scholarship/Theme@2024-01-02-1
+
 exclude:
 - ".github"
 - CNAME
@@ -51,6 +62,7 @@ exclude:
 - Gemfile.lock
 - README.md
 - scripts
+
 algolia:
   application_id: 0XMIKXGUS3
   index_name: blog.sebsscholarship.org
