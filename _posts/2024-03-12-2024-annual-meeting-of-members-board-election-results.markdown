@@ -1,5 +1,5 @@
 ---
-title: 2023 Annual Meeting of Members Board Election Results
+title: 2024 Board Election Results
 date: 2024-03-12 02:56:00 -06:00
 author: Natalie Anderson
 keywords: board, election, results, 2024
