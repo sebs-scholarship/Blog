@@ -44,7 +44,7 @@ jobs:
           sed -i 's_blog.sebsscholarship.org_test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
 
       - name: Load Gem Cache
-        uses: actions/cache/restore@v3
+        uses: actions/cache/restore@v4
         id: gem-cache
         with:
           key: gem-cache-${{ hashFiles('Gemfile.lock') }}
@@ -65,7 +65,7 @@ jobs:
           && bundle exec jekyll build --future ${{ env.XARGS }}"
 
       - name: Save Gems to Cache
-        uses: actions/cache/save@v3
+        uses: actions/cache/save@v4
         if: steps.gem-cache.outputs.cache-hit != 'true'
         with:
           key: ${{ steps.gem-cache.outputs.cache-primary-key }}
@@ -106,7 +106,7 @@ jobs:
 
       - name: Install SSH key
         if: github.ref_name == 'staging'
-        uses: webfactory/ssh-agent@v0.8.0
+        uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
@@ -160,7 +160,7 @@ jobs:
           sed -i 's_blog.sebsscholarship.org_test.blog.sebsscholarship.org_g' ${{ github.workspace }}/_config.yml
 
       - name: Load Gem Cache
-        uses: actions/cache/restore@v3
+        uses: actions/cache/restore@v4
         id: gem-cache
         with:
           key: gem-cache-${{ hashFiles('Gemfile.lock') }}
