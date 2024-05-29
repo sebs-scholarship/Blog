@@ -58,7 +58,7 @@ jobs:
           leviem1/jpig:0.0.10 /bin/bash -c \
           "bundle install \
           && chmod 777 /srv/jekyll \
-          && jekyll build --future ${{ env.XARGS }}"
+          && bundle exec jekyll build --future ${{ env.XARGS }}"
 
       - name: Save Gems to Cache
         uses: actions/cache/save@v4
