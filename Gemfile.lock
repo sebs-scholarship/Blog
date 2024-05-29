@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/sebs-scholarship/jekyll-post-image-generator.git
-  revision: f47be0ec6fbb87f51c782ea66753f665049d865f
-  tag: v0.0.9
+  revision: 007d62b59111227fd1e5389276416fcfa50ff8c0
+  tag: v0.0.10
   specs:
     jekyll-post-image-generator (0.0.1)
       jekyll (>= 4.3.1)
@@ -133,4 +133,4 @@ DEPENDENCIES
   webrick (>= 1.7.0)
 
 BUNDLED WITH
-   2.4.10
+   2.5.11
