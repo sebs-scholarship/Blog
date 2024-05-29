@@ -170,7 +170,7 @@ jobs:
           jekyll/builder:4.2.2 /bin/bash -c \
           "bundle install \
           && chmod 777 /srv/jekyll \
-          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future ${{ env.XARGS }}"
+          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' bundle exec jekyll algolia --future ${{ env.XARGS }}"
 
   notify:
     name: Send job complete notification
