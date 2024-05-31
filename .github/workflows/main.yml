@@ -48,7 +48,7 @@ jobs:
         id: gem-cache
         with:
           key: gem-cache-${{ hashFiles('Gemfile.lock') }}
-          path: _vendor/bundle
+          path: _vendor/
           restore-keys: gem-cache-
 
       - name: Build site
@@ -66,7 +66,7 @@ jobs:
         if: steps.gem-cache.outputs.cache-hit != 'true'
         with:
           key: ${{ steps.gem-cache.outputs.cache-primary-key }}
-          path: _vendor/bundle
+          path: _vendor/
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -161,7 +161,7 @@ jobs:
         id: gem-cache
         with:
           key: gem-cache-${{ hashFiles('Gemfile.lock') }}
-          path: _vendor/bundle
+          path: _vendor/
           restore-keys: gem-cache-
 
       - name: Index site
