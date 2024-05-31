@@ -53,12 +53,13 @@ jobs:
 
       - name: Build site
         run: |
-          docker run -v ${{ github.workspace }}:/srv/jekyll \
-          -e JEKYLL_UID=1001 -e JEKYLL_GID=1001 -e BUNDLE_FROZEN=true -e BUNDLE_PATH='_vendor/bundle' \
+          docker run \
+          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_vendor/bundle:/usr/local/bundle -v ${{ github.workspace }}/_vendor/gem:/usr/gem \
+          -e JEKYLL_UID=1001 -e JEKYLL_GID=1001 \
           leviem1/jpig:0.0.10 /bin/bash -c \
-          "bundle install \
-          && chmod 777 /srv/jekyll \
-          && bundle exec jekyll build --future ${{ env.XARGS }}"
+          "chmod 777 /srv/jekyll \
+          && chmod 777 /srv/jekyll/assets/images \
+          && jekyll build --future ${{ env.XARGS }}"
 
       - name: Save Gems to Cache
         uses: actions/cache/save@v4
@@ -165,12 +166,13 @@ jobs:
 
       - name: Index site
         run: |
-          docker run -v ${{ github.workspace }}:/srv/jekyll \
-          -e JEKYLL_UID=1001 -e JEKYLL_GID=1001 -e BUNDLE_FROZEN=true -e BUNDLE_PATH='_vendor/bundle' \
+          docker run \
+          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_vendor/bundle:/usr/local/bundle -v ${{ github.workspace }}/_vendor/gem:/usr/gem \
+          -e JEKYLL_UID=1001 -e JEKYLL_GID=1001 \
           jekyll/builder:4.2.2 /bin/bash -c \
-          "bundle install \
-          && chmod 777 /srv/jekyll \
-          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' bundle exec jekyll algolia --future ${{ env.XARGS }}"
+          "chmod 777 /srv/jekyll \
+          && chmod 777 /srv/jekyll/assets/images \
+          && ALGOLIA_API_KEY='${{ secrets.ALGOLIA_KEY }}' jekyll algolia --future ${{ env.XARGS }}"
 
   notify:
     name: Send job complete notification

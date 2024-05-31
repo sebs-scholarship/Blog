@@ -1,8 +1,9 @@
 #!/bin/bash
 
-docker run -v "$(pwd)":/srv/jekyll -p 4000:4000 -it --rm \
--e JEKYLL_UID=1001 -e JEKYLL_GID=1001 -e BUNDLE_FROZEN=true -e BUNDLE_PATH='_vendor/bundle' \
+docker run -p 4000:4000 -it --rm \
+-v "./":/srv/jekyll -v "./_vendor/bundle":/usr/local/bundle -v "./_vendor/gem":/usr/gem \
+-e JEKYLL_UID=1001 -e JEKYLL_GID=1001 \
 leviem1/jpig:0.0.10 /bin/bash -c \
 "chmod 777 /srv/jekyll \
 && chmod 777 /srv/jekyll/assets/images \
-&& bundle exec jekyll serve --future --drafts"
+&& jekyll serve --future --drafts"
