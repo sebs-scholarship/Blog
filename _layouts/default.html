@@ -1,109 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% include_cached analytics.html id="G-RST3NWNG95" %}
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% include_cached analytics.html %}
+    {% include_cached theme_preconnect.html %}
     <meta property="fb:app_id" content="546340859299297" />
-    {% if page.title %}
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <meta property="og:title" content="{{ page.title }}" />
-    {% else %}
-    <title>{{ site.title }}</title>
-    <meta property="og:title" content="{{ site.title }}" />
-    {% endif %}
-    {% if page.is_post %}
-    <meta name="description" content="{{ page.content | strip_html | truncatewords:50 }}">
-    <meta name="author" content="{{ page.author }}">
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="{{ page.content | strip_html | truncatewords:50 }}">
-    <meta property="og:article:author" content="{{ page.author }}">
-    {% else %}
-    <meta name="description" content="{{ site.description }}">
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="{{ site.description }}">
-    {% endif %}
     {% assign media = "/assets/images/logo-large-min.png" %}
     {% capture gen_image %}{% generated_image_path %}{% endcapture %}
     {% if gen_image and gen_image != empty and gen_image != blank %}
     {% assign media = gen_image %}
     {% endif %}
+    {% include theme_meta.html %}
     <meta property="og:image" content="{{ media }}" />
     <meta name="keywords" content="sebs scholarship blog, blog, sebs school, school of engineering and biomedical science, sebs scholarship foundation blog, pueblo, charity, {{ page.keywords }}">
-    <meta property="og:url" content="{{ site.url | append: page.url }}" />
-    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/slick.css">
-    <link rel="stylesheet" href="/assets/css/slick-theme.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    {% include theme_links.html %}
+    {% include_cached theme_styles.html %}
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400">
-    <link rel="canonical" href="{{ site.url | append: page.url }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/site.webmanifest">
-    <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/assets/images/favicon.ico">
-    <meta name="msapplication-TileColor" content="#b91d47">
-    <meta name="msapplication-config" content="assets/images/browserconfig.xml">
-    <meta name="theme-color" content="#800000">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-    <script src="https://kit.fontawesome.com/cb1f2db9bd.js" crossorigin="anonymous"></script>
 </head>
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
-<!-- loader -->
-<div id="pb-loader" class="show fullscreen">
-    <svg class="circular" width="48px" height="48px">
-        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
-        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#800000"/>
-    </svg>
-</div>
-<nav class="navbar navbar-expand-lg navbar-light pb-navbar light pb-scrolled-light" id="pb-navbar">
-    <div class="container">
-        <a class="navbar-brand navbar-brand-lg smoothscroll no-nav-expand" href="/"><img src="/assets/images/logo-min.png" alt=""></a>
-        <a class="navbar-brand navbar-brand-lg smoothscroll no-nav-expand" href="/">{{ site.title }}</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span><i class="fa fa-bars"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="probootstrap-navbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="https://sebsscholarship.org">SEBS Scholarship Website</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/sebsscholarship">Facebook</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/company/sebs-scholarship-foundation">LinkedIn</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!-- END nav -->
+{% include_cached loader.html %}
+{% include navbar.html %}
 {{ content }}
 <!-- END section -->
 {% include_cached footer.html prefix="https://sebsscholarship.org/" %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-<script src="/assets/js/main.js"></script>
-<script>
-    window.cookieconsent.initialise({
-        "palette": {
-            "popup": {
-                "background": "#000"
-            },
-            "button": {
-                "background": "#800000"
-            }
-        },
-        "theme": "edgeless",
-        "content": {
-            "href": "https://sebsscholarship.org/privacy_policy.html"
-        }
-    });
-</script>
+{% include theme_js.html %}
 </body>
 </html>
