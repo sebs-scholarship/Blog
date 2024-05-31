@@ -44,7 +44,7 @@ plugins:
 - jekyll-include-cache
 - jekyll-feed
 - jekyll-sitemap
-remote_theme: sebs-scholarship/Theme@2024-05-31-1
+remote_theme: sebs-scholarship/Theme@2024-05-31-2
 exclude:
 - ".github"
 - CNAME
