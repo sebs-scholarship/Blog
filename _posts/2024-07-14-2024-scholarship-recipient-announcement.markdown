@@ -1,10 +1,8 @@
 ---
 title: 2024 Scholarship Recipient Announcement
 date: 2024-07-14 17:40:00 -06:00
-tags:
-- '2024'
-- 2024 scholarship
-- results
+author: Natalie Anderson
+keywords: 2024, 2024 scholarship, results, recipient, winner
 ---
 
 Happy summer! Thank you so much for keeping up to date with the happenings of this scholarship and those it impacts! We are thankful for the community you all have built around it and are excited to continue to grow it. 
