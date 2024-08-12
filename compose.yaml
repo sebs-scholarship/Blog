@@ -1,0 +1,20 @@
+services:
+  jekyll-serve:
+    command:
+      - /bin/bash
+      - -c
+      - "chmod 777 /srv/jekyll && chmod 777 /srv/jekyll/assets/images && jekyll serve --future --drafts"
+    environment:
+      JEKYLL_UID: 1001
+      JEKYLL_GID: 1001
+    image: leviem1/jpig:0.0.13
+    platform: linux/amd64
+    ports:
+      - 4000:4000
+    volumes:
+      - bundle-cache:/usr/local/bundle
+      - gem-cache:/usr/gem
+      - ./:/srv/jekyll
+volumes:
+  bundle-cache:
+  gem-cache:
