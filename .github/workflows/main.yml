@@ -53,9 +53,9 @@ jobs:
 
       - name: Build site
         run: |
-          docker compose run jekyll-serve \
+          docker compose run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_vendor/bundle:/usr/local/bundle -v ${{ github.workspace }}/_vendor/gem:/usr/gem \
-          /bin/bash -c \
+          jekyll-serve /bin/bash -c \
           "chmod 777 /srv/jekyll \
           && chmod 777 /srv/jekyll/assets/images \
           && jekyll build --future ${{ env.XARGS }}"
