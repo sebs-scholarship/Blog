@@ -7,7 +7,7 @@ services:
     environment:
       JEKYLL_UID: 1001
       JEKYLL_GID: 1001
-    image: leviem1/jpig:0.0.13
+    image: leviem1/jpig:0.0.14
     platform: linux/amd64
     ports:
       - 4000:4000
