@@ -61,4 +61,6 @@ algolia:
   settings:
     attributesToSnippet:
     - content:50
+jekyll-post-image-generator:
+  image_path: _background_image.png
 analytics_id: G-RST3NWNG95
