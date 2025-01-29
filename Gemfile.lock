@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/sebs-scholarship/jekyll-post-image-generator.git
-  revision: b8b61db65ca40d79051cc607c209f4f06ab2c395
-  tag: v0.1.0
+  revision: e11b90546692f8d5526532304a652b65747142c2
+  tag: v0.1.1
   specs:
     jekyll-post-image-generator (0.0.13)
       jekyll (>= 4.3.1)
@@ -79,7 +79,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.7.2)
+    json (2.9.1)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
@@ -89,7 +89,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_magick (5.0.1)
+    mini_magick (5.1.0)
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
